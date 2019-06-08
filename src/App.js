@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Layout, Row, Col } from 'antd'
 import { Drawer, Icon } from 'antd'
+import { Link } from 'react-router-dom'
 import { Routes } from './routes'
 import './App.less'
 import WelcomeCarousel from './components/WelcomeCarousel'
@@ -8,20 +9,22 @@ import GlobalHeader from './components/GlobalHeader'
 import LunchDrawer from './components/LunchDrawer'
 import ContactFooter from './components/ContactFooter'
 import Gallery from './components/Gallery'
+import InThePress from './components/InThePress'
+import DinnerDrawer from './components/DinnerDrawer'
 
 const { Header, Footer, Sider, Content } = Layout
 
 class App extends Component {
-  state = { visible: false, lunchMenuVisible: false }
+  state = { dinnerMenuVisible: false, lunchMenuVisible: false }
 
-  showDrawer = () => {
+  showDinnerDrawer = () => {
     this.setState({
-      visible: true
+      dinnerMenuVisible: true
     })
   }
-  onClose = () => {
+  onDinnerDrawerClose = () => {
     this.setState({
-      visible: false
+      dinnerMenuVisible: false
     })
   }
 
@@ -40,46 +43,39 @@ class App extends Component {
   render() {
     return (
       <Layout>
-        <Header className="header">
-          <GlobalHeader />
-        </Header>
         <Content className="content">
-          <Row gutter={48}>
-            <Col span={12}>
-              <div className="menu" onClick={this.showLunchDrawer}>
-                LUNCH MENU
-              </div>
-            </Col>
-            <Col span={12}>
-              <div className="menu" onClick={this.showDrawer}>
-                DINNER MENU
-              </div>
-            </Col>
-          </Row>
-
-          <Drawer
-            className="menu-drawer"
-            title="Menu"
-            placement="left"
-            closable={false}
-            onClose={this.onClose}
-            visible={this.state.visible}
+          <div
+            className="logo-line"
+            style={{ background: '#FFF', padding: '30px' }}
           >
-            <p className="menu-type">Appetizers</p>
-            <p className="menu-type">House Favorites</p>
-            <p className="menu-type">From the Wok</p>
-            <p className="menu-type">Noodles</p>
-            <p className="menu-type">Soups &amp; Salads</p>
-            <p className="menu-type">Curries</p>
-            <p className="menu-type">Desserts</p>
-            <p className="menu-type">Drinks</p>
-          </Drawer>
+            <img
+              className="logo"
+              src="https://scontent-msp1-1.xx.fbcdn.net/v/t1.0-9/50048213_384513248982805_1127726221426163712_n.jpg?_nc_cat=110&_nc_oc=AQmjpCt2elShGMdjkqpjP7qyl-c7GcVD0Cqy4zCJsSbIK8Xo9z37zA1oJjOIoZCnhf0&_nc_ht=scontent-msp1-1.xx&oh=448c992546c8a459830cbf8baf433f6d&oe=5D5407F4"
+            />
+            <Row type="flex" justify="space-around">
+              <Col span={12}>
+                <div className="menu" onClick={this.showLunchDrawer}>
+                  LUNCH MENU
+                </div>
+              </Col>
+              <Col span={12}>
+                <div className="menu" onClick={this.showDinnerDrawer}>
+                  DINNER MENU
+                </div>
+              </Col>
+            </Row>
+          </div>
+
+          <DinnerDrawer
+            dinnerMenuVisible={this.state.dinnerMenuVisible}
+            handleOnClose={this.onDinnerDrawerClose}
+          />
           <LunchDrawer
             lunchMenuVisible={this.state.lunchMenuVisible}
             handleOnClose={this.onLunchDrawerClose}
           />
           <WelcomeCarousel />
-          <Gallery />
+          <InThePress />
         </Content>
         <Footer className="footer">
           <ContactFooter />

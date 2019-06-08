@@ -4,13 +4,30 @@ body {
   background-image: url('https://i.imgur.com/lL6qo8n.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: left center;
+}
+
+.ant-layout-header {
+  background: transparent;
+}
+.ant-layout {
+  background: transparent;
+}
+
+.ant-drawer-title {
+  margin: 0;
+  color: @text-color;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 .title {
   transition: opacity 0.1s ease;
 }
 .header {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
+  // background-color: rgba(255, 255, 255, 0.5);
   //   height: 32px;
   //   position: relative;
   //   overflow: hidden;
@@ -49,6 +66,22 @@ body {
   min-height: 400px;
   padding: 36px;
 
+  .logo-line {
+    text-align: center;
+  }
+  .logo {
+    width: 150px;
+    display: inline-block;
+    margin: 0 auto;
+  }
+  .heading {
+    text-align: center;
+    cursor: default;
+    letter-spacing: 0.05em;
+    font-size: 1.5rem;
+    line-height: 32px;
+    font-weight: 200;
+  }
   .menu {
     text-align: center;
     cursor: pointer;
@@ -67,6 +100,21 @@ body {
       letter-spacing: 0.1em;
       font-size: 1rem;
       line-height: 32px;
+    }
+  }
+
+  .carousel {
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    .carosel-image {
+      width: 100%;
+      height: auto;
+    }
+    .describe {
+      margin-top: 30px;
+      letter-spacing: 0.05em;
+      font-size: 1rem;
+      line-height: 28px;
     }
   }
 }

@@ -4,7 +4,12 @@ import { Row, Col, Icon } from 'antd'
 const ContactFooter = () => {
   return (
     <Row gutter={16}>
-      <Col span={8}>
+      <Col
+        xs={{ span: 24 }}
+        sm={{ span: 24 }}
+        md={{ span: 24 }}
+        lg={{ span: 8 }}
+      >
         <div className="footer-block">
           <h3 className="h3-block text-align-center">Location</h3>
           <p className="text-align-center footer-detail">
@@ -20,7 +25,12 @@ const ContactFooter = () => {
           </p>
         </div>
       </Col>
-      <Col span={8}>
+      <Col
+        xs={{ span: 24 }}
+        sm={{ span: 24 }}
+        md={{ span: 24 }}
+        lg={{ span: 8 }}
+      >
         <div className="footer-block">
           <h3 className="h3-block text-align-center">Hours</h3>
           <p className="text-align-center footer-detail">
@@ -31,7 +41,12 @@ const ContactFooter = () => {
           </p>
         </div>
       </Col>
-      <Col span={8}>
+      <Col
+        xs={{ span: 24 }}
+        sm={{ span: 24 }}
+        md={{ span: 24 }}
+        lg={{ span: 8 }}
+      >
         <div className="footer-block">
           <h3 className="h3-block text-align-center">Contact</h3>
           <p className="text-align-center footer-detail">

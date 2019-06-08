@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Drawer } from 'antd'
 import { Link } from 'react-router-dom'
 
-class LunchDrawer extends Component {
+class DinnerDrawer extends Component {
   onClose = () => {
     this.props.handleOnClose()
   }
@@ -11,26 +11,29 @@ class LunchDrawer extends Component {
     return (
       <Drawer
         className="menu-drawer"
-        title="Lunch Menu"
+        title="Dinner Menu"
         placement="left"
         closable={false}
         onClose={this.onClose}
-        visible={this.props.lunchMenuVisible}
+        visible={this.props.dinnerMenuVisible}
       >
         <Link to="/" className="menu-type">
-          Soups
+          Appetizers
         </Link>
         <Link to="/" className="menu-type">
-          Salads
+          House Favorites
+        </Link>
+        <Link to="/" className="menu-type">
+          From the Wok
         </Link>
         <Link to="/" className="menu-type">
           Noodles
         </Link>
         <Link to="/" className="menu-type">
-          Fried Rice
+          Soups &amp; Salads
         </Link>
         <Link to="/" className="menu-type">
-          Sides
+          Curries
         </Link>
         <Link to="/" className="menu-type">
           Desserts
@@ -43,4 +46,4 @@ class LunchDrawer extends Component {
   }
 }
 
-export default LunchDrawer
+export default DinnerDrawer
