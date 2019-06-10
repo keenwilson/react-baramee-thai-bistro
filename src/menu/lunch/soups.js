@@ -1,6 +1,7 @@
 import React from 'react'
 import { Row, Col, Divider } from 'antd'
 import Thumbnail from '../../components/thumbnail'
+
 const LunchSoups = () => {
   return (
     <React.Fragment>
@@ -18,9 +19,11 @@ const LunchSoups = () => {
           <h1 className="menu-display-name">Thai Noodle Soup</h1>
           <p className="menu-display-description">
             Rice noodles and vegetables in a savory broth.
+            <br />
             <Thumbnail
-              imagePath="https://i.imgur.com/T06AlIul.jpg"
+              imagePath="https://s3-media3.fl.yelpcdn.com/bphoto/0hqoBjSi112Wz52MsHGixw/o.jpg"
               imageAlt="Thai Noodle Soup"
+              isPortrait={true}
             />
           </p>
 
@@ -40,6 +43,7 @@ const LunchSoups = () => {
             A signature Thai soup of straw mushrooms, fresh chilies, kaffir
             leaves, lemongrass, galangal, and a splash of lime juice. Served in
             a spicy broth and topped with a hint of cilantro and spring onions.
+            <br />
             <Thumbnail
               imagePath="https://i.imgur.com/1ezdXZZl.jpg"
               imageAlt="Tom Yum Soup"
@@ -65,10 +69,11 @@ const LunchSoups = () => {
             A rich coconut milk broth flavored with lemongrass, kaffir leaves,
             fresh chilies, galangal, and sprinkled with cilantro and spring
             onions.
+            <br />
             <Thumbnail
-              imagePath="https://s3-media3.fl.yelpcdn.com/bphoto/nogZf_rtBoUExsw8vhlusw/o.jpg"
+              imagePath="https://s3-media4.fl.yelpcdn.com/bphoto/h_VfDgWxIZbV0IXvsBEnXQ/o.jpg"
               imageAlt="Tom Kha Soup"
-              isPortrait={true}
+              isPortrait={false}
             />
           </p>
 
@@ -84,6 +89,7 @@ const LunchSoups = () => {
           lg={{ span: 8 }}
         >
           <h1 className="menu-display-name" />
+          <p className="menu-display-description" />
         </Col>
       </Row>
     </React.Fragment>
