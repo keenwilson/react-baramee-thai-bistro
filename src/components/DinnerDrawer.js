@@ -17,30 +17,48 @@ class DinnerDrawer extends Component {
         onClose={this.onClose}
         visible={this.props.dinnerMenuVisible}
       >
-        <Link to="/" className="menu-type">
-          Appetizers
-        </Link>
-        <Link to="/" className="menu-type">
-          House Favorites
-        </Link>
-        <Link to="/" className="menu-type">
-          From the Wok
-        </Link>
-        <Link to="/" className="menu-type">
-          Noodles
-        </Link>
-        <Link to="/" className="menu-type">
-          Soups &amp; Salads
-        </Link>
-        <Link to="/" className="menu-type">
-          Curries
-        </Link>
-        <Link to="/" className="menu-type">
-          Desserts
-        </Link>
-        <Link to="/" className="menu-type">
-          Drinks
-        </Link>
+        <ul className="menu-list">
+          <li className="menu-title-list" onClick={this.onMenuClick}>
+            <Link to="/dinner-appetizers" className="menu-type">
+              Appetizers
+            </Link>
+          </li>
+          <li className="menu-title-list" onClick={this.onMenuClick}>
+            <Link to="/dinner-house-favorites" className="menu-type">
+              House Favorites
+            </Link>
+          </li>
+          <li className="menu-title-list" onClick={this.onMenuClick}>
+            <Link to="/dinner-from-the-wok" className="menu-type">
+              From the Wok
+            </Link>
+          </li>
+          <li className="menu-title-list" onClick={this.onMenuClick}>
+            <Link to="/dinner-noodles" className="menu-type">
+              Noodles
+            </Link>
+          </li>
+          <li className="menu-title-list" onClick={this.onMenuClick}>
+            <Link to="/dinner-soups-salads" className="menu-type">
+              Soups &amp; Salads
+            </Link>
+          </li>
+          <li className="menu-title-list" onClick={this.onMenuClick}>
+            <Link to="/dinner-curries" className="menu-type">
+              Curries
+            </Link>
+          </li>
+          <li className="menu-title-list" onClick={this.onMenuClick}>
+            <Link to="/dinner-desserts" className="menu-type">
+              Desserts
+            </Link>
+          </li>
+          <li className="menu-title-list" onClick={this.onMenuClick}>
+            <Link to="/dinner-drinks" className="menu-type">
+              Drinks
+            </Link>
+          </li>
+        </ul>
       </Drawer>
     )
   }
