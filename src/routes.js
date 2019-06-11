@@ -8,6 +8,9 @@ import LunchSides from './menu/lunch/sides'
 import LunchDesserts from './menu/lunch/desserts'
 import LunchDrinks from './menu/lunch/drinks'
 import Home from './page/home'
+import LunchAppetizers from './menu/lunch/appetizers'
+import LunchCurries from './menu/lunch/curries'
+import LunchFromTheWok from './menu/lunch/fromTheWok'
 
 export const Routes = () => {
   return (
@@ -20,6 +23,9 @@ export const Routes = () => {
       <Route path="/lunch/sides" component={LunchSides} />
       <Route path="/lunch/desserts" component={LunchDesserts} />
       <Route path="/lunch/drinks" component={LunchDrinks} />
+      <Route path="/lunch/appetizers" component={LunchAppetizers} />
+      <Route path="/lunch/curries" component={LunchCurries} />
+      <Route path="/lunch/from-the-wok" component={LunchFromTheWok} />
     </Switch>
   )
 }

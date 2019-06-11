@@ -2,12 +2,12 @@ import React from 'react'
 import { Row, Col, Divider } from 'antd'
 import Thumbnail from '../../components/thumbnail'
 
-const LunchFriedRice = () => {
+const LunchCurries = () => {
   return (
     <React.Fragment>
       <Row className="menu-display">
         <Divider className="menu-display-time">Lunch</Divider>
-        <h1 className="menu-display-category">Fried Rice</h1>
+        <h1 className="menu-display-category">Curries</h1>
       </Row>
       <Row type="flex" justify="center" align="top" className="menu-display">
         <Col
@@ -99,4 +99,4 @@ const LunchFriedRice = () => {
   )
 }
 
-export default LunchFriedRice
+export default LunchCurries

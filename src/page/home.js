@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Row, Col, Divider } from 'antd'
 import WelcomeCarousel from '../components/WelcomeCarousel'
 import ContactRow from '../components/ContactRow'
 import InThePress from '../components/InThePress'
@@ -8,9 +9,23 @@ class Home extends Component {
   render() {
     return (
       <React.Fragment>
-        <WelcomeCarousel />
-        <ContactRow />
-        <InThePress />
+        <Row>
+          <Col>
+            <WelcomeCarousel />
+          </Col>
+        </Row>
+
+        <Row className="contact-display">
+          <Col>
+            <ContactRow />
+          </Col>
+        </Row>
+
+        <Row>
+          <Col>
+            <InThePress />
+          </Col>
+        </Row>
       </React.Fragment>
     )
   }

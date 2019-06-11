@@ -23,6 +23,11 @@ class LunchDrawer extends Component {
       >
         <ul className="menu-list">
           <li className="menu-title-list" onClick={this.onMenuClick}>
+            <Link to="/lunch/appetizers" className="menu-type">
+              Appetizers
+            </Link>
+          </li>
+          <li className="menu-title-list" onClick={this.onMenuClick}>
             <Link to="/lunch/soups" className="menu-type">
               Soups
             </Link>
@@ -40,6 +45,16 @@ class LunchDrawer extends Component {
           <li className="menu-title-list" onClick={this.onMenuClick}>
             <Link to="/lunch/fried-rice" className="menu-type">
               Fried Rice
+            </Link>
+          </li>
+          <li className="menu-title-list" onClick={this.onMenuClick}>
+            <Link to="/lunch/curries" className="menu-type">
+              Curries
+            </Link>
+          </li>
+          <li className="menu-title-list" onClick={this.onMenuClick}>
+            <Link to="/lunch/from-the-wok" className="menu-type">
+              From the Wok
             </Link>
           </li>
           <li className="menu-title-list" onClick={this.onMenuClick}>
