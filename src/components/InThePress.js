@@ -34,6 +34,7 @@ const InThePress = () => {
               >
                 <img
                   style={{ width: 120 }}
+                  alt="435 Magazine Logo"
                   src="https://pbs.twimg.com/profile_images/910950747566510080/KMoJhykk.jpg"
                 />
               </a>
