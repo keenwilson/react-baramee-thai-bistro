@@ -23,9 +23,9 @@ const LunchAppetizers = () => {
             homemade sweet chili sauce.
             <br />
             <Thumbnail
-              imagePath="https://s3-media2.fl.yelpcdn.com/bphoto/ruqqu3rfcC-pI1kcDGebMg/o.jpg"
+              imagePath="https://s3-media4.fl.yelpcdn.com/bphoto/ifQoR3a1A_Xq7sFvdkOgiA/o.jpg"
               imageAlt="Crab Rangoon"
-              isPortrait={false}
+              isPortrait={true}
             />
           </p>
 
@@ -107,7 +107,7 @@ const LunchAppetizers = () => {
             crushed roasted peanuts.
             <br />
             <Thumbnail
-              imagePath="https://s3-media4.fl.yelpcdn.com/bphoto/QIykuSu7EGpwGtbhkgE1eQ/o.jpg"
+              imagePath="https://s3-media1.fl.yelpcdn.com/bphoto/KNdNUOne1Fh5GUvJbiHy8w/o.jpg"
               imageAlt="Baramee Thai Roll"
               isPortrait={false}
             />
@@ -128,9 +128,9 @@ const LunchAppetizers = () => {
             served with spicy chili homemade sauce.
             <br />
             <Thumbnail
-              imagePath="https://s3-media4.fl.yelpcdn.com/bphoto/245tYfP6H77MqDVFmq7Q9Q/o.jpg"
+              imagePath="https://bloximages.newyork1.vip.townnews.com/feastmagazine.com/content/tncms/assets/v3/editorial/8/a4/8a409fdc-4501-11e9-b450-f3ae55d79153/5c880ff4caae8.image.jpg"
               imageAlt="Tiger Cry Beef"
-              isPortrait={true}
+              isPortrait={false}
             />
           </p>
           <p className="menu-price text-align-center">$9.95</p>
@@ -186,12 +186,6 @@ const LunchAppetizers = () => {
           <p className="menu-display-description">
             Marinated in a spicy garlic sauce with fresh basil. Deep fried to
             perfection.
-            <br />
-            <Thumbnail
-              imagePath="https://s3-media4.fl.yelpcdn.com/bphoto/245tYfP6H77MqDVFmq7Q9Q/o.jpg"
-              imageAlt="Baramee Thai Wings"
-              isPortrait={false}
-            />
           </p>
           <p className="menu-price text-align-center">$8.95</p>
         </Col>
@@ -204,12 +198,6 @@ const LunchAppetizers = () => {
           <h1 className="menu-display-name">Spring Roll Deluxe</h1>
           <p className="menu-display-description">
             Two of our soft spring rolls and two of our crispy spring rolls.
-            <br />
-            <Thumbnail
-              imagePath="https://i.imgur.com/PxYaAKYl.jpg"
-              imageAlt="Spring Roll Deluxe"
-              isPortrait={false}
-            />
           </p>
           <p className="menu-price text-align-center">$8.95</p>
         </Col>
@@ -244,12 +232,6 @@ const LunchAppetizers = () => {
           <h1 className="menu-display-name">Edamame</h1>
           <p className="menu-display-description">
             Lightly salted and steamed soy beans.
-            <br />
-            <Thumbnail
-              imagePath="https://s3-media4.fl.yelpcdn.com/bphoto/245tYfP6H77MqDVFmq7Q9Q/o.jpg"
-              imageAlt="Edamame"
-              isPortrait={true}
-            />
           </p>
           <p className="menu-price text-align-center">$5.95</p>
         </Col>
