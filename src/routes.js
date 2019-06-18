@@ -17,6 +17,7 @@ import DinnerNoodles from './menu/dinner/noodles'
 import DinnerSoupsSalads from './menu/dinner/soupsSalads'
 import DinnerCurries from './menu/dinner/curries'
 import DinnerDessertsDrinks from './menu/dinner/dessertsDrinks'
+import DinnerHouseFavorites from './menu/dinner/houseFavorites'
 
 export const Routes = () => {
   return (
@@ -33,7 +34,7 @@ export const Routes = () => {
       <Route path="/lunch/curries" component={LunchCurries} />
       <Route path="/lunch/from-the-wok" component={LunchFromTheWok} />
       <Route path="/dinner/appetizers" component={DinnerAppetizers} />
-      <Route path="/dinner/house-favorites" component={DinnerFromTheWok} />
+      <Route path="/dinner/house-favorites" component={DinnerHouseFavorites} />
       <Route path="/dinner/from-the-wok" component={DinnerFromTheWok} />
       <Route path="/dinner/noodles" component={DinnerNoodles} />
       <Route path="/dinner/soups-salads" component={DinnerSoupsSalads} />
