@@ -229,18 +229,44 @@ ul.menu-list {
     padding: 30px;
     background-color: rgba(0, 0, 0, 0.5);
     .carosel-image {
-      width: 100%;
+      width: 320px;
       height: auto;
+      margin: 0 auto;
+      padding-bottom: 12px;
+    }
+    .carosel-image-small {
+      width: 280px;
+      height: auto;
+      margin: 0 auto;
+      padding-left: 12px;
+      @media only screen and (max-width: 768px) {
+        width: 350px;
+        height: auto;
+        padding-bottom: 12px;
+      }
+    }
+
+    .carosel-image-large {
+      width: 520px;
+      height: auto;
+      margin: 0 auto;
+      padding-bottom: 12px;
+      @media only screen and (max-width: 480px) {
+        width: 350px;
+        height: auto;
+      }
     }
 
     .carosel-image-insert {
-      width: 50%;
+      width: 350px;
       height: auto;
+      margin: 0 auto;
+      margin-bottom: 12px;
     }
     .describe {
       margin-top: 30px;
       letter-spacing: 0.05em;
-      font-size: 1rem;
+      font-size: 0.875rem;
       line-height: 28px;
     }
   }
