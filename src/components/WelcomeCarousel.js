@@ -1,5 +1,6 @@
 import React from 'react'
 import { Carousel, Row, Col } from 'antd'
+import Thumbnail from './thumbnail'
 
 function onChange(a, b, c) {
   console.log(a, b, c)
@@ -17,14 +18,15 @@ const WelcomeCarousel = () => {
             lg={{ span: 8 }}
           >
             <img
-              className="carosel-image"
-              alt="Thailand Grand Palace"
-              src="https://s3-media2.fl.yelpcdn.com/bphoto/D-NzQpSllMpoQPCwEBObOg/o.jpg"
-            />
-            <img
-              className="carosel-image"
+              className="carosel-image cover"
               alt="Wall art in the dining area"
-              src="https://s3-media2.fl.yelpcdn.com/bphoto/Tjv7C4pw0e-u_xbn5fQMkg/o.jpg"
+              src="https://bloximages.newyork1.vip.townnews.com/feastmagazine.com/content/tncms/assets/v3/editorial/8/44/8449b23a-4501-11e9-9777-43d54a9b2620/5c880feac8edd.image.jpg"
+            />
+
+            <img
+              className="carosel-image cover"
+              alt="Customers in the dining area"
+              src="https://s3-media3.fl.yelpcdn.com/bphoto/25J2DAog7vXWFRm2dP3K_A/o.jpg"
             />
           </Col>
           <Col
@@ -35,25 +37,39 @@ const WelcomeCarousel = () => {
             style={{ background: '#FFF', padding: '30px' }}
           >
             <p className="describe">
-              Our new location is open in January 2019 at the corner of 18th and
-              Baltimore Ave in the Crossroads Arts District of Kansas City,
-              Missouri. We are excited to bring our cuisine and hospitality to
+              Five years ago our dreams led us to open Mali Thai Bistro in Lee
+              Summit, Missouri. We were very fortunate to be excepted by our
+              hometown with a devout and faithful following of Thai food lovers.
+              About a year ago we were presented with the opportunity to expand
+              and become part of the Crossroads Arts District of Kansas City.
+              After extensive remodeling of the old Pizzabella location, we are
+              extremely happy to open Baramee Thai Bistro.
+              <br /> <br />
+              Our new location was open in January 2019 at the corner of 18th
+              and Baltimore Ave. We are excited to serve delicious Thai food to
               this vibrant dining destination.
             </p>
 
             <Row>
-              <Col md={{ span: 24 }} lg={{ span: 12 }}>
-                <img
-                  className="carosel-image-small"
-                  alt="Seating Indoor"
-                  src="https://s3-media3.fl.yelpcdn.com/bphoto/SoGFl9P4E-_urs0iRShUJw/o.jpg"
+              <Col md={{ span: 24 }} lg={{ span: 8 }}>
+                <Thumbnail
+                  imagePath="https://s3-media3.fl.yelpcdn.com/bphoto/SoGFl9P4E-_urs0iRShUJw/o.jpg"
+                  imageAlt="Seating Indoor"
+                  isPortrait={false}
                 />
               </Col>
-              <Col md={{ span: 24 }} lg={{ span: 12 }}>
-                <img
-                  className="carosel-image-small"
-                  alt="Seating Outdoor"
-                  src="https://s3-media2.fl.yelpcdn.com/bphoto/2sycFRbspMl7HKFTkSBMWg/o.jpg"
+              <Col md={{ span: 24 }} lg={{ span: 8 }}>
+                <Thumbnail
+                  imagePath="https://s3-media2.fl.yelpcdn.com/bphoto/2sycFRbspMl7HKFTkSBMWg/o.jpg"
+                  imageAlt="Seating Outdoor"
+                  isPortrait={false}
+                />
+              </Col>
+              <Col md={{ span: 24 }} lg={{ span: 8 }}>
+                <Thumbnail
+                  imagePath="https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/57331473_433008480799948_266372282560020480_n.jpg?_nc_cat=106&_nc_oc=AQlWzZ9pKl0K4FwyJ2maBgwKkUY7Tzxn8ewJSiJ4zlXZGqQgI1q_uGI6dmsZqZSeG9hN0lS9yUcgHFpe6RY8MPIt&_nc_ht=scontent-dfw5-1.xx&oh=a4814497c2d1b75b4921c454216406bd&oe=5DC4B712"
+                  imageAlt="Seating Outdoor: Red Umbrella"
+                  isPortrait={true}
                 />
               </Col>
             </Row>
@@ -61,7 +77,8 @@ const WelcomeCarousel = () => {
             <p className="describe">
               The dining room seats approximately 60 diners features the Thai
               artwork that runs floor to ceiling on the restaurant’s north and
-              south walls.
+              south walls. Come see us in the Arts district at 1810 Baltimore
+              Ave, Kansas City, MO 64108, Tel. 816-442-7070
             </p>
           </Col>
         </Row>
