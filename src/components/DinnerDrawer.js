@@ -49,13 +49,8 @@ class DinnerDrawer extends Component {
             </Link>
           </li>
           <li className="menu-title-list" onClick={this.onMenuClick}>
-            <Link to="/dinner/desserts" className="menu-type">
-              Desserts
-            </Link>
-          </li>
-          <li className="menu-title-list" onClick={this.onMenuClick}>
-            <Link to="/dinner/drinks" className="menu-type">
-              Drinks
+            <Link to="/dinner/desserts-drinks" className="menu-type">
+              Desserts &amp;Drinks
             </Link>
           </li>
         </ul>

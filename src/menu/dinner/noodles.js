@@ -2,14 +2,35 @@ import React from 'react'
 import { Row, Col, Divider } from 'antd'
 import Thumbnail from '../../components/thumbnail'
 
-const LunchNoodles = () => {
+const DinnerNoodles = () => {
   return (
     <React.Fragment>
       <Row className="menu-display">
-        <Divider className="menu-display-time">Lunch</Divider>
+        <Divider className="menu-display-time">Dinner</Divider>
         <h1 className="menu-display-category">Noodles</h1>
       </Row>
       <Row type="flex" justify="center" align="top" className="menu-display">
+        <Col
+          xs={{ span: 24 }}
+          sm={{ span: 24 }}
+          md={{ span: 12 }}
+          lg={{ span: 8 }}
+        >
+          <h1 className="menu-display-name">Pad Sew Eaew</h1>
+          <p className="menu-display-description">
+            Stir-fried flat noodles in dark, rich and sweet soy sauce with
+            broccoli and Gai lan. <br />
+            <Thumbnail
+              imagePath="https://s3-media2.fl.yelpcdn.com/bphoto/kZGaVheivp0Aea4H8U1UFw/o.jpg"
+              imageAlt="Pad Sew Eaew"
+              isPortrait={true}
+            />
+          </p>
+          <p className="menu-price text-align-center">
+            Chicken, Pork, or Tofu $11.95 <br /> Beef or Shrimp $14.95
+            <br /> Seafood $18.95
+          </p>
+        </Col>
         <Col
           xs={{ span: 24 }}
           sm={{ span: 24 }}
@@ -29,29 +50,8 @@ const LunchNoodles = () => {
             />
           </p>
           <p className="menu-price text-align-center">
-            Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
-            <br /> Seafood $13.95
-          </p>
-        </Col>
-        <Col
-          xs={{ span: 24 }}
-          sm={{ span: 24 }}
-          md={{ span: 12 }}
-          lg={{ span: 8 }}
-        >
-          <h1 className="menu-display-name">Pad Sew Eaew</h1>
-          <p className="menu-display-description">
-            Stir-fried flat noodles in dark, rich and sweet soy sauce with
-            broccoli and Gai lan. <br />
-            <Thumbnail
-              imagePath="https://s3-media2.fl.yelpcdn.com/bphoto/kZGaVheivp0Aea4H8U1UFw/o.jpg"
-              imageAlt="Pad Sew Eaew"
-              isPortrait={true}
-            />
-          </p>
-          <p className="menu-price text-align-center">
-            Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
-            <br /> Seafood $13.95
+            Chicken, Pork, or Tofu $11.95 <br /> Beef or Shrimp $14.95
+            <br /> Seafood $18.95
           </p>
         </Col>
       </Row>
@@ -74,8 +74,8 @@ const LunchNoodles = () => {
             />
           </p>
           <p className="menu-price text-align-center">
-            Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
-            <br /> Seafood $13.95
+            Chicken, Pork, or Tofu $11.95 <br /> Beef or Shrimp $14.95
+            <br /> Seafood $18.95
           </p>
         </Col>
         <Col
@@ -95,8 +95,8 @@ const LunchNoodles = () => {
             />
           </p>
           <p className="menu-price text-align-center">
-            Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
-            <br /> Seafood $13.95
+            Chicken, Pork, or Tofu $11.95 <br /> Beef or Shrimp $14.95
+            <br /> Seafood $18.95
           </p>
         </Col>
       </Row>
@@ -119,12 +119,9 @@ const LunchNoodles = () => {
               isPortrait={false}
             />
           </p>
-
-          <p className="menu-price text-align-center">
-            Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
-            <br /> Seafood $13.95
-          </p>
+          <p className="menu-price text-align-center">$18.95</p>
         </Col>
+
         <Col
           xs={{ span: 24 }}
           sm={{ span: 24 }}
@@ -139,4 +136,4 @@ const LunchNoodles = () => {
   )
 }
 
-export default LunchNoodles
+export default DinnerNoodles

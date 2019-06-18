@@ -32,7 +32,7 @@ const LunchDrinks = () => {
           md={{ span: 12 }}
           lg={{ span: 8 }}
         >
-          <h1 className="menu-display-name">Thai Iced Tea/ Iced Coffee</h1>
+          <h1 className="menu-display-name">Thai Iced Tea/ Thai Iced Coffee</h1>
           <p className="menu-display-description">
             <Thumbnail
               imagePath="https://s3-media4.fl.yelpcdn.com/bphoto/j-_yGtrE1cBH260pxGD3rA/o.jpg"
@@ -51,7 +51,7 @@ const LunchDrinks = () => {
           md={{ span: 12 }}
           lg={{ span: 8 }}
         >
-          <h1 className="menu-display-name">Fountain Drinks</h1>
+          <h1 className="menu-display-name">Coke Product Fountain Drinks</h1>
           <p className="menu-display-description">
             Coke, Diet Coke, Coke Zero, Dr. Pepper, Minute Maid Lemonade,
             Sprite, Orange Fanta, Barq's Root Beer
@@ -64,10 +64,8 @@ const LunchDrinks = () => {
           md={{ span: 12 }}
           lg={{ span: 8 }}
         >
-          <h1 className="menu-display-name">Soft Drinks</h1>
-          <p className="menu-display-description">
-            Hot Tea, Iced Tea, Hot Coffee
-          </p>
+          <h1 className="menu-display-name">Hot Tea, Iced Tea, Hot Coffee</h1>
+          <p className="menu-display-description" />
           <p className="menu-price text-align-center">$2.99</p>
         </Col>
       </Row>
