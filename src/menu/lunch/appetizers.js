@@ -186,6 +186,12 @@ const LunchAppetizers = () => {
           <p className="menu-display-description">
             Marinated in a spicy garlic sauce with fresh basil. Deep fried to
             perfection.
+            <br />
+            <Thumbnail
+              imagePath="https://s3-media2.fl.yelpcdn.com/bphoto/SjWn40m4EUCmJM94yDt-dg/o.jpg"
+              imageAlt="Baramee Thai Wings"
+              isPortrait={false}
+            />
           </p>
           <p className="menu-price text-align-center">$8.95</p>
         </Col>
