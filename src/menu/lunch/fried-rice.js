@@ -55,7 +55,7 @@ const LunchFriedRice = () => {
             <br /> Seafood $13.95
           </p>
         </Col>
-      </Row>{' '}
+      </Row>
       <Row type="flex" justify="center" align="top" className="menu-display">
         <Col
           xs={{ span: 24 }}

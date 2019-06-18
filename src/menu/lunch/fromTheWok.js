@@ -22,7 +22,7 @@ const LunchFromTheWok = () => {
             Served over rice with a pan fried egg.
             <br />
             <Thumbnail
-              imagePath="https://i.imgur.com/V4oDBCbl.jpg"
+              imagePath="https://s3-media2.fl.yelpcdn.com/bphoto/FGHH7p9ZL40ogeMl0vPJbA/o.jpg"
               imageAlt="Pad Ka Prao"
               isPortrait={false}
             />

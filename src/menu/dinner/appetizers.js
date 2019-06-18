@@ -30,7 +30,7 @@ const DinnerAppetizers = () => {
           </p>
 
           <p className="menu-price text-align-center">
-            Half (4Pcs) $4.00 | Full (8 Pcs) $7.95
+            Half (4Pcs) $4.00 <br /> Full (8 Pcs) $7.95
           </p>
         </Col>
         <Col
