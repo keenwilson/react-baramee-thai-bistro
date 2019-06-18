@@ -45,9 +45,9 @@ const LunchFriedRice = () => {
             choice of meats.
             <br />
             <Thumbnail
-              imagePath="https://s3-media4.fl.yelpcdn.com/bphoto/245tYfP6H77MqDVFmq7Q9Q/o.jpg"
+              imagePath="https://s3-media3.fl.yelpcdn.com/bphoto/-KE_cRryFO1x4FwHGDuTqw/o.jpg"
               imageAlt="Basil Fried Rice"
-              isPortrait={true}
+              isPortrait={false}
             />
           </p>
           <p className="menu-price text-align-center">
@@ -84,7 +84,7 @@ const LunchFriedRice = () => {
             and raisins.
             <br />
             <Thumbnail
-              imagePath="https://i.imgur.com/PxYaAKYl.jpg"
+              imagePath="https://s3-media4.fl.yelpcdn.com/bphoto/6mJLfJaOrt1xS6F88HSczA/o.jpg"
               imageAlt="Pineapple Fried Rice"
               isPortrait={true}
             />

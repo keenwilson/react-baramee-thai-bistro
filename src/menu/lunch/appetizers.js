@@ -232,6 +232,12 @@ const LunchAppetizers = () => {
           <h1 className="menu-display-name">Edamame</h1>
           <p className="menu-display-description">
             Lightly salted and steamed soy beans.
+            <br />
+            <Thumbnail
+              imagePath="https://s3-media1.fl.yelpcdn.com/bphoto/tqero_VtxfKOaGO93MrjtA/o.jpg"
+              imageAlt="Edamame"
+              isPortrait={false}
+            />
           </p>
           <p className="menu-price text-align-center">$5.95</p>
         </Col>
