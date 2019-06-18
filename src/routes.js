@@ -11,6 +11,7 @@ import Home from './page/home'
 import LunchAppetizers from './menu/lunch/appetizers'
 import LunchCurries from './menu/lunch/curries'
 import LunchFromTheWok from './menu/lunch/fromTheWok'
+import DinnerAppetizers from './menu/dinner/appetizers'
 
 export const Routes = () => {
   return (
@@ -26,6 +27,7 @@ export const Routes = () => {
       <Route path="/lunch/appetizers" component={LunchAppetizers} />
       <Route path="/lunch/curries" component={LunchCurries} />
       <Route path="/lunch/from-the-wok" component={LunchFromTheWok} />
+      <Route path="/dinner/appetizers" component={DinnerAppetizers} />
     </Switch>
   )
 }
