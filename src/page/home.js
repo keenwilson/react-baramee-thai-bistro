@@ -21,9 +21,9 @@ class Home extends Component {
           </Col>
         </Row>
 
-        <Row>
-          <Col>
-            <InThePress />
+        <Row className="press-display-row">
+          <Col className="press-display-col">
+            <InThePress className="press-display" />
           </Col>
         </Row>
       </React.Fragment>

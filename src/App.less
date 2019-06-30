@@ -50,6 +50,9 @@ ul.menu-list {
   transform: translateX(-50%);
   min-height: 400px;
   padding: 36px;
+  @media only screen and (max-width: 480px) {
+    padding: 0px;
+  }
 
   .logo-line {
     text-align: center;
@@ -340,5 +343,19 @@ ul.menu-list {
   img.portrait {
     width: 100%;
     height: auto;
+  }
+}
+
+.press-display-card {
+  background: #ececec;
+  padding: 30px;
+  @media only screen and (max-width: 480px) {
+    padding: 0px;
+    .press-title-col {
+      padding: 0px;
+    }
+    .press-title {
+      background: #ececec;
+    }
   }
 }

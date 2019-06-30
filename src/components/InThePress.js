@@ -4,9 +4,9 @@ import { Card, Row, Col } from 'antd'
 const InThePress = () => {
   return (
     <div>
-      <div style={{ background: '#ECECEC', padding: '30px' }}>
+      <div className="press-display-card">
         <Row gutter={16}>
-          <Col span={24}>
+          <Col span={24} className="press-title-col">
             <h1 className="press-title">Baramee Thai Bistro in the Press</h1>
           </Col>
         </Row>
