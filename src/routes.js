@@ -1,5 +1,5 @@
 import React from 'react'
-import { Switch, Route, Redirect } from 'react-router-dom'
+import { Switch, Route } from 'react-router-dom'
 import LunchSoups from './menu/lunch/soups'
 import LunchSalads from './menu/lunch/salads'
 import LunchNoodles from './menu/lunch/noodles'
@@ -7,7 +7,6 @@ import LunchFriedRice from './menu/lunch/fried-rice'
 import LunchSides from './menu/lunch/sides'
 import LunchDesserts from './menu/lunch/desserts'
 import LunchDrinks from './menu/lunch/drinks'
-import Home from './page/home'
 import LunchAppetizers from './menu/lunch/appetizers'
 import LunchCurries from './menu/lunch/curries'
 import LunchFromTheWok from './menu/lunch/fromTheWok'
@@ -18,11 +17,12 @@ import DinnerSoupsSalads from './menu/dinner/soupsSalads'
 import DinnerCurries from './menu/dinner/curries'
 import DinnerDessertsDrinks from './menu/dinner/dessertsDrinks'
 import DinnerHouseFavorites from './menu/dinner/houseFavorites'
+import ResponsiveHome from './page/responsiveHome'
 
 export const Routes = () => {
   return (
     <Switch>
-      <Route exact path="/" component={Home} />
+      <Route exact path="/" component={ResponsiveHome} />
       <Route path="/lunch/soups" component={LunchSoups} />
       <Route path="/lunch/salads" component={LunchSalads} />
       <Route path="/lunch/noodles" component={LunchNoodles} />
