@@ -11,28 +11,22 @@ class SelectMenu extends Component {
   }
   render() {
     return (
-      <Row type="flex" justify="center" align="top" className="select-menu">
-        <Col
-          xs={{ span: 24 }}
-          sm={{ span: 24 }}
-          md={{ span: 12 }}
-          lg={{ span: 8 }}
-        >
-          <p className="menu" onClick={this.handleShowLunchDrawer}>
-            LUNCH MENU
-          </p>
-        </Col>
-        <Col
-          xs={{ span: 24 }}
-          sm={{ span: 24 }}
-          md={{ span: 12 }}
-          lg={{ span: 8 }}
-        >
-          <p className="menu" onClick={this.handleShowDinnerDrawer}>
-            DINNER MENU
-          </p>
-        </Col>
-      </Row>
+      <div className="row-menu-bar">
+        <div className="cell">
+          <div className="lunch">
+            <p className="menu" onClick={this.handleShowLunchDrawer}>
+              LUNCH MENU
+            </p>
+          </div>
+        </div>
+        <div className="cell">
+          <div className="dinner">
+            <p className="menu" onClick={this.handleShowDinnerDrawer}>
+              DINNER MENU
+            </p>
+          </div>
+        </div>
+      </div>
     )
   }
 }

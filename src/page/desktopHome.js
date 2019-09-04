@@ -54,7 +54,7 @@ class DesktopHome extends Component {
 
   render() {
     return (
-      <Content className="content">
+      <React.Fragment>
         <div className="desktop-narrative">
           <h1>Baramee Thai Bistro</h1>
           <p>
@@ -67,11 +67,12 @@ class DesktopHome extends Component {
             Kansas City's Crossroads Arts district.
           </p>
         </div>
-        <SelectMenu
-          showLunchDrawer={this.showLunchDrawer}
-          showDinnerDrawer={this.showDinnerDrawer}
-        />
-
+        <div className="drawer-activation">
+          <SelectMenu
+            showLunchDrawer={this.showLunchDrawer}
+            showDinnerDrawer={this.showDinnerDrawer}
+          />
+        </div>
         <DinnerDrawer
           dinnerMenuVisible={this.state.dinnerMenuVisible}
           handleOnClose={this.onDinnerDrawerClose}
@@ -80,7 +81,8 @@ class DesktopHome extends Component {
           lunchMenuVisible={this.state.lunchMenuVisible}
           handleOnClose={this.onLunchDrawerClose}
         />
-      </Content>
+        =
+      </React.Fragment>
     )
   }
 }
