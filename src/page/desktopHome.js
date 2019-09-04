@@ -64,6 +64,19 @@ class DesktopHome extends Component {
                   src="https://i.imgur.com/v9ZgS3o.jpg"
                 />
               </Link>
+              <div className="desktop-narrative">
+                <h1>Baramee Thai Bistro</h1>
+                <p>
+                  Since opening in January 2019 ‘Baramee’ - meaning fulfilling
+                  yourself by making others happy in ‘Thai’ language, a Thai
+                  native and chef-owner, Nutnisa Hoffman and her partner,
+                  co-owner, Doug Hoffman, offers a taste of Northeastern Thai
+                  dishes and from-the-wok Thai-style cooking with the freshest
+                  produce from the City Market and locally grown ingredients
+                  alongside vegetarian options in the Kansas City's Crossroads
+                  Arts district.
+                </p>
+              </div>
               <SelectMenu
                 showLunchDrawer={this.showLunchDrawer}
                 showDinnerDrawer={this.showDinnerDrawer}
