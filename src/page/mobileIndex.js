@@ -1,9 +1,9 @@
 import React from 'react'
-import { Redirect, Route, Link } from 'react-router-dom'
+import { Route, Link } from 'react-router-dom'
 import { Icon, Button } from 'antd'
 import MobileHome from './mobileHome'
-import MobileDinner from './mobileDinner'
 import MobileLunchIndex from './mobileLunchIndex'
+import MobileDinnerIndex from './mobileDinnerIndex'
 
 const MobileIndex = () => {
   return (
@@ -33,7 +33,7 @@ const MobileIndex = () => {
       <div className="mobile-content-display">
         <Route exact path={'/'} component={MobileHome} />
         <Route path={'/menu/lunch'} component={MobileLunchIndex} />
-        <Route path={'/menu/dinner'} component={MobileDinner} />
+        <Route path={'/menu/dinner'} component={MobileDinnerIndex} />
       </div>
 
       <div className="contact">

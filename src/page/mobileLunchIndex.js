@@ -17,7 +17,7 @@ const MobileLunchIndex = () => {
   return (
     <React.Fragment>
       <div className="narrative">
-        <Route exact path="/menu/lunch/" component={MobileLunchHome} />
+        <Route exact path="/menu/lunch" component={MobileLunchHome} />
         <Route
           path="/menu/lunch/appetizers"
           component={MobileLunchAppetizers}

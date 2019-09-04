@@ -30,12 +30,12 @@ class ResponsiveHome extends Component {
       return <DesktopHome />
     }
 
-    if (
-      this.state.viewportWidth > this.props.mobileBreakPoint &&
-      this.state.viewportWidth <= this.props.tabletBreakPoint
-    ) {
-      return <TabletHome />
-    }
+    // if (
+    //   this.state.viewportWidth > this.props.mobileBreakPoint &&
+    //   this.state.viewportWidth <= this.props.tabletBreakPoint
+    // ) {
+    //   return <TabletHome />
+    // }
 
     return <MobileIndex />
   }
