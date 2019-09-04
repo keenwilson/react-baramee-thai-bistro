@@ -49,7 +49,7 @@ ResponsiveHome.propTypes = {
 
 ResponsiveHome.defaultProps = {
   mobileBreakPoint: 576,
-  tabletBreakPoint: 1024,
+  tabletBreakPoint: 768,
   applyViewportChange: 250
 }
 export default ResponsiveHome
