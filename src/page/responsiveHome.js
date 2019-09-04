@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import throttle from 'lodash.throttle'
 import DesktopHome from './desktopHome'
 import TabletHome from './tabletHome'
-import MobileHome from './mobileHome'
+import MobileIndex from './mobileIndex'
 
 class ResponsiveHome extends Component {
   state = {
@@ -27,17 +27,17 @@ class ResponsiveHome extends Component {
 
   render() {
     if (this.state.viewportWidth > this.props.tabletBreakPoint) {
-      return <DesktopHome data-test="desktop-home" />
+      return <DesktopHome />
     }
 
     if (
       this.state.viewportWidth > this.props.mobileBreakPoint &&
       this.state.viewportWidth <= this.props.tabletBreakPoint
     ) {
-      return <TabletHome data-test="tablet-home" />
+      return <TabletHome />
     }
 
-    return <MobileHome data-test="mobile-home" />
+    return <MobileIndex />
   }
 }
 

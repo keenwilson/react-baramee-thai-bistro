@@ -22,7 +22,7 @@ import ResponsiveHome from './page/responsiveHome'
 export const Routes = () => {
   return (
     <Switch>
-      <Route exact path="/" component={ResponsiveHome} />
+      <Route path="/" component={ResponsiveHome} />
       <Route path="/lunch/soups" component={LunchSoups} />
       <Route path="/lunch/salads" component={LunchSalads} />
       <Route path="/lunch/noodles" component={LunchNoodles} />
