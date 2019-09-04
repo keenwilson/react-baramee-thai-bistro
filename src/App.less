@@ -16,11 +16,11 @@ h3 {
 .desktop {
   line-height: 20px;
   // font-family: 'Source Sans Pro', sans-serif;
-
-  background-image: url('https://i.imgur.com/lL6qo8n.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: left center;
+  background-color: #fff;
+  //   background-image: url('https://i.imgur.com/lL6qo8n.jpg');
+  //   background-repeat: no-repeat;
+  //   background-size: cover;
+  //   background-position: left center;
   .ant-layout-header {
     background: transparent;
   }
@@ -68,14 +68,8 @@ h3 {
   .content {
     background-color: transparent;
     width: 100vw;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    min-height: 400px;
-    padding: 36px;
-    @media only screen and (max-width: 480px) {
-      padding: 0px;
-    }
+    margin-top: 72px;
+    padding: 0 36px;
 
     .logo-line {
       text-align: center;
@@ -461,5 +455,45 @@ h3 {
 
   .menu-price {
     font-size: 0.875rem;
+  }
+}
+
+.row-header {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+
+  .cell {
+    display: flex;
+    flex: 50%;
+    height: 40px;
+
+    .the-restaurant-logo {
+      cursor: pointer;
+      padding-left: 24px;
+      flex: 1;
+      .logo {
+        width: 84px;
+        cursor: pointer;
+        display: inline-block;
+      }
+    }
+
+    .call-the-restaurant {
+      cursor: pointer;
+      text-align: right;
+      width: 100%;
+      line-height: 84px;
+      letter-spacing: 0.25em;
+      flex: 1;
+      padding-right: 24px;
+      .phone-number {
+        padding-left: 0.5rem;
+      }
+    }
   }
 }

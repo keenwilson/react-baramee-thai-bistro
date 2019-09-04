@@ -22,6 +22,7 @@ import DinnerSoupsSalads from '../menu/dinner/soupsSalads'
 import DinnerCurries from '../menu/dinner/curries'
 import DinnerDessertsDrinks from '../menu/dinner/dessertsDrinks'
 import DinnerHouseFavorites from '../menu/dinner/houseFavorites'
+import DesktopHeader from './desktopHeader'
 
 const { Content, Footer } = Layout
 
@@ -55,33 +56,25 @@ class DesktopHome extends Component {
     return (
       <div className="desktop">
         <Layout>
+          <DesktopHeader />
           <Content className="content">
-            <div className="logo-line">
-              <Link to="/">
-                <img
-                  className="logo"
-                  alt="Baramee Thai Bistro"
-                  src="https://i.imgur.com/v9ZgS3o.jpg"
-                />
-              </Link>
-              <div className="desktop-narrative">
-                <h1>Baramee Thai Bistro</h1>
-                <p>
-                  Since opening in January 2019 ‘Baramee’ - meaning fulfilling
-                  yourself by making others happy in ‘Thai’ language, a Thai
-                  native and chef-owner, Nutnisa Hoffman and her partner,
-                  co-owner, Doug Hoffman, offers a taste of Northeastern Thai
-                  dishes and from-the-wok Thai-style cooking with the freshest
-                  produce from the City Market and locally grown ingredients
-                  alongside vegetarian options in the Kansas City's Crossroads
-                  Arts district.
-                </p>
-              </div>
-              <SelectMenu
-                showLunchDrawer={this.showLunchDrawer}
-                showDinnerDrawer={this.showDinnerDrawer}
-              />
+            <div className="desktop-narrative">
+              <h1>Baramee Thai Bistro</h1>
+              <p>
+                Since opening in January 2019 ‘Baramee’ - meaning fulfilling
+                yourself by making others happy in ‘Thai’ language, a Thai
+                native and chef-owner, Nutnisa Hoffman and her partner,
+                co-owner, Doug Hoffman, offers a taste of Northeastern Thai
+                dishes and from-the-wok Thai-style cooking with the freshest
+                produce from the City Market and locally grown ingredients
+                alongside vegetarian options in the Kansas City's Crossroads
+                Arts district.
+              </p>
             </div>
+            <SelectMenu
+              showLunchDrawer={this.showLunchDrawer}
+              showDinnerDrawer={this.showDinnerDrawer}
+            />
 
             <DinnerDrawer
               dinnerMenuVisible={this.state.dinnerMenuVisible}
