@@ -1,7 +1,7 @@
 import React from 'react'
 import { Breadcrumb, Icon, Divider } from 'antd'
-import { Redirect, Route, Link } from 'react-router-dom'
-import Thumbnail from '../../components/thumbnail'
+import { Link } from 'react-router-dom'
+
 const MobileLunchAppetizers = () => {
   return (
     <React.Fragment>

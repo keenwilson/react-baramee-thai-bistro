@@ -1,7 +1,6 @@
 import React from 'react'
-import { Redirect, Route, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { Button, Breadcrumb, Icon } from 'antd'
-import MobileLunchAppetizers from '../menu/lunch/mobileAppetizers'
 
 const MobileLunchHome = () => {
   return (
@@ -24,21 +23,53 @@ const MobileLunchHome = () => {
             Appetizers
           </Link>
         </Button>
-      </div>
-      <div className="lunch-display">
-        <Route
-          path="/menu/lunch/appetizers"
-          component={MobileLunchAppetizers}
-        />
-        {/* <Route path="/lunch/salads" component={LunchSalads} />
-        <Route path="/lunch/noodles" component={LunchNoodles} />
-        <Route path="/lunch/fried-rice" component={LunchFriedRice} />
-        <Route path="/lunch/sides" component={LunchSides} />
-        <Route path="/lunch/desserts" component={LunchDesserts} />
-        <Route path="/lunch/drinks" component={LunchDrinks} />
-        <Route path="/lunch/appetizers" component={LunchAppetizers} />
-        <Route path="/lunch/curries" component={LunchCurries} />
-        <Route path="/lunch/from-the-wok" component={LunchFromTheWok} /> */}
+
+        <Button block className="menu-button">
+          <Link to="/menu/lunch/salads" className="menu-meal">
+            Salads
+          </Link>
+        </Button>
+
+        <Button block className="menu-button">
+          <Link to="/menu/lunch/fried-rice" className="menu-meal">
+            Fried Rice
+          </Link>
+        </Button>
+        <Button block className="menu-button">
+          <Link to="/menu/lunch/from-the-wok" className="menu-meal">
+            From the Wok
+          </Link>
+        </Button>
+        <Button block className="menu-button">
+          <Link to="/menu/lunch/noodles" className="menu-meal">
+            Noodles
+          </Link>
+        </Button>
+        <Button block className="menu-button">
+          <Link to="/menu/lunch/soups" className="menu-meal">
+            Soups
+          </Link>
+        </Button>
+        <Button block className="menu-button">
+          <Link to="/menu/lunch/curries" className="menu-meal">
+            Curries
+          </Link>
+        </Button>
+        <Button block className="menu-button">
+          <Link to="/menu/lunch/sides" className="menu-meal">
+            Sides
+          </Link>
+        </Button>
+        <Button block className="menu-button">
+          <Link to="/menu/lunch/desserts" className="menu-meal">
+            Desserts
+          </Link>
+        </Button>
+        <Button block className="menu-button">
+          <Link to="/menu/lunch/drinks" className="menu-meal">
+            Drinks
+          </Link>
+        </Button>
       </div>
     </React.Fragment>
   )
