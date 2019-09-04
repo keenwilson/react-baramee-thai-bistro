@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/react-baramee-thai-bistro/precache-manifest.7d17d989311804197256dd62ed6f28a5.js"
+  "/react-baramee-thai-bistro/precache-manifest.0d3e04db8b2170a9c8cd2ab680156735.js"
 );
 
 self.addEventListener('message', (event) => {
