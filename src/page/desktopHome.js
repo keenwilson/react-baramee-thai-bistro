@@ -59,6 +59,12 @@ class DesktopHome extends Component {
         <div className="intro-gallery">
           <Thumbnail
             className="images"
+            imagePath="https://i.imgur.com/lL6qo8n.jpg"
+            imageAlt="Best Thai restaurant in Kansas City - Wall Paintingå"
+            isPortrait={false}
+          />
+          <Thumbnail
+            className="images"
             imagePath="https://i.imgur.com/xLYTGIll.jpg"
             imageAlt="Best Thai restaurant in Kansas City - Northeastern Thai"
             isPortrait={false}
