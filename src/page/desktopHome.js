@@ -54,46 +54,33 @@ class DesktopHome extends Component {
 
   render() {
     return (
-      <div className="desktop">
-        <Layout>
-          <DesktopHeader />
-          <Content className="content">
-            <div className="desktop-narrative">
-              <h1>Baramee Thai Bistro</h1>
-              <p>
-                Since opening in January 2019 ‘Baramee’ - meaning fulfilling
-                yourself by making others happy in ‘Thai’ language, a Thai
-                native and chef-owner, Nutnisa Hoffman and her partner,
-                co-owner, Doug Hoffman, offers a taste of Northeastern Thai
-                dishes and from-the-wok Thai-style cooking with the freshest
-                produce from the City Market and locally grown ingredients
-                alongside vegetarian options in the Kansas City's Crossroads
-                Arts district.
-              </p>
-            </div>
-            <SelectMenu
-              showLunchDrawer={this.showLunchDrawer}
-              showDinnerDrawer={this.showDinnerDrawer}
-            />
+      <Content className="content">
+        <div className="desktop-narrative">
+          <h1>Baramee Thai Bistro</h1>
+          <p>
+            Since opening in January 2019 ‘Baramee’ - meaning fulfilling
+            yourself by making others happy in ‘Thai’ language, a Thai native
+            and chef-owner, Nutnisa Hoffman and her partner, co-owner, Doug
+            Hoffman, offers a taste of Northeastern Thai dishes and from-the-wok
+            Thai-style cooking with the freshest produce from the City Market
+            and locally grown ingredients alongside vegetarian options in the
+            Kansas City's Crossroads Arts district.
+          </p>
+        </div>
+        <SelectMenu
+          showLunchDrawer={this.showLunchDrawer}
+          showDinnerDrawer={this.showDinnerDrawer}
+        />
 
-            <DinnerDrawer
-              dinnerMenuVisible={this.state.dinnerMenuVisible}
-              handleOnClose={this.onDinnerDrawerClose}
-            />
-            <LunchDrawer
-              lunchMenuVisible={this.state.lunchMenuVisible}
-              handleOnClose={this.onLunchDrawerClose}
-            />
-          </Content>
-
-          <Footer className="footer">
-            <ContactFooter />
-            <p className="copyright">
-              Copyright © 2019 Baramee Thai Bistro | All rights reserved
-            </p>
-          </Footer>
-        </Layout>
-      </div>
+        <DinnerDrawer
+          dinnerMenuVisible={this.state.dinnerMenuVisible}
+          handleOnClose={this.onDinnerDrawerClose}
+        />
+        <LunchDrawer
+          lunchMenuVisible={this.state.lunchMenuVisible}
+          handleOnClose={this.onLunchDrawerClose}
+        />
+      </Content>
     )
   }
 }

@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import throttle from 'lodash.throttle'
-import DesktopHome from './desktopHome'
-import TabletHome from './tabletHome'
+
 import MobileIndex from './mobileIndex'
+import DesktopIndex from './desktopIndex'
 
 class ResponsiveHome extends Component {
   state = {
@@ -27,7 +27,7 @@ class ResponsiveHome extends Component {
 
   render() {
     if (this.state.viewportWidth > this.props.tabletBreakPoint) {
-      return <DesktopHome />
+      return <DesktopIndex />
     }
 
     // if (
