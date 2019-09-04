@@ -333,33 +333,6 @@ h3 {
     padding: 5px 0;
   }
 
-  .thumbnail {
-    margin-top: 18px;
-    display: inline-block;
-    position: relative;
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
-    text-align: center;
-
-    img {
-      margin: 0 auto;
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      height: 100%;
-      width: auto;
-      -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-    }
-
-    img.portrait {
-      width: 100%;
-      height: auto;
-    }
-  }
-
   .press-display-card {
     background: #ececec;
     padding: 30px;
@@ -375,6 +348,32 @@ h3 {
   }
 }
 
+.thumbnail {
+  margin-top: 18px;
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  text-align: center;
+
+  img {
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    width: auto;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  img.portrait {
+    width: 100%;
+    height: auto;
+  }
+}
 .mobile {
   background-image: none;
   .mobile-header {
@@ -404,7 +403,7 @@ h3 {
     box-sizing: border-box;
     padding: 0 1rem;
     text-align: center;
-    padding: 0.625rem 1.25rem;
+    padding: 0.325rem 1.25rem;
     p {
       margin-bottom: 0.625rem;
     }
@@ -413,7 +412,8 @@ h3 {
     }
   }
   .breadcrumb {
-    padding: 0.625rem 1.25rem;
+    padding: 0.625rem 0.25rem;
+    text-align: left;
   }
   .contact {
     background: #262626;
