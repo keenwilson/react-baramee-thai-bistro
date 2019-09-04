@@ -24,6 +24,7 @@ export const Routes = () => {
   return (
     <Switch>
       <Route path="/" component={ResponsiveHome} />
+      <Redirect from="/react-baramee-thai-bistro" to="/" />
     </Switch>
   )
 }
