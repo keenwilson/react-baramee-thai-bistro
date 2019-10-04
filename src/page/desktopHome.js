@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link, Route, Switch } from 'react-router-dom'
-import { Layout } from 'antd'
+import { Button, Layout } from 'antd'
 import SelectMenu from '../components/SelectMenu'
 import LunchDrawer from '../components/LunchDrawer'
 import DinnerDrawer from '../components/DinnerDrawer'
@@ -95,6 +95,12 @@ class DesktopHome extends Component {
           />
           <Thumbnail
             className="images"
+            imagePath="https://i.imgur.com/IoLSNAyl.jpg"
+            imageAlt="Seating Outdoor: Kitchen Crew"
+            isPortrait={false}
+          />
+          <Thumbnail
+            className="images"
             imagePath="https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/57331473_433008480799948_266372282560020480_n.jpg?_nc_cat=106&_nc_oc=AQlWzZ9pKl0K4FwyJ2maBgwKkUY7Tzxn8ewJSiJ4zlXZGqQgI1q_uGI6dmsZqZSeG9hN0lS9yUcgHFpe6RY8MPIt&_nc_ht=scontent-dfw5-1.xx&oh=a4814497c2d1b75b4921c454216406bd&oe=5DC4B712"
             imageAlt="Seating Outdoor: Red Umbrella"
             isPortrait={true}
@@ -126,7 +132,7 @@ class DesktopHome extends Component {
           />
         </div>
         <div className="desktop-narrative">
-          <h1>Baramee Thai Bistro</h1>
+          <h1 className="underline-60">Baramee Thai Bistro</h1>
           <p>
             Since opening in January 2019 ‘Baramee’ - meaning fulfilling
             yourself by making others happy in ‘Thai’ language, a Thai native
@@ -136,22 +142,10 @@ class DesktopHome extends Component {
             and locally grown ingredients alongside vegetarian options in the
             Kansas City's Crossroads Arts district.
           </p>
+          <Link to="/menu" className="heading-title underline-60">
+            Click to See Our Menu
+          </Link>
         </div>
-        <div className="drawer-activation">
-          <SelectMenu
-            showLunchDrawer={this.showLunchDrawer}
-            showDinnerDrawer={this.showDinnerDrawer}
-          />
-        </div>
-        <DinnerDrawer
-          dinnerMenuVisible={this.state.dinnerMenuVisible}
-          handleOnClose={this.onDinnerDrawerClose}
-        />
-        <LunchDrawer
-          lunchMenuVisible={this.state.lunchMenuVisible}
-          handleOnClose={this.onLunchDrawerClose}
-        />
-        =
       </React.Fragment>
     )
   }
