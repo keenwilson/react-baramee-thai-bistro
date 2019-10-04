@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route } from 'react-router-dom'
+import { Redirect, Route } from 'react-router-dom '
 import LunchAppetizers from '../menu/lunch/appetizers'
 import LunchSalads from '../menu/lunch/salads'
 import LunchSides from '../menu/lunch/sides'
@@ -22,7 +22,7 @@ const DesktopLunchIndex = () => {
         </div>
         <div className="content">
           <div className="menu-navigation">
-            <Route exact path="/menu/lunch" component={DesktopLunchHome} />
+            <Route exact path="/menu/lunch" component={LunchAppetizers} />
             <Route path="/menu/lunch/appetizers" component={LunchAppetizers} />
             <Route path="/menu/lunch/salads" component={LunchSalads} />
             <Route path="/menu/lunch/sides" component={LunchSides} />

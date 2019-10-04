@@ -19,7 +19,7 @@ const DesktopDinnerIndex = () => {
         </div>
         <div className="content">
           <div className="menu-navigation">
-            <Route exact path="/menu/dinner/" component={DesktopDinnerHome} />
+            <Route exact path="/menu/dinner/" component={DinnerAppetizers} />
             <Route
               path="/menu/dinner/appetizers"
               component={DinnerAppetizers}

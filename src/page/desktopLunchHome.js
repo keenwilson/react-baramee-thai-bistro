@@ -3,9 +3,9 @@ import React, { Component } from 'react'
 class DesktopLunchHome extends Component {
   render() {
     return (
-      <React.Fragment>
-        <div className="top-padding"></div>
-      </React.Fragment>
+      <div className="narrative">
+        <h1>Lunch Menu</h1>
+      </div>
     )
   }
 }
