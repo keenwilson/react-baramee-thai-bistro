@@ -13,21 +13,40 @@ h3 {
   font-family: 'EB Garamond', serif;
   font-size: 16.6px;
 }
+.main-menu {
+  padding-bottom: 2rem;
+  .flex-box {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow: row nowrap;
+    padding: 0 0.625rem;
+    background-color: white;
+    .item-1 {
+      font-family: 'Lobster', cursive;
+      font-size: 2rem;
+      padding: 0 2rem;
+      color: #333;
+    }
+    .item-2 {
+      font-family: 'Lobster', cursive;
+      font-size: 2rem;
+      padding: 0 2rem;
+      color: #333;
+    }
+  }
+}
 
-.flex-box {
+.menu-nav {
   display: flex;
   justify-content: space-between;
-  align-content: center;
-  flex-flow: row nowrap;
-  padding: 0 0.625rem;
-  background-color: white;
-  .item-1 {
-    height: 64px;
+  align-content: top;
+  flex-direction: row;
+  .sider {
+    order: 1;
   }
-  .item-2 {
-    line-height: 64px;
-
-    padding-right: 0.625rem;
+  .content {
+    order: 2;
   }
 }
 .heading-title,

@@ -66,9 +66,9 @@ const DinnerHouseFavorites = () => {
             sauce. Served with sticky rice.
             <br />
             <Thumbnail
-              imagePath="https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/51366392_393494678084662_2627909008874274816_n.jpg?_nc_cat=106&_nc_oc=AQnvhOo89vT7Qod75Z-DRznSZiZzwiGWXohYf64VpHECvCz4vEphU_6H1qUlduyCYCKTz2-uLdwh-Z9ZRPZzwSWd&_nc_ht=scontent-dfw5-1.xx&oh=cba696737daaef6a2936514619ae2cbd&oe=5D8497F2"
+              imagePath="https://i.imgur.com/y94QolW.jpg"
               imageAlt="Papaya Salad"
-              isPortrait={true}
+              isPortrait={false}
             />
           </p>
           <p className="menu-price text-align-center">$10.95</p>

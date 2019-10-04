@@ -11,21 +11,18 @@ import LunchCurries from '../menu/lunch/curries'
 import LunchDesserts from '../menu/lunch/desserts'
 import LunchDrinks from '../menu/lunch/drinks'
 import DesktopLunchHome from './desktopLunchHome'
-import { Layout } from 'antd'
 import DesktopLunchMenuNav from './desktopLunchMenuNav'
-
-const { Sider, Content } = Layout
 
 const DesktopLunchIndex = () => {
   return (
     <React.Fragment>
-      <Layout className="top-padding">
-        <Sider>
+      <div className="menu-nav">
+        <div className="sider">
           <DesktopLunchMenuNav />
-        </Sider>
-        <Content>
-          <div className="menu-lunch-navigatio">
-            <Route path="/menu/lunch" component={DesktopLunchHome} />
+        </div>
+        <div className="content">
+          <div className="menu-navigation">
+            <Route exact path="/menu/lunch" component={DesktopLunchHome} />
             <Route path="/menu/lunch/appetizers" component={LunchAppetizers} />
             <Route path="/menu/lunch/salads" component={LunchSalads} />
             <Route path="/menu/lunch/sides" component={LunchSides} />
@@ -40,8 +37,8 @@ const DesktopLunchIndex = () => {
             <Route path="/menu/lunch/desserts" component={LunchDesserts} />
             <Route path="/menu/lunch/drinks" component={LunchDrinks} />
           </div>
-        </Content>
-      </Layout>
+        </div>
+      </div>
     </React.Fragment>
   )
 }
