@@ -6,7 +6,6 @@ import DinnerHouseFavorites from '../menu/dinner/houseFavorites'
 import DinnerFromTheWok from '../menu/dinner/fromTheWok'
 import DinnerCurries from '../menu/dinner/curries'
 import DinnerDessertsDrinks from '../menu/dinner/dessertsDrinks'
-import DesktopDinnerHome from './desktopDinnerHome'
 import DesktopDinnerMenuNav from './desktopDinnerMenuNav'
 import DinnerNoodles from '../menu/dinner/noodles'
 

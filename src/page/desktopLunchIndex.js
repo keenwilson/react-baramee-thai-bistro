@@ -1,5 +1,5 @@
 import React from 'react'
-import { Redirect, Route } from 'react-router-dom '
+import { Route } from 'react-router-dom'
 import LunchAppetizers from '../menu/lunch/appetizers'
 import LunchSalads from '../menu/lunch/salads'
 import LunchSides from '../menu/lunch/sides'
@@ -10,7 +10,6 @@ import LunchSoups from '../menu/lunch/soups'
 import LunchCurries from '../menu/lunch/curries'
 import LunchDesserts from '../menu/lunch/desserts'
 import LunchDrinks from '../menu/lunch/drinks'
-import DesktopLunchHome from './desktopLunchHome'
 import DesktopLunchMenuNav from './desktopLunchMenuNav'
 
 const DesktopLunchIndex = () => {
