@@ -108,9 +108,21 @@ class DesktopHome extends Component {
 
           <Thumbnail
             className="images"
-            imagePath="https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/51366392_393494678084662_2627909008874274816_n.jpg?_nc_cat=106&_nc_oc=AQnvhOo89vT7Qod75Z-DRznSZiZzwiGWXohYf64VpHECvCz4vEphU_6H1qUlduyCYCKTz2-uLdwh-Z9ZRPZzwSWd&_nc_ht=scontent-dfw5-1.xx&oh=cba696737daaef6a2936514619ae2cbd&oe=5D8497F2"
-            imageAlt="Best Thai restaurant in Kansas City - Papaya Salad"
-            isPortrait={true}
+            imagePath="https://i.imgur.com/qw2szPHl.jpg"
+            imageAlt="Best Thai restaurant in Kansas City - Satey"
+            isPortrait={false}
+          />
+          <Thumbnail
+            className="images"
+            imagePath="https://i.imgur.com/WL2blEul.jpg"
+            imageAlt="Best Thai restaurant in Kansas City - Interior"
+            isPortrait={false}
+          />
+          <Thumbnail
+            className="images"
+            imagePath="https://i.imgur.com/lGZgLXfl.jpg"
+            imageAlt="Best Thai restaurant in Kansas City - Sticky Rice Mango"
+            isPortrait={false}
           />
         </div>
         <div className="desktop-narrative">
