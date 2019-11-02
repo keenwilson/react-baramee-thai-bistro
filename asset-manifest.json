@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-baramee-thai-bistro/static/css/main.3d1bf559.chunk.css",
-    "main.js": "/react-baramee-thai-bistro/static/js/main.b37e222a.chunk.js",
-    "main.js.map": "/react-baramee-thai-bistro/static/js/main.b37e222a.chunk.js.map",
+    "main.css": "/react-baramee-thai-bistro/static/css/main.8b054b88.chunk.css",
+    "main.js": "/react-baramee-thai-bistro/static/js/main.5fe0347d.chunk.js",
+    "main.js.map": "/react-baramee-thai-bistro/static/js/main.5fe0347d.chunk.js.map",
     "runtime~main.js": "/react-baramee-thai-bistro/static/js/runtime~main.8c712ea3.js",
     "runtime~main.js.map": "/react-baramee-thai-bistro/static/js/runtime~main.8c712ea3.js.map",
-    "static/css/2.054cf1e1.chunk.css": "/react-baramee-thai-bistro/static/css/2.054cf1e1.chunk.css",
-    "static/js/2.6d277fae.chunk.js": "/react-baramee-thai-bistro/static/js/2.6d277fae.chunk.js",
-    "static/js/2.6d277fae.chunk.js.map": "/react-baramee-thai-bistro/static/js/2.6d277fae.chunk.js.map",
+    "static/css/2.31c4c642.chunk.css": "/react-baramee-thai-bistro/static/css/2.31c4c642.chunk.css",
+    "static/js/2.b680cf3c.chunk.js": "/react-baramee-thai-bistro/static/js/2.b680cf3c.chunk.js",
+    "static/js/2.b680cf3c.chunk.js.map": "/react-baramee-thai-bistro/static/js/2.b680cf3c.chunk.js.map",
     "index.html": "/react-baramee-thai-bistro/index.html",
-    "precache-manifest.a6b59ba101d3c7145f07c3194b046970.js": "/react-baramee-thai-bistro/precache-manifest.a6b59ba101d3c7145f07c3194b046970.js",
+    "precache-manifest.35aec802af27876237e05e84377b1f11.js": "/react-baramee-thai-bistro/precache-manifest.35aec802af27876237e05e84377b1f11.js",
     "service-worker.js": "/react-baramee-thai-bistro/service-worker.js",
-    "static/css/2.054cf1e1.chunk.css.map": "/react-baramee-thai-bistro/static/css/2.054cf1e1.chunk.css.map",
-    "static/css/main.3d1bf559.chunk.css.map": "/react-baramee-thai-bistro/static/css/main.3d1bf559.chunk.css.map"
+    "static/css/2.31c4c642.chunk.css.map": "/react-baramee-thai-bistro/static/css/2.31c4c642.chunk.css.map",
+    "static/css/main.8b054b88.chunk.css.map": "/react-baramee-thai-bistro/static/css/main.8b054b88.chunk.css.map"
   }
 }
