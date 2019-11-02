@@ -13,6 +13,12 @@ h3 {
   font-family: 'EB Garamond', serif;
   font-size: 16.6px;
 }
+
+.menu-meal {
+  font-family: 'EB Garamond', serif;
+  font-size: 16.6px;
+  letter-spacing: 2px;
+}
 .main-menu {
   padding-bottom: 2rem;
   .flex-box {
@@ -68,8 +74,10 @@ h3 {
   margin: 14px auto;
   content: '';
   display: block;
-  background-color: #000;
   height: 4px;
+}
+.underline-60:after {
+  background-color: #262626;
 }
 
 .ant-layout-sider,
@@ -112,6 +120,7 @@ h3 {
     p {
       margin-bottom: 0.625rem;
       padding: 0.325rem 3.25rem;
+      font-size: 16px;
     }
   }
   .title {
@@ -424,6 +433,16 @@ h3 {
       }
     }
   }
+  .mobile-content-display {
+    .narrative {
+      .text {
+        font-size: 16px;
+      }
+      .menu-display-description {
+        font-size: 16px;
+      }
+    }
+  }
   .narrative {
     box-sizing: border-box;
     padding: 0 1rem;
@@ -616,5 +635,16 @@ h3 {
         text-align: center;
       }
     }
+  }
+}
+
+.flex-wrapper {
+  .flex-row {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    flex-flow: row nowrap;
+  }
+  .flex-col {
   }
 }

@@ -142,9 +142,20 @@ class DesktopHome extends Component {
             and locally grown ingredients alongside vegetarian options in the
             Kansas City's Crossroads Arts district.
           </p>
-          <Link to="/menu" className="heading-title underline-60">
-            Click to See Our Menu
-          </Link>
+          <div className="flex-wrapper">
+            <div className="flex-row">
+              <div className="flex-col">
+                <Link to="/menu/lunch" className="heading-title underline-60">
+                  Our Lunch Menu
+                </Link>
+              </div>
+              <div className="flex-col">
+                <Link to="/menu/dinner" className="heading-title underline-60">
+                  Our Dinner Menu
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
       </React.Fragment>
     )

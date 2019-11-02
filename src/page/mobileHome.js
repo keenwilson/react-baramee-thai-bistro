@@ -6,7 +6,7 @@ const MobileHome = () => {
   return (
     <div className="narrative">
       <h1>Baramee Thai Bistro</h1>
-      <p>
+      <p className="text">
         Since opening in January 2019 ‘Baramee’ - meaning fulfilling yourself by
         making others happy in ‘Thai’ language, a Thai native and chef-owner,
         Nutnisa Hoffman and her partner, co-owner, Doug Hoffman, offers a taste

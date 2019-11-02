@@ -114,7 +114,7 @@ const DinnerNoodles = () => {
             sauce. A favorite lunch item in Thailand.
             <br />
             <Thumbnail
-              imagePath="https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/61573622_457587998341996_5238509063322468352_n.jpg?_nc_cat=108&_nc_oc=AQmpJaftYyYDbsxQ7epsOQ4rfDb7kpHi_JW29tk3MFVNWM9bVyW1tQztJrOqYfhrKlY&_nc_ht=scontent-dfw5-2.xx&oh=09f9a158b58c7fb00655b02cf97de0fb&oe=5D9A9737"
+              imagePath="https://i.imgur.com/s3Av7vDl.jpg"
               imageAlt="Rad Na Talay"
               isPortrait={false}
             />
