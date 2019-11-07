@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1744484abc385b2bd573bfdcb16f0b00",
+    "revision": "219d8741e7e6be1fc0a04e9c8043fdac",
     "url": "/react-baramee-thai-bistro/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-baramee-thai-bistro/static/css/2.7bb9430f.chunk.css"
   },
   {
-    "revision": "c1c525bc1914ff2550b8",
+    "revision": "3ec1352ffc52b221be87",
     "url": "/react-baramee-thai-bistro/static/css/main.63f61694.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-baramee-thai-bistro/static/js/2.6aecd172.chunk.js"
   },
   {
-    "revision": "c1c525bc1914ff2550b8",
-    "url": "/react-baramee-thai-bistro/static/js/main.c9e62974.chunk.js"
+    "revision": "3ec1352ffc52b221be87",
+    "url": "/react-baramee-thai-bistro/static/js/main.4f120a2d.chunk.js"
   },
   {
     "revision": "338f1e3ae9fd7aa18a7b",
