@@ -22,7 +22,7 @@ const DinnerDessertsDrinks = () => {
             rice, sweet mango and coconut milk.
             <br />
             <Thumbnail
-              imagePath="https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/54175263_414204506013679_8751091703500242944_n.jpg?_nc_cat=106&_nc_oc=AQm4weXfESUiGgci6P19ea2v3uuHbQkUjKb_76QllnB_r8cPFHk7XUwt_6IKvMysUEE&_nc_ht=scontent-dfw5-2.xx&oh=154924b7920906d7a1cfea75ff9d4475&oe=5D9F36C8"
+              imagePath="ttps://i.imgur.com/lGZgLXfl.jpg"
               imageAlt="Sweet Mango Sticky Rice"
               isPortrait={false}
             />
