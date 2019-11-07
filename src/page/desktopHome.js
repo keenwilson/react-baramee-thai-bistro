@@ -1,31 +1,8 @@
 import React, { Component } from 'react'
-import { Link, Route, Switch } from 'react-router-dom'
-import { Button, Layout } from 'antd'
-import SelectMenu from '../components/SelectMenu'
-import LunchDrawer from '../components/LunchDrawer'
-import DinnerDrawer from '../components/DinnerDrawer'
-import ContactFooter from '../components/ContactFooter'
-import LunchSoups from '../menu/lunch/soups'
-import LunchSalads from '../menu/lunch/salads'
-import LunchNoodles from '../menu/lunch/noodles'
-import LunchFriedRice from '../menu/lunch/fried-rice'
-import LunchSides from '../menu/lunch/sides'
-import LunchDesserts from '../menu/lunch/desserts'
-import LunchDrinks from '../menu/lunch/drinks'
-import LunchAppetizers from '../menu/lunch/appetizers'
-import LunchCurries from '../menu/lunch/curries'
-import LunchFromTheWok from '../menu/lunch/fromTheWok'
-import DinnerAppetizers from '../menu/dinner/appetizers'
-import DinnerFromTheWok from '../menu/dinner/fromTheWok'
-import DinnerNoodles from '../menu/dinner/noodles'
-import DinnerSoupsSalads from '../menu/dinner/soupsSalads'
-import DinnerCurries from '../menu/dinner/curries'
-import DinnerDessertsDrinks from '../menu/dinner/dessertsDrinks'
-import DinnerHouseFavorites from '../menu/dinner/houseFavorites'
-import DesktopHeader from './desktopHeader'
-import Thumbnail from '../components/thumbnail'
+import { Link } from 'react-router-dom'
 
-const { Content, Footer } = Layout
+import Thumbnail from '../components/thumbnail'
+import DesktopNews from './desktopNews'
 
 class DesktopHome extends Component {
   state = { dinnerMenuVisible: false, lunchMenuVisible: false }
@@ -154,6 +131,104 @@ class DesktopHome extends Component {
                   Our Dinner Menu
                 </Link>
               </div>
+            </div>
+          </div>
+        </div>
+        <div className="desktop-about-chef">
+          <div className="flex-row-about-chef">
+            <div className="flex-col">
+              <img
+                className="chef-picture"
+                src="https://i.imgur.com/wGBMQgN.jpg"
+                alt="Chef Nutnisa Hoffman"
+              ></img>
+            </div>
+            <div className="flex-col">
+              <p className="chef-quote">
+                “I want to share our Thai food, share our Thai culture, meet new
+                people, and be proud to represent Thai food in America.”
+              </p>
+              <br />
+              <p className="chef-title">
+                <span className="chef-name">Nutnisa Hoffman</span>, the owner of
+                Mali Thai Bistro in Lee’s Summit and Baramee Thai Bistro in the
+                Crossroads
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="desktop-in-the-news">
+          <h1 className="underline-60">In the News</h1>
+          <div className="news-list ">
+            <div className="news-card">
+              <DesktopNews
+                logoPath="https://i.imgur.com/3r5URxY.png"
+                urlPath="https://www.inkansascity.com/eat-drink/news/baramee-thai-bistro-is-spicing-up-the-crossroads/"
+                title="Three Chefs Bring Their Native Country’s Cuisine to KC"
+                press="In Kansas City"
+                author="Kelsey Cipolla"
+                date="Oct 7, 2019"
+                introduction="Every meal tells a story. For these three women, the dishes they prepare for Kansas City at their restaurants tell stories of their childhoods, cultures, and careers. Cooking Thai food is a way to build community for Nutnisa Hoffman, the owner of Mali Thai Bistro in Lee’s Summit and Baramee Thai Bistro in the Crossroads.Staying true to Thai flavors was important for Hoffman, who comes from a region where spice is key. Although the menu includes an assortment of curries and stir-fried dishes, the Thai noodle soup, made with rice noodles and veggies in a savory broth, is among her favorites."
+                featurePicturePath="https://www.inkansascity.com/wp-content/uploads/2019/09/cuisine_feature-680x400.jpg"
+              />
+              <DesktopNews
+                logoPath="https://i.imgur.com/gC7maYt.jpg"
+                urlPath="https://www.inkansascity.com/eat-drink/news/baramee-thai-bistro-is-spicing-up-the-crossroads/"
+                title="The Crossroads: 7 of our favorite restaurants"
+                press="435 Kansas City's Magazine"
+                author="Natalie Gallagher"
+                date="May 31, 2019"
+                introduction="If you’re looking for a cure — to your cold, allergies, hangover or ennui — go for the tom kha soup ($6.95–$18.95) at Baramee Thai Bistro. When you taste the coconut broth infused with lemongrass, kaffir leaves, fresh chili and galangal (a citrusy root similar to ginger), you are tasting joy. And the flavor explosion doesn’t stop there. This menu is packed with plenty of the Thai classics you’re used to (plus a few that might surprise you), and we’re happy to report that, should you be craving a spicy seafood pad Thai ($18.95) with a side of crispy spring rolls ($6.95), Baramee will satisfy."
+                featurePicturePath="https://i.imgur.com/F0wW86F.jpg"
+              />
+              <DesktopNews
+                logoPath="https://i.imgur.com/dqWFlFQ.png"
+                urlPath="http://bit.ly/2NNbDtb"
+                title="Baramee Thai Bistro Brings Northeastern Thai Cuisine to the
+      Crossroads"
+                press="Feast Magazine"
+                author="April Fleming"
+                date="Mar 13, 2019"
+                introduction="Tucked in at the corner of 18th and Baltimore Streets, Douglas and
+      Nutnisa Hoffman’s new restaurant, Baramee Thai Bistro, has been
+      earning steady accolades since it opened in late January. It’s
+      easy to understand why: from its high-level service and serene
+      environment, to of course, the food, Baramee has a lot to offer
+      its customers."
+                featurePicturePath="https://i.imgur.com/xLYTGIl.jpg"
+              />
+              <DesktopNews
+                logoPath="https://i.imgur.com/3r5URxY.png"
+                urlPath="https://www.inkansascity.com/eat-drink/news/baramee-thai-bistro-is-spicing-up-the-crossroads/"
+                title="Baramee Thai Bistro is Spicing Up the Crossroads"
+                press="In Kansas City"
+                author="Kelsey Cipolla"
+                date="Mar 1, 2019"
+                introduction="Baramee Thai Bistro is ready to spice up the Crossroads. A sister location to Lee’s Summit’s popular Mali Thai Bistro, the new restaurant from chef Nutnisa Hoffman and her husband and business partner, Doug, opened in the former Pizzabella space (1810 Baltimore Ave.). Diners can find the chef’s traditional family recipes on display at the location, including her signature Tiger Cry Beef—thinly sliced grilled sirloin topped with potent homemade spicy chili sauce—and Pad Thai."
+                featurePicturePath="https://www.inkansascity.com/wp-content/uploads/2019/02/CN_Baramee-Thai-Bistro-3.jpg"
+              />
+              <DesktopNews
+                logoPath="https://i.imgur.com/6pRWM9f.jpg"
+                urlPath="http://bit.ly/2PVqPHl"
+                title="Baramee Thai Bistro Brings Heat to Crossroads"
+                press="CityScene KC"
+                author="Kevin Collison"
+                date="Jan 29, 2019"
+                introduction="Crossroads diners beware, here’s an insider warning to the new Baramee Thai Bistro that just opened in the former Pizzabella space at 1810 Baltimore: don’t order your first dish hot.
+                “I recommend starting mild,” said co-owner Douglas Hoffman. “For 90 percent of the people, medium is good for them.”"
+                featurePicturePath="https://i.imgur.com/51mp8hP.jpg"
+              />
+              <DesktopNews
+                logoPath="https://i.imgur.com/7PSrxBb.jpg"
+                urlPath="http://bit.ly/2WQvJ9Q"
+                title="New Crossroads Thai restaurant serves up Tom Yum, Thai iced coffee and curry"
+                press="The Kansas City Star"
+                author="Joyce Smith"
+                date="Jan 24, 2019"
+                introduction="Douglas and Nutnisa Hoffman often head to the City Market to pick up the freshest produce for their Lee’s Summit restaurant, Mali Thai Bistro.
+                So for their second location, they picked a spot close to their vegetable vendors — the former Pizzabella building just a few blocks south of the market in the Crossroads."
+                featurePicturePath="https://i.imgur.com/u7gJRsi.png"
+              />
             </div>
           </div>
         </div>

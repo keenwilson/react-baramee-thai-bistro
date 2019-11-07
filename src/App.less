@@ -509,11 +509,12 @@ h3 {
       display: inline-block;
     }
   }
-  .desktop-narrative {
+  .desktop-narrative,
+  .desktop-in-the-news {
     text-align: center;
   }
   p {
-    font-size: 16px;
+    font-size: 18px;
     letter-spacing: 0.05em;
     padding: 0 24px;
   }
@@ -645,6 +646,44 @@ h3 {
     justify-content: space-around;
     flex-flow: row nowrap;
   }
+}
+.flex-row-about-chef {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+  width: 100%;
   .flex-col {
+    .chef-picture {
+      height: auto;
+    }
+    .chef-quote {
+      font-size: 24px;
+    }
+    .chef-title {
+      font-size: 20px;
+      .chef-name {
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+.desktop-in-the-news {
+  margin-top: 16px;
+  .news-list {
+    padding: 16px;
+
+    border-bottom: 1px solid #e8e8e8;
+    .news-card {
+      .flex-row {
+        display: flex;
+      }
+      .flex-col {
+        .news-avatar {
+          width: 16px;
+        }
+      }
+    }
   }
 }
