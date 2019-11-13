@@ -410,6 +410,17 @@ h3 {
 
 .mobile {
   background-image: none;
+  .underline-60:after {
+    text-align: center !important;
+    box-sizing: border-box;
+    width: 60px;
+    margin: 14px auto;
+    content: '';
+    display: block;
+    height: 4px;
+    background-color: #262626;
+  }
+
   .mobile-header {
     height: 64px;
     display: flex;
@@ -448,12 +459,31 @@ h3 {
     padding: 0 1rem;
     text-align: center;
     padding: 0.325rem 1.25rem;
-    p {
-      margin-bottom: 0.625rem;
-    }
+
     .menu-button {
       margin-bottom: 0.625rem;
     }
+  }
+  .chef {
+    .chef-picture {
+      height: auto;
+    }
+    .chef-quote {
+      font-size: 20px;
+      padding: 8px 36px;
+      margin: 0;
+    }
+    .chef-title {
+      font-size: 16px;
+      padding: 8px 48px;
+      margin: 0;
+      .chef-name {
+        font-weight: 700;
+      }
+    }
+  }
+  .in-the-news {
+    text-align: center;
   }
   .breadcrumb {
     padding: 0.625rem 0.25rem;

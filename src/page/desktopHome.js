@@ -73,14 +73,14 @@ class DesktopHome extends Component {
           <Thumbnail
             className="images"
             imagePath="https://i.imgur.com/IoLSNAyl.jpg"
-            imageAlt="Seating Outdoor: Kitchen Crew"
+            imageAlt="Kitchen Crew"
             isPortrait={false}
           />
           <Thumbnail
             className="images"
             imagePath="https://i.imgur.com/Mzge3sL.jpg"
             imageAlt="Seating Outdoor: Red Umbrella"
-            isPortrait={true}
+            isPortrait={false}
           />
           <Thumbnail
             className="images"
