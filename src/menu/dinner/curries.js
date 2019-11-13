@@ -118,7 +118,7 @@ const DinnerCurries = () => {
             flavored with Thai basil leaves.
             <br />
             <Thumbnail
-              imagePath="https://raster-static.postmates.com/?url=com.postmates.img.prod.s3.amazonaws.com/5e8e1975-71b9-4721-8526-38ee25ea534c/orig.jpg&quality=90&w=1500&h=900&mode=crop&format=jpg&v=4"
+              imagePath="https://i.imgur.com/PIjij92.jpg"
               imageAlt="Gang Massaman"
               isPortrait={false}
             />

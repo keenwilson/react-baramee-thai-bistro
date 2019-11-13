@@ -45,7 +45,7 @@ const LunchSoups = () => {
             a spicy broth and topped with a hint of cilantro and spring onions.
             <br />
             <Thumbnail
-              imagePath="https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/51590804_396250541142409_8780586631196311552_n.jpg?_nc_cat=100&_nc_oc=AQkTfXGk-uZ9M5zFlNrjPqk0VLL6hHdziRU8WVJ64KiKiO3FtlqTaU4fI5ro_UJyaeU&_nc_ht=scontent-dfw5-2.xx&oh=51b8903706ec7279404c83edeab34070&oe=5D9C5461"
+              imagePath="https://i.imgur.com/VggK9rA.jpg"
               imageAlt="Tom Yum Soup"
               isPortrait={false}
             />

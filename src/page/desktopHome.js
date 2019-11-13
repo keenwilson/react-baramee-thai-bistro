@@ -78,7 +78,7 @@ class DesktopHome extends Component {
           />
           <Thumbnail
             className="images"
-            imagePath="https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/57331473_433008480799948_266372282560020480_n.jpg?_nc_cat=106&_nc_oc=AQlWzZ9pKl0K4FwyJ2maBgwKkUY7Tzxn8ewJSiJ4zlXZGqQgI1q_uGI6dmsZqZSeG9hN0lS9yUcgHFpe6RY8MPIt&_nc_ht=scontent-dfw5-1.xx&oh=a4814497c2d1b75b4921c454216406bd&oe=5DC4B712"
+            imagePath="https://i.imgur.com/Mzge3sL.jpg"
             imageAlt="Seating Outdoor: Red Umbrella"
             isPortrait={true}
           />

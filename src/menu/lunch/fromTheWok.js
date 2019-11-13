@@ -88,7 +88,14 @@ const LunchFromTheWok = () => {
           <h1 className="menu-display-name">Green Bean Chicken</h1>
           <p className="menu-display-description">
             Sautéed with green beans in a spicy curry sauce.
+            <Thumbnail
+              imagePath="https://i.imgur.com/HsRGcvZ.jpg"
+              imageAlt="Green Bean Chicken"
+              isPortrait={false}
+            />
           </p>
+          <br />
+
           <p className="menu-price text-align-center">
             Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
             <br /> Seafood $13.95

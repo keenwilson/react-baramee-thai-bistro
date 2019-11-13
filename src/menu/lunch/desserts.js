@@ -22,7 +22,7 @@ const LunchDesserts = () => {
             rice, sweet mango and coconut milk.
             <br />
             <Thumbnail
-              imagePath="ttps://i.imgur.com/lGZgLXfl.jpg"
+              imagePath="https://i.imgur.com/lGZgLXfl.jpg"
               imageAlt="Sweet Mango Sticky Rice"
               isPortrait={false}
             />

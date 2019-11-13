@@ -45,8 +45,9 @@ const DinnerHouseFavorites = () => {
             beef mixed together with ground roasted rice, coriander and chili.
             <br />
             <Thumbnail
-              imagePath="https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/51112798_392899898144140_70817684224212992_n.jpg?_nc_cat=102&_nc_oc=AQkPtLuv8zIua57P1NHUbSc6-WpLokNuUI8pqTRZ-v8BVRwa6q42QgA4KN_y30Wi5xEcEe3znWmsHWUvtPbQW5KA&_nc_ht=scontent-dfw5-1.xx&oh=d525f99cb599362d4daba4594039122c&oe=5D97EFCD"
+              imagePath="https://i.imgur.com/OIIm9Tc.jpg"
               imageAlt="Labb Isaan"
+              isPortrait={true}
             />
           </p>
           <p className="menu-price text-align-center" />
