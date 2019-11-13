@@ -66,6 +66,12 @@ const LunchFriedRice = () => {
           <h1 className="menu-display-name">Vegetable Fried Rice</h1>
           <p className="menu-display-description">
             Stir-fried rice with egg, and mixed vegetables.
+            <br />
+            <Thumbnail
+              imagePath="https://i.imgur.com/xjD9dpv.jpg"
+              imageAlt="Vegetable Fried Rice with Beef"
+              isPortrait={false}
+            />
           </p>
           <p className="menu-price text-align-center">
             Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95

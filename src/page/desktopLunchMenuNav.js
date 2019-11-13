@@ -48,19 +48,12 @@ const DesktopLunchMenuNav = () => {
           Curries
         </Link>
       </Menu.Item>
-
       <Menu.Item key="8">
-        <Link to="/menu/lunch/sides" className="menu-meal">
-          Sides
-        </Link>
-      </Menu.Item>
-
-      <Menu.Item key="9">
         <Link to="/menu/lunch/desserts" className="menu-meal">
           Desserts
         </Link>
       </Menu.Item>
-      <Menu.Item key="10">
+      <Menu.Item key="9">
         <Link to="/menu/lunch/drinks" className="menu-meal">
           Drinks
         </Link>

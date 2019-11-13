@@ -67,7 +67,7 @@ const DinnerHouseFavorites = () => {
             sauce. Served with sticky rice.
             <br />
             <Thumbnail
-              imagePath="https://i.imgur.com/y94QolW.jpg"
+              imagePath="https://i.imgur.com/95HBgrZ.jpg"
               imageAlt="Papaya Salad"
               isPortrait={false}
             />
@@ -87,7 +87,7 @@ const DinnerHouseFavorites = () => {
             tangy after taste. Served with ground peanuts.
             <br />
             <Thumbnail
-              imagePath="https://s3-media2.fl.yelpcdn.com/bphoto/Rw5tUfUDPfl0M4uouSZjBw/o.jpg"
+              imagePath="https://i.imgur.com/BWmpC9C.jpg"
               imageAlt="Pad Thai"
               isPortrait={true}
             />
@@ -111,7 +111,7 @@ const DinnerHouseFavorites = () => {
             sauce garnished with kaffir lime leaves.
             <br />
             <Thumbnail
-              imagePath="https://bloximages.newyork1.vip.townnews.com/feastmagazine.com/content/tncms/assets/v3/editorial/8/7d/87dfd320-4501-11e9-a570-63bd13e0d3af/5c880ff0cd1fd.image.jpg"
+              imagePath="https://i.imgur.com/2w60mPj.jpg"
               imageAlt="Panang Curry"
               isPortrait={false}
             />

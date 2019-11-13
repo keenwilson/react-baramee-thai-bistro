@@ -37,7 +37,7 @@ class DesktopHome extends Component {
           <Thumbnail
             className="images"
             imagePath="https://i.imgur.com/lL6qo8n.jpg"
-            imageAlt="Best Thai restaurant in Kansas City - Wall Paintingå"
+            imageAlt="Best Thai restaurant in Kansas City - Wall Painting"
             isPortrait={false}
           />
           <Thumbnail
@@ -48,26 +48,26 @@ class DesktopHome extends Component {
           />
           <Thumbnail
             className="images"
-            imagePath="https://s3-media2.fl.yelpcdn.com/bphoto/FGHH7p9ZL40ogeMl0vPJbA/o.jpg"
-            imageAlt="Best Thai restaurant in Kansas City - Pad Ka Prao"
+            imagePath="https://i.imgur.com/tcq3R5b.jpg"
+            imageAlt="Best Pad Ka Prao Thai Basil in Kansas City - "
             isPortrait={false}
           />
           <Thumbnail
             className="images"
-            imagePath="https://s3-media3.fl.yelpcdn.com/bphoto/SoGFl9P4E-_urs0iRShUJw/o.jpg"
+            imagePath="https://i.imgur.com/GlDceSo.jpg"
             imageAlt="Seating Indoor"
             isPortrait={false}
           />
           <Thumbnail
             className="images"
-            imagePath="https://s3-media2.fl.yelpcdn.com/bphoto/nYrLq2A6VNlWHPWOglnqig/o.jpg"
+            imagePath="https://i.imgur.com/agdjyz3.jpg"
             imageAlt="Best Thai restaurant in Kansas City - Baramee Thai Platters"
             isPortrait={false}
           />
           <Thumbnail
             className="images"
-            imagePath="https://s3-media2.fl.yelpcdn.com/bphoto/Rw5tUfUDPfl0M4uouSZjBw/o.jpg"
-            imageAlt="Best Thai restaurant in Kansas City - Pad Thai"
+            imagePath="https://i.imgur.com/BWmpC9C.jpg"
+            imageAlt="Best Pad Thai in Kansas City - "
             isPortrait={true}
           />
           <Thumbnail
@@ -84,7 +84,7 @@ class DesktopHome extends Component {
           />
           <Thumbnail
             className="images"
-            imagePath="https://s3-media1.fl.yelpcdn.com/bphoto/YiX9_BAtBmSUV9iFYfZRyw/o.jpg"
+            imagePath="https://i.imgur.com/WJJpeg4.jpg"
             imageAlt="Best Thai restaurant in Kansas City - Red Curries"
             isPortrait={false}
           />

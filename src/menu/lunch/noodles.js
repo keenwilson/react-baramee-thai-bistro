@@ -23,7 +23,7 @@ const LunchNoodles = () => {
             tangy after taste. Served with ground peanuts.
             <br />
             <Thumbnail
-              imagePath="https://s3-media2.fl.yelpcdn.com/bphoto/Rw5tUfUDPfl0M4uouSZjBw/o.jpg"
+              imagePath="https://i.imgur.com/BWmpC9C.jpg"
               imageAlt="Pad Thai"
               isPortrait={true}
             />

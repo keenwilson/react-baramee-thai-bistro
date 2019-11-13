@@ -22,7 +22,7 @@ const DinnerCurries = () => {
             sauce garnished with kaffir lime leaves.
             <br />
             <Thumbnail
-              imagePath="https://bloximages.newyork1.vip.townnews.com/feastmagazine.com/content/tncms/assets/v3/editorial/8/7d/87dfd320-4501-11e9-a570-63bd13e0d3af/5c880ff0cd1fd.image.jpg"
+              imagePath="https://i.imgur.com/2w60mPj.jpg"
               imageAlt="Panang Curry"
               isPortrait={false}
             />
@@ -71,7 +71,7 @@ const DinnerCurries = () => {
             flavored with Thai basil leaves.
             <br />
             <Thumbnail
-              imagePath="https://s3-media1.fl.yelpcdn.com/bphoto/YiX9_BAtBmSUV9iFYfZRyw/o.jpg"
+              imagePath="https://i.imgur.com/WJJpeg4.jpg"
               imageAlt="Red Curry"
               isPortrait={false}
             />

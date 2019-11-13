@@ -169,7 +169,7 @@ const DinnerAppetizers = () => {
             onions. Served with sriracha dipping sauce.
             <br />
             <Thumbnail
-              imagePath="https://s3-media1.fl.yelpcdn.com/bphoto/XujKMQlM5oiQ97VUjAfcfA/o.jpg"
+              imagePath="https://i.imgur.com/xsySaVc.jpg"
               imageAlt="Golden Calamari"
               isPortrait={true}
             />
@@ -190,7 +190,7 @@ const DinnerAppetizers = () => {
             perfection.
             <br />
             <Thumbnail
-              imagePath="https://s3-media2.fl.yelpcdn.com/bphoto/SjWn40m4EUCmJM94yDt-dg/o.jpg"
+              imagePath="https://i.imgur.com/QbF7NGu.jpg"
               imageAlt="Baramee Thai Wings"
               isPortrait={false}
             />
@@ -223,7 +223,7 @@ const DinnerAppetizers = () => {
             Spring Roll (2 Pcs) and Crispy Spring roll (2 Pcs)
             <br />
             <Thumbnail
-              imagePath="https://s3-media2.fl.yelpcdn.com/bphoto/nYrLq2A6VNlWHPWOglnqig/o.jpg"
+              imagePath="https://i.imgur.com/agdjyz3.jpg"
               imageAlt="Baramee Thai Platter"
               isPortrait={false}
             />

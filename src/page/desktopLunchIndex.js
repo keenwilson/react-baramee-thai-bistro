@@ -24,7 +24,6 @@ const DesktopLunchIndex = () => {
             <Route exact path="/menu/lunch" component={LunchAppetizers} />
             <Route path="/menu/lunch/appetizers" component={LunchAppetizers} />
             <Route path="/menu/lunch/salads" component={LunchSalads} />
-            <Route path="/menu/lunch/sides" component={LunchSides} />
             <Route
               path="/menu/lunch/from-the-wok"
               component={LunchFromTheWok}

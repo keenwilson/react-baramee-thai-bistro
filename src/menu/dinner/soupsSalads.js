@@ -120,8 +120,9 @@ const DinnerSoupsSalads = () => {
             beef mixed together with ground roasted rice, coriander and chili.
             <br />
             <Thumbnail
-              imagePath="https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/51112798_392899898144140_70817684224212992_n.jpg?_nc_cat=102&_nc_oc=AQkPtLuv8zIua57P1NHUbSc6-WpLokNuUI8pqTRZ-v8BVRwa6q42QgA4KN_y30Wi5xEcEe3znWmsHWUvtPbQW5KA&_nc_ht=scontent-dfw5-1.xx&oh=d525f99cb599362d4daba4594039122c&oe=5D97EFCD"
+              imagePath="https://i.imgur.com/k4BRrDl.jpg"
               imageAlt="Labb Isaan"
+              isPortrait={true}
             />
           </p>
           <p className="menu-price text-align-center" />
@@ -139,9 +140,9 @@ const DinnerSoupsSalads = () => {
             sauce. Served with sticky rice.
             <br />
             <Thumbnail
-              imagePath="https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/51366392_393494678084662_2627909008874274816_n.jpg?_nc_cat=106&_nc_oc=AQnvhOo89vT7Qod75Z-DRznSZiZzwiGWXohYf64VpHECvCz4vEphU_6H1qUlduyCYCKTz2-uLdwh-Z9ZRPZzwSWd&_nc_ht=scontent-dfw5-1.xx&oh=cba696737daaef6a2936514619ae2cbd&oe=5D8497F2"
+              imagePath="https://i.imgur.com/95HBgrZ.jpg"
               imageAlt="Papaya Salad"
-              isPortrait={true}
+              isPortrait={false}
             />
           </p>
           <p className="menu-price text-align-center">$10.95</p>
