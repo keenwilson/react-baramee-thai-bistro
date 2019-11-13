@@ -2,7 +2,7 @@
   "name": "react-baramee-thai-bistro",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://keenwilson.github.io/react-baramee-thai-bistro",
+  "homepage": "https://www.barameethaibistro.com/",
   "dependencies": {
     "antd": "^3.19.1",
     "customize-cra": "^0.2.12",
