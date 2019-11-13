@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Button } from 'antd'
+import MobileNews from './mobileNews'
 
 const MobileHome = () => {
   return (
@@ -16,6 +17,7 @@ const MobileHome = () => {
           grown ingredients alongside vegetarian options in the Kansas City's
           Crossroads Arts district.
         </p>
+        <h1 className="underline-60">Menu</h1>
         <Button block className="menu-button">
           <Link to="/menu/lunch" className="menu-meal">
             Lunch Menu
@@ -29,6 +31,7 @@ const MobileHome = () => {
       </div>
 
       <div className="chef">
+        <h1 className="underline-60">Our Chef</h1>
         <img
           className="chef-picture"
           src="https://i.imgur.com/wGBMQgN.jpg"
@@ -43,9 +46,6 @@ const MobileHome = () => {
           <span className="chef-name">Nutnisa Hoffman</span>, the owner of Mali
           Thai Bistro in Lee’s Summit and Baramee Thai Bistro in the Crossroads
         </p>
-      </div>
-      <div className="in-the-news">
-        <h1 className="underline-60">In the News</h1>
       </div>
     </div>
   )

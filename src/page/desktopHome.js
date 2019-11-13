@@ -5,31 +5,6 @@ import Thumbnail from '../components/thumbnail'
 import DesktopNews from './desktopNews'
 
 class DesktopHome extends Component {
-  state = { dinnerMenuVisible: false, lunchMenuVisible: false }
-
-  showDinnerDrawer = () => {
-    this.setState({
-      dinnerMenuVisible: true
-    })
-  }
-  onDinnerDrawerClose = () => {
-    this.setState({
-      dinnerMenuVisible: false
-    })
-  }
-
-  showLunchDrawer = () => {
-    this.setState({
-      lunchMenuVisible: true
-    })
-  }
-
-  onLunchDrawerClose = () => {
-    this.setState({
-      lunchMenuVisible: false
-    })
-  }
-
   render() {
     return (
       <React.Fragment>
