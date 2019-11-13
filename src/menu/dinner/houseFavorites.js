@@ -45,7 +45,7 @@ const DinnerHouseFavorites = () => {
             beef mixed together with ground roasted rice, coriander and chili.
             <br />
             <Thumbnail
-              imagePath="https://i.imgur.com/OIIm9Tc.jpg"
+              imagePath="https://i.imgur.com/s6CZ1lM.jpg"
               imageAlt="Labb Isaan"
               isPortrait={true}
             />
@@ -131,7 +131,7 @@ const DinnerHouseFavorites = () => {
           <h1 className="menu-display-name">What’s The Difference?</h1>
           <p className="menu-display-description">
             Labb or Larb is a type of meat salad eaten in northeast Thailand and
-            Laos. Laab is made of minced meat lightly poached in broth, then
+            Laos. Labb is made of minced meat lightly poached in broth, then
             dressed with chiles, fresh herbs, and roasted rice powder, and eaten
             with sticky rice. <br /> <br /> Papaya salad is a spicy salad made
             from shredded unripe green papaya. Probably originating from ethnic

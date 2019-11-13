@@ -120,7 +120,7 @@ const DinnerSoupsSalads = () => {
             beef mixed together with ground roasted rice, coriander and chili.
             <br />
             <Thumbnail
-              imagePath="https://i.imgur.com/k4BRrDl.jpg"
+              imagePath="https://i.imgur.com/s6CZ1lM.jpg"
               imageAlt="Labb Isaan"
               isPortrait={true}
             />
