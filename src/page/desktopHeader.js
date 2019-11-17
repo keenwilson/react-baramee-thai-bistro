@@ -17,7 +17,7 @@ const DesktopHeader = () => {
 
       <div className="cell">
         <p className="call-the-restaurant">
-          <a href="tel:+1-816-944-4119">
+          <a href="tel:+1-816-442-7070">
             <Icon type="phone" />
             <span className="phone-number">(816) 442-7070</span>
           </a>
