@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-baramee-thai-bistro/static/css/main.63f61694.chunk.css",
-    "main.js": "/react-baramee-thai-bistro/static/js/main.7dbc8fb4.chunk.js",
-    "main.js.map": "/react-baramee-thai-bistro/static/js/main.7dbc8fb4.chunk.js.map",
-    "runtime~main.js": "/react-baramee-thai-bistro/static/js/runtime~main.8c712ea3.js",
-    "runtime~main.js.map": "/react-baramee-thai-bistro/static/js/runtime~main.8c712ea3.js.map",
-    "static/css/2.7bb9430f.chunk.css": "/react-baramee-thai-bistro/static/css/2.7bb9430f.chunk.css",
-    "static/js/2.6aecd172.chunk.js": "/react-baramee-thai-bistro/static/js/2.6aecd172.chunk.js",
-    "static/js/2.6aecd172.chunk.js.map": "/react-baramee-thai-bistro/static/js/2.6aecd172.chunk.js.map",
-    "index.html": "/react-baramee-thai-bistro/index.html",
-    "precache-manifest.672a0b05bce5f514ae119834008115ae.js": "/react-baramee-thai-bistro/precache-manifest.672a0b05bce5f514ae119834008115ae.js",
-    "service-worker.js": "/react-baramee-thai-bistro/service-worker.js",
-    "static/css/2.7bb9430f.chunk.css.map": "/react-baramee-thai-bistro/static/css/2.7bb9430f.chunk.css.map",
-    "static/css/main.63f61694.chunk.css.map": "/react-baramee-thai-bistro/static/css/main.63f61694.chunk.css.map"
+    "main.css": "/static/css/main.dc4ff1b8.chunk.css",
+    "main.js": "/static/js/main.f5080392.chunk.js",
+    "main.js.map": "/static/js/main.f5080392.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.7bb9430f.chunk.css": "/static/css/2.7bb9430f.chunk.css",
+    "static/js/2.069ccf5f.chunk.js": "/static/js/2.069ccf5f.chunk.js",
+    "static/js/2.069ccf5f.chunk.js.map": "/static/js/2.069ccf5f.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.85ebec1b7ca4e8ea25b82becf0048306.js": "/precache-manifest.85ebec1b7ca4e8ea25b82becf0048306.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.7bb9430f.chunk.css.map": "/static/css/2.7bb9430f.chunk.css.map",
+    "static/css/main.dc4ff1b8.chunk.css.map": "/static/css/main.dc4ff1b8.chunk.css.map"
   }
 }
