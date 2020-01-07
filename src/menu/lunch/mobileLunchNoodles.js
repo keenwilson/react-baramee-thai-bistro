@@ -69,10 +69,7 @@ const MobileLunchNoodles = () => {
         in a dark soy sauce and covered with a thick, savory sauce. A favorite
         lunch item in Thailand.
       </p>
-      <p className="menu-price text-align-center">
-        Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
-        <br /> Seafood $13.95
-      </p>
+      <p className="menu-price text-align-center">$18.95</p>
       <br />
     </React.Fragment>
   )
