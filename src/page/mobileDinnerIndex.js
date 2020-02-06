@@ -7,6 +7,7 @@ import MobileDinnerHouseFavorites from '../menu/dinner/mobileDinnerHouseFavorite
 import MobileDinnerFromTheWok from '../menu/dinner/mobileDinnerFromTheWok'
 import MobileDinnerCurries from '../menu/dinner/mobileDinnerCurries'
 import MobileDinnerDessertsDrinks from '../menu/dinner/mobileDinnerDessertsDrinks'
+import MobileDinnerNoodles from '../menu/dinner/mobileDinnerNoodels'
 
 const MobileDinnerIndex = () => {
   return (
@@ -29,6 +30,7 @@ const MobileDinnerIndex = () => {
           path="/menu/dinner/from-the-wok"
           component={MobileDinnerFromTheWok}
         />
+        <Route path="/menu/dinner/noodles" component={MobileDinnerNoodles} />
         <Route path="/menu/dinner/curries" component={MobileDinnerCurries} />
         <Route
           path="/menu/dinner/desserts-drinks"
