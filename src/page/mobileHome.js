@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Button } from 'antd'
-import MobileNews from './mobileNews'
 
 const MobileHome = () => {
   return (

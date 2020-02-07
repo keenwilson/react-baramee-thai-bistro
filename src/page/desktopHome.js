@@ -137,6 +137,16 @@ class DesktopHome extends Component {
           <div className="news-list ">
             <div className="news-card">
               <DesktopNews
+                logoPath="https://i.imgur.com/dqWFlFQ.png"
+                urlPath="http://bit.ly/39bkfmi"
+                title="At Baramee Thai Bistro, Chef Nutnisa Hoffman Satisfies Cravings for Thai Comfort Foods"
+                press="Feast Magazine"
+                author="April Fleming"
+                date="Jan 31, 2020"
+                introduction="Although her family owned a restaurant in Bangkok, where she worked until she went to college, Nutnisa Hoffman never intended to join the business. But after emigrating from Thailand and eventually settling into life in Kansas City with her husband, Doug, she found that she missed Thai food and enjoyed cooking it, as it reminded her of family and her home country. Spurred on by that passion, the Hoffmans opened Mali Thai Bisto in Lee’s Summit, Missouri, in 2015 and Baramee Thai Bistro in the Crossroads a few years later. This coming spring, the couple plans to open their third restaurant in City Market, where they will serve more of the Thai comfort foods that Kansas City residents have come to crave."
+                featurePicturePath="https://i.imgur.com/iEa53uk.jpg"
+              />
+              <DesktopNews
                 logoPath="https://i.imgur.com/3r5URxY.png"
                 urlPath="https://www.inkansascity.com/eat-drink/news/baramee-thai-bistro-is-spicing-up-the-crossroads/"
                 title="Three Chefs Bring Their Native Country’s Cuisine to KC"
