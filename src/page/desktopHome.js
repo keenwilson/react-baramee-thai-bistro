@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-
+import { Button } from 'antd'
 import Thumbnail from '../components/thumbnail'
 import DesktopNews from './desktopNews'
 
@@ -97,14 +97,21 @@ class DesktopHome extends Component {
           <div className="flex-wrapper">
             <div className="flex-row">
               <div className="flex-col">
-                <Link to="/menu/lunch" className="heading-title underline-60">
-                  Our Lunch Menu
-                </Link>
+                <Button size="large">
+                  <Link to="/menu/lunch" className="heading-title underline-60">
+                    Our Lunch Menu
+                  </Link>
+                </Button>
               </div>
               <div className="flex-col">
-                <Link to="/menu/dinner" className="heading-title underline-60">
-                  Our Dinner Menu
-                </Link>
+                <Button size="large">
+                  <Link
+                    to="/menu/dinner"
+                    className="heading-title underline-60"
+                  >
+                    Our Dinner Menu
+                  </Link>
+                </Button>
               </div>
             </div>
           </div>
