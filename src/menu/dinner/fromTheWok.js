@@ -310,6 +310,36 @@ const DinnerFromTheWok = () => {
           </p>
         </Col>
       </Row>
+      <Row type="flex" justify="center" align="top" className="menu-display">
+        <Col
+          xs={{ span: 24 }}
+          sm={{ span: 24 }}
+          md={{ span: 12 }}
+          lg={{ span: 8 }}
+        >
+          <h1 className="menu-display-name">Pineapple Fried Rice</h1>
+          <p className="menu-display-description">
+            Fried rice with shrimp, egg and pineapple combined with cashew nuts
+            and raisins.
+            <br />
+            <Thumbnail
+              imagePath="https://s3-media4.fl.yelpcdn.com/bphoto/6mJLfJaOrt1xS6F88HSczA/o.jpg"
+              imageAlt="Pineapple Fried Rice"
+              isPortrait={true}
+            />
+          </p>
+          <p className="menu-price text-align-center">
+            Chicken, Pork, Tofu, or Vegan $14.95 <br /> Beef or Shrimp $15.95
+            <br /> Seafood $18.95
+          </p>
+        </Col>
+        <Col
+          xs={{ span: 24 }}
+          sm={{ span: 24 }}
+          md={{ span: 12 }}
+          lg={{ span: 8 }}
+        ></Col>
+      </Row>
     </React.Fragment>
   )
 }

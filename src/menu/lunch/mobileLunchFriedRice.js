@@ -56,8 +56,8 @@ const MobileLunchFriedRice = () => {
         raisins.
       </p>
       <p className="menu-price text-align-center">
-        Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
-        <br /> Seafood $13.95
+        Chicken, Pork,Tofu, or Vegan $12.95 <br /> Beef or Shrimp $13.95
+        <br /> Seafood $14.95
       </p>
       <br />
     </React.Fragment>

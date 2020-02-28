@@ -61,6 +61,16 @@ const MobileDinnerFromTheWok = () => {
         <br /> Seafood $18.95
       </p>
       <br />
+      <h2 className="menu-display-name">Pineapple Fried Rice</h2>
+      <p className="menu-display-description">
+        Fried rice with shrimp, egg and pineapple combined with cashew nuts and
+        raisins.
+      </p>
+      <p className="menu-price text-align-center">
+        Chicken, Pork,Tofu, or Vegan $14.95 <br /> Beef or Shrimp $15.95
+        <br /> Seafood $18.95
+      </p>
+      <br />
       <h2 className="menu-display-name">Thai Fried Rice</h2>
       <p className="menu-display-description">
         Stir-fried rice with egg, onion, spring onions and your choice of meat.
