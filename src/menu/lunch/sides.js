@@ -64,7 +64,7 @@ const LunchSides = () => {
         >
           <h1 className="menu-display-name">Extra Sauce</h1>
 
-          <p className="menu-price text-align-center">$0.25</p>
+          <p className="menu-price text-align-center">$0.50</p>
         </Col>
         <Col
           xs={{ span: 24 }}

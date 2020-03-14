@@ -29,8 +29,8 @@ const LunchFromTheWok = () => {
           </p>
 
           <p className="menu-price text-align-center">
-            Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
-            <br /> Seafood $13.95
+            Chicken, Pork, or Tofu $10.99 <br /> Beef or Shrimp $12.99
+            <br /> Seafood $15.99
           </p>
         </Col>
         <Col
@@ -51,11 +51,11 @@ const LunchFromTheWok = () => {
             />
           </p>
           <p className="menu-price text-align-center">
-            Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
-            <br /> Seafood $13.95
+            Chicken, Pork, or Tofu $10.99 <br /> Beef or Shrimp $12.99
+            <br /> Seafood $15.99
           </p>
         </Col>
-      </Row>{' '}
+      </Row>
       <Row type="flex" justify="center" align="top" className="menu-display">
         <Col
           xs={{ span: 24 }}
@@ -75,8 +75,8 @@ const LunchFromTheWok = () => {
             />
           </p>
           <p className="menu-price text-align-center">
-            Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
-            <br /> Seafood $13.95
+            Chicken, Pork, or Tofu $10.99 <br /> Beef or Shrimp $12.99
+            <br /> Seafood $15.99
           </p>
         </Col>
         <Col
@@ -97,8 +97,8 @@ const LunchFromTheWok = () => {
           <br />
 
           <p className="menu-price text-align-center">
-            Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
-            <br /> Seafood $13.95
+            Chicken, Pork, or Tofu $10.99 <br /> Beef or Shrimp $12.99
+            <br /> Seafood $15.99
           </p>
         </Col>
       </Row>
@@ -120,8 +120,8 @@ const LunchFromTheWok = () => {
             />
           </p>
           <p className="menu-price text-align-center">
-            Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
-            <br /> Seafood $13.95
+            Chicken, Pork, or Tofu $10.99 <br /> Beef or Shrimp $12.99
+            <br /> Seafood $15.99
           </p>
         </Col>
         <Col
@@ -136,14 +136,14 @@ const LunchFromTheWok = () => {
             onion, scallion and bell pepper.
             <br />
             <Thumbnail
-              imagePath="https://s3-media1.fl.yelpcdn.com/bphoto/1aXmOe2NSVJQLIFa9aA3kQ/o.jpg"
+              imagePath="https://i.imgur.com/fIXj9Ia.jpg"
               imageAlt="Pad Khing"
-              isPortrait={false}
+              isPortrait={true}
             />
           </p>
           <p className="menu-price text-align-center">
-            Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
-            <br /> Seafood $13.95
+            Chicken, Pork, or Tofu $10.99 <br /> Beef or Shrimp $12.99
+            <br /> Seafood $15.99
           </p>
         </Col>
       </Row>

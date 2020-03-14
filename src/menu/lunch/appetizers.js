@@ -29,7 +29,7 @@ const LunchAppetizers = () => {
             />
           </p>
 
-          <p className="menu-price text-align-center">$6.95</p>
+          <p className="menu-price text-align-center">$7.99</p>
         </Col>
         <Col
           xs={{ span: 24 }}
@@ -48,7 +48,7 @@ const LunchAppetizers = () => {
               isPortrait={false}
             />
           </p>
-          <p className="menu-price text-align-center">$8.95</p>
+          <p className="menu-price text-align-center">$8.99</p>
         </Col>
       </Row>
       <Row type="flex" justify="center" align="top" className="menu-display">
@@ -70,7 +70,7 @@ const LunchAppetizers = () => {
               isPortrait={false}
             />
           </p>
-          <p className="menu-price text-align-center">$6.95</p>
+          <p className="menu-price text-align-center">$7.99</p>
         </Col>
         <Col
           xs={{ span: 24 }}
@@ -90,7 +90,7 @@ const LunchAppetizers = () => {
               isPortrait={false}
             />
           </p>
-          <p className="menu-price text-align-center">$6.95</p>
+          <p className="menu-price text-align-center">$7.99</p>
         </Col>
       </Row>
       <Row type="flex" justify="center" align="top" className="menu-display">
@@ -113,7 +113,7 @@ const LunchAppetizers = () => {
             />
           </p>
 
-          <p className="menu-price text-align-center">$8.95</p>
+          <p className="menu-price text-align-center">$8.99</p>
         </Col>
         <Col
           xs={{ span: 24 }}
@@ -133,7 +133,7 @@ const LunchAppetizers = () => {
               isPortrait={false}
             />
           </p>
-          <p className="menu-price text-align-center">$9.95</p>
+          <p className="menu-price text-align-center">$10.99</p>
         </Col>
       </Row>
       <Row type="flex" justify="center" align="top" className="menu-display">
@@ -153,7 +153,7 @@ const LunchAppetizers = () => {
               isPortrait={true}
             />
           </p>
-          <p className="menu-price text-align-center">$7.95</p>
+          <p className="menu-price text-align-center">$8.99</p>
         </Col>
         <Col
           xs={{ span: 24 }}
@@ -172,7 +172,7 @@ const LunchAppetizers = () => {
               isPortrait={true}
             />
           </p>
-          <p className="menu-price text-align-center">$8.95</p>
+          <p className="menu-price text-align-center">$10.99</p>
         </Col>
       </Row>
       <Row type="flex" justify="center" align="top" className="menu-display">
@@ -193,7 +193,7 @@ const LunchAppetizers = () => {
               isPortrait={false}
             />
           </p>
-          <p className="menu-price text-align-center">$8.95</p>
+          <p className="menu-price text-align-center">$10.99</p>
         </Col>
         <Col
           xs={{ span: 24 }}
@@ -205,7 +205,7 @@ const LunchAppetizers = () => {
           <p className="menu-display-description">
             Two of our soft spring rolls and two of our crispy spring rolls.
           </p>
-          <p className="menu-price text-align-center">$8.95</p>
+          <p className="menu-price text-align-center">$9.99</p>
         </Col>
       </Row>
       <Row type="flex" justify="center" align="top" className="menu-display">
@@ -227,8 +227,28 @@ const LunchAppetizers = () => {
             />
           </p>
 
-          <p className="menu-price text-align-center">$10.95</p>
+          <p className="menu-price text-align-center">$11.99</p>
         </Col>
+
+        <Col
+          xs={{ span: 24 }}
+          sm={{ span: 24 }}
+          md={{ span: 12 }}
+          lg={{ span: 8 }}
+        >
+          <h1 className="menu-display-name">Fresh Shrimp Rolls</h1>
+          <p className="menu-display-description">
+            {/* <Thumbnail
+              imagePath="https://i.imgur.com/agdjyz3.jpg"
+              imageAlt="Fresh Shrimp Roll"
+              isPortrait={false}
+            /> */}
+          </p>
+
+          <p className="menu-price text-align-center">$9.99</p>
+        </Col>
+      </Row>
+      <Row type="flex" justify="center" align="top" className="menu-display">
         <Col
           xs={{ span: 24 }}
           sm={{ span: 24 }}
@@ -245,8 +265,14 @@ const LunchAppetizers = () => {
               isPortrait={false}
             />
           </p>
-          <p className="menu-price text-align-center">$5.95</p>
+          <p className="menu-price text-align-center">$6.99</p>
         </Col>
+        <Col
+          xs={{ span: 24 }}
+          sm={{ span: 24 }}
+          md={{ span: 12 }}
+          lg={{ span: 8 }}
+        ></Col>
       </Row>
     </React.Fragment>
   )

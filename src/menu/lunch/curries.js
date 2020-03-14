@@ -29,8 +29,8 @@ const LunchCurries = () => {
           </p>
 
           <p className="menu-price text-align-center">
-            Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
-            <br /> Seafood $13.95
+            Chicken, Pork, or Tofu $10.99 <br /> Beef or Shrimp $12.99
+            <br /> Seafood $15.99
           </p>
         </Col>
         <Col
@@ -52,8 +52,8 @@ const LunchCurries = () => {
             />
           </p>
           <p className="menu-price text-align-center">
-            Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
-            <br /> Seafood $13.95
+            Chicken, Pork, or Tofu $10.99 <br /> Beef or Shrimp $12.99
+            <br /> Seafood $15.99
           </p>
         </Col>
       </Row>{' '}
@@ -77,8 +77,8 @@ const LunchCurries = () => {
             />
           </p>
           <p className="menu-price text-align-center">
-            Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
-            <br /> Seafood $13.95
+            Chicken, Pork, or Tofu $10.99 <br /> Beef or Shrimp $12.99
+            <br /> Seafood $15.99
           </p>
         </Col>
         <Col
@@ -99,8 +99,8 @@ const LunchCurries = () => {
             />
           </p>
           <p className="menu-price text-align-center">
-            Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
-            <br /> Seafood $13.95
+            Chicken, Pork, or Tofu $10.99 <br /> Beef or Shrimp $12.99
+            <br /> Seafood $15.99
           </p>
         </Col>
       </Row>
@@ -113,9 +113,8 @@ const LunchCurries = () => {
         >
           <h1 className="menu-display-name">Gang Massaman</h1>
           <p className="menu-display-description">
-            A medium hot Thai red curry dish with meat or Tofu and young bamboo
-            shoot and bell pepper cooked in red curry paste and coconut milk,
-            flavored with Thai basil leaves.
+            Traditional mild curry dish, meat or tofu cooked slowly with
+            potatoes, yellow onions and roasted peanuts.
             <br />
             <Thumbnail
               imagePath="https://i.imgur.com/PIjij92.jpg"
@@ -124,8 +123,8 @@ const LunchCurries = () => {
             />
           </p>
           <p className="menu-price text-align-center">
-            Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
-            <br /> Seafood $13.95
+            Chicken, Pork, or Tofu $10.99 <br /> Beef or Shrimp $12.99
+            <br /> Seafood $15.99
           </p>
         </Col>
         <Col

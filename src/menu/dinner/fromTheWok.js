@@ -159,11 +159,6 @@ const DinnerFromTheWok = () => {
           <p className="menu-display-description">
             Stir-fried rice with crab meat, egg, onion and spring onions.
             <br />
-            <Thumbnail
-              imagePath="https://s3-media4.fl.yelpcdn.com/bphoto/QIykuSu7EGpwGtbhkgE1eQ/o.jpg"
-              imageAlt="Crab Fried Rice"
-              isPortrait={false}
-            />
           </p>
 
           <p className="menu-price text-align-center">

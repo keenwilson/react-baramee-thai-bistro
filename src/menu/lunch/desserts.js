@@ -27,7 +27,7 @@ const LunchDesserts = () => {
               isPortrait={false}
             />
           </p>
-          <p className="menu-price text-align-center">$7.00</p>
+          <p className="menu-price text-align-center">$8.00</p>
         </Col>
         <Col
           xs={{ span: 24 }}
@@ -43,7 +43,7 @@ const LunchDesserts = () => {
               isPortrait={false}
             />
           </p>
-          <p className="menu-price text-align-center">$4.00</p>
+          <p className="menu-price text-align-center">$5.00</p>
         </Col>
       </Row>
       <Row type="flex" justify="center" align="top" className="menu-display">
@@ -54,7 +54,7 @@ const LunchDesserts = () => {
           lg={{ span: 8 }}
         >
           <h1 className="menu-display-name">Mango Ice Cream</h1>
-          <p className="menu-price text-align-center">$4.00</p>
+          <p className="menu-price text-align-center">$5.00</p>
         </Col>
         <Col
           xs={{ span: 24 }}
@@ -63,7 +63,7 @@ const LunchDesserts = () => {
           lg={{ span: 8 }}
         >
           <h1 className="menu-display-name">Coconut Ice Cream</h1>
-          <p className="menu-price text-align-center">$4.00</p>
+          <p className="menu-price text-align-center">$5.00</p>
         </Col>
       </Row>
       <Row type="flex" justify="center" align="top" className="menu-display">
@@ -74,7 +74,7 @@ const LunchDesserts = () => {
           lg={{ span: 8 }}
         >
           <h1 className="menu-display-name">Fried Banana with Ice Cream</h1>
-          <p className="menu-price text-align-center">$4.50</p>
+          <p className="menu-price text-align-center">$6.00</p>
         </Col>
         <Col
           xs={{ span: 24 }}

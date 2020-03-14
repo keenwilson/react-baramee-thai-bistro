@@ -16,24 +16,19 @@ const LunchSalads = () => {
           md={{ span: 12 }}
           lg={{ span: 8 }}
         >
-          <h1 className="menu-display-name">
-            Tiger Cry Beef or Chicken as a Salad
-          </h1>
+          <h1 className="menu-display-name">Papaya Salad</h1>
           <p className="menu-display-description">
-            Enjoy our signature Tiger Cry Beef as a light meal. We add extra
-            sliced cabbage and more of our spicy homemade chili sauce for a
-            quick and delicious salad.
+            Freshly shredded papaya complemented by tomatoes, garlic, chilies
+            and roasted peanuts. Made in a tangy fish sauce or vegetarian sweet
+            sauce. Served with sticky rice.
             <br />
             <Thumbnail
-              imagePath="https://bloximages.newyork1.vip.townnews.com/feastmagazine.com/content/tncms/assets/v3/editorial/8/a4/8a409fdc-4501-11e9-b450-f3ae55d79153/5c880ff4caae8.image.jpg"
-              imageAlt="Tiger Cry Beef"
+              imagePath="https://i.imgur.com/95HBgrZ.jpg"
+              imageAlt="Papaya Salad"
+              isPortrait={false}
             />
-            <br />
-            Our Tiger Cry Beef is a spicy dish of grilled sirloin of beef,
-            thinly sliced and marinated with a hint of garlic, black pepper,
-            garnished with cabbage and served with spicy chili homemade sauce.
           </p>
-          <p className="menu-price text-align-center">$9.95</p>
+          <p className="menu-price text-align-center">$12.99</p>
         </Col>
         <Col
           xs={{ span: 24 }}
@@ -41,9 +36,42 @@ const LunchSalads = () => {
           md={{ span: 12 }}
           lg={{ span: 8 }}
         >
-          <h1 className="menu-display-name" />
-          <p className="menu-display-description" />
+          <h1 className="menu-display-name">Cucumber Salad</h1>
+          <p className="menu-display-description">
+            Freshly Shredded Cucumber complemented by tomatos, garlic, chillies
+            and roasted peanuts. Made in a tangy fish sauce or vegetarian sweet
+            sauce. Served with sticky rice.
+            <br />
+          </p>
+          <p className="menu-price text-align-center">$12.99</p>
         </Col>
+      </Row>
+      <Row type="flex" justify="center" align="top" className="menu-display">
+        <Col
+          xs={{ span: 24 }}
+          sm={{ span: 24 }}
+          md={{ span: 12 }}
+          lg={{ span: 8 }}
+        >
+          <h1 className="menu-display-name">Labb Isaan</h1>
+          <p className="menu-display-description">
+            Traditional north eastern dish of finely chopped chicken, pork or
+            beef mixed together with ground roasted rice, coriander and chili.
+            <br />
+            <Thumbnail
+              imagePath="https://i.imgur.com/s6CZ1lM.jpg"
+              imageAlt="Labb Isaan"
+              isPortrait={false}
+            />
+          </p>
+          <p className="menu-price text-align-center" />
+        </Col>
+        <Col
+          xs={{ span: 24 }}
+          sm={{ span: 24 }}
+          md={{ span: 12 }}
+          lg={{ span: 8 }}
+        ></Col>
       </Row>
     </React.Fragment>
   )

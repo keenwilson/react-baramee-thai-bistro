@@ -29,8 +29,8 @@ const LunchFriedRice = () => {
           </p>
 
           <p className="menu-price text-align-center">
-            Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
-            <br /> Seafood $13.95
+            Chicken, Pork, or Tofu $10.99 <br /> Beef or Shrimp $13.99
+            <br /> Seafood $15.99
           </p>
         </Col>
         <Col
@@ -51,8 +51,8 @@ const LunchFriedRice = () => {
             />
           </p>
           <p className="menu-price text-align-center">
-            Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
-            <br /> Seafood $13.95
+            Chicken, Pork, or Tofu $10.99 <br /> Beef or Shrimp $13.99
+            <br /> Seafood $15.99
           </p>
         </Col>
       </Row>
@@ -74,8 +74,8 @@ const LunchFriedRice = () => {
             />
           </p>
           <p className="menu-price text-align-center">
-            Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
-            <br /> Seafood $13.95
+            Chicken, Pork, or Tofu $10.99 <br /> Beef or Shrimp $13.99
+            <br /> Seafood $15.99
           </p>
         </Col>
         <Col
@@ -96,10 +96,32 @@ const LunchFriedRice = () => {
             />
           </p>
           <p className="menu-price text-align-center">
-            Chicken, Pork, Tofu, or Vegan $12.95 <br /> Beef or Shrimp $13.95
-            <br /> Seafood $14.95
+            Chicken, Pork, or Tofu $12.99 <br /> Beef or Shrimp $13.99
+            <br /> Seafood $15.99
           </p>
         </Col>
+      </Row>
+      <Row type="flex" justify="center" align="top" className="menu-display">
+        <Col
+          xs={{ span: 24 }}
+          sm={{ span: 24 }}
+          md={{ span: 12 }}
+          lg={{ span: 8 }}
+        >
+          <h1 className="menu-display-name">Crab Fried Rice</h1>
+          <p className="menu-display-description">
+            Stir-fried rice with crab meat, egg, onion and spring onions.
+            <br />
+          </p>
+
+          <p className="menu-price text-align-center">Lunch $15.99</p>
+        </Col>
+        <Col
+          xs={{ span: 24 }}
+          sm={{ span: 24 }}
+          md={{ span: 12 }}
+          lg={{ span: 8 }}
+        ></Col>
       </Row>
     </React.Fragment>
   )

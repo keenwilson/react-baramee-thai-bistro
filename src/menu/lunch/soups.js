@@ -28,8 +28,8 @@ const LunchSoups = () => {
           </p>
 
           <p className="menu-price text-align-center">
-            Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
-            <br /> Seafood $13.95
+            Chicken, Pork, or Tofu $10.99 <br /> Beef or Shrimp $12.99
+            <br /> Seafood $15.99
           </p>
         </Col>
         <Col
@@ -52,8 +52,14 @@ const LunchSoups = () => {
           </p>
 
           <p className="menu-price text-align-center">
-            Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
-            <br /> Seafood $13.95
+            Bowl: <br />
+            Chicken, Pork, or Tofu $8.99 <br /> Beef or Shrimp $10.99
+            <br /> Seafood $15.99
+          </p>
+          <p className="menu-price text-align-center">
+            Pot: <br />
+            Chicken, Pork, or Tofu $12.99 <br /> Beef or Shrimp $15.99
+            <br /> Seafood $19.99
           </p>
         </Col>
       </Row>
@@ -78,8 +84,14 @@ const LunchSoups = () => {
           </p>
 
           <p className="menu-price text-align-center">
-            Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
-            <br /> Seafood $13.95
+            Bowl: <br />
+            Chicken, Pork, or Tofu $8.99 <br /> Beef or Shrimp $10.99
+            <br /> Seafood $15.99
+          </p>
+          <p className="menu-price text-align-center">
+            Pot: <br />
+            Chicken, Pork, or Tofu $12.99 <br /> Beef or Shrimp $15.99
+            <br /> Seafood $19.99
           </p>
         </Col>
         <Col

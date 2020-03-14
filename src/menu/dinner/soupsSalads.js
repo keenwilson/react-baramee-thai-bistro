@@ -122,7 +122,7 @@ const DinnerSoupsSalads = () => {
             <Thumbnail
               imagePath="https://i.imgur.com/s6CZ1lM.jpg"
               imageAlt="Labb Isaan"
-              isPortrait={true}
+              isPortrait={false}
             />
           </p>
           <p className="menu-price text-align-center" />
