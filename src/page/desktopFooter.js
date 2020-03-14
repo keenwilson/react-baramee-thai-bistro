@@ -35,15 +35,21 @@ const DesktopFooter = () => {
               rel="noopener noreferrer"
               href="https://www.facebook.com/barameethaibistro/"
             >
-              Send <Icon type="facebook" /> Message
+              Follow our <Icon type="facebook" style={{ fontSize: '18px' }} />{' '}
+              for status update
             </a>
             <br />
           </p>
         </div>
       </div>
-      <p className="copyright">
-        Copyright © 2019 Baramee Thai Bistro | All rights reserved
-      </p>
+      <div>
+        <p className="seating">
+          Seating at Baramee Thai Bistro is available on a walk-in basis only.
+        </p>
+        <p className="copyright">
+          Copyright © 2019 Baramee Thai Bistro | All rights reserved
+        </p>
+      </div>
     </div>
   )
 }
