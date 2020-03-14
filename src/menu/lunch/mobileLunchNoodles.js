@@ -29,8 +29,8 @@ const MobileLunchNoodles = () => {
         taste. Served with ground peanuts.
       </p>
       <p className="menu-price text-align-center">
-        Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
-        <br /> Seafood $13.95
+        Chicken, Pork, or Tofu $12.99 <br /> Beef or Shrimp $13.99
+        <br /> Seafood $15.99
       </p>
       <br />
       <h2 className="menu-display-name">Pad Sew Eaew</h2>
@@ -39,8 +39,8 @@ const MobileLunchNoodles = () => {
         and gai lan.
       </p>
       <p className="menu-price text-align-center">
-        Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
-        <br /> Seafood $13.95
+        Chicken, Pork, or Tofu $12.99 <br /> Beef or Shrimp $13.99
+        <br /> Seafood $15.99
       </p>
       <br />
       <h2 className="menu-display-name">Pad Key Maw</h2>
@@ -49,8 +49,8 @@ const MobileLunchNoodles = () => {
         bell pepper, and basil leaves.
       </p>
       <p className="menu-price text-align-center">
-        Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
-        <br /> Seafood $13.95
+        Chicken, Pork, or Tofu $12.99 <br /> Beef or Shrimp $13.99
+        <br /> Seafood $15.99
       </p>
       <br />
       <h2 className="menu-display-name">Pad Woon Sen</h2>
@@ -59,8 +59,8 @@ const MobileLunchNoodles = () => {
         and cabbage.
       </p>
       <p className="menu-price text-align-center">
-        Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
-        <br /> Seafood $13.95
+        Chicken, Pork, or Tofu $12.99 <br /> Beef or Shrimp $13.99
+        <br /> Seafood $15.99
       </p>
       <br />
       <h2 className="menu-display-name">Rad Na Talay</h2>
@@ -69,7 +69,7 @@ const MobileLunchNoodles = () => {
         in a dark soy sauce and covered with a thick, savory sauce. A favorite
         lunch item in Thailand.
       </p>
-      <p className="menu-price text-align-center">$18.95</p>
+      <p className="menu-price text-align-center">$19.99</p>
       <br />
     </React.Fragment>
   )

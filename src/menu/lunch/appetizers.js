@@ -237,13 +237,7 @@ const LunchAppetizers = () => {
           lg={{ span: 8 }}
         >
           <h1 className="menu-display-name">Fresh Shrimp Rolls</h1>
-          <p className="menu-display-description">
-            {/* <Thumbnail
-              imagePath="https://i.imgur.com/agdjyz3.jpg"
-              imageAlt="Fresh Shrimp Roll"
-              isPortrait={false}
-            /> */}
-          </p>
+          <p className="menu-display-description"></p>
 
           <p className="menu-price text-align-center">$9.99</p>
         </Col>

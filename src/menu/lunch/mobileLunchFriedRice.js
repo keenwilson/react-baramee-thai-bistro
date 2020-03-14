@@ -27,8 +27,8 @@ const MobileLunchFriedRice = () => {
         Stir-fried rice with egg, onion, spring onions and your choice of meat.
       </p>
       <p className="menu-price text-align-center">
-        Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
-        <br /> Seafood $13.95
+        Chicken, Pork, or Tofu $10.99 <br /> Beef or Shrimp $13.99
+        <br /> Seafood $15.99
       </p>
       <br />
       <h2 className="menu-display-name">Basil Fried Rice</h2>
@@ -37,8 +37,8 @@ const MobileLunchFriedRice = () => {
         meats.
       </p>
       <p className="menu-price text-align-center">
-        Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
-        <br /> Seafood $13.95
+        Chicken, Pork, or Tofu $10.99 <br /> Beef or Shrimp $13.99
+        <br /> Seafood $15.99
       </p>
       <br />
       <h2 className="menu-display-name">Vegetable Fried Rice</h2>
@@ -46,8 +46,8 @@ const MobileLunchFriedRice = () => {
         Stir-fried rice with egg, and mixed vegetables.
       </p>
       <p className="menu-price text-align-center">
-        Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
-        <br /> Seafood $13.95
+        Chicken, Pork, or Tofu $10.99 <br /> Beef or Shrimp $13.99
+        <br /> Seafood $15.99
       </p>
       <br />
       <h2 className="menu-display-name">Pineapple Fried Rice</h2>
@@ -56,9 +56,15 @@ const MobileLunchFriedRice = () => {
         raisins.
       </p>
       <p className="menu-price text-align-center">
-        Chicken, Pork,Tofu, or Vegan $12.95 <br /> Beef or Shrimp $13.95
-        <br /> Seafood $14.95
+        Chicken, Pork,Tofu, or Vegan $12.99 <br /> Beef or Shrimp $13.99
+        <br /> Seafood $15.99
       </p>
+      <br />
+      <h2 className="menu-display-name">Crab Fried Rice</h2>
+      <p className="menu-display-description">
+        Stir-fried rice with crab meat, egg, onion and spring onions.
+      </p>
+      <p className="menu-price text-align-center">$15.99</p>
       <br />
     </React.Fragment>
   )

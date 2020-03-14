@@ -28,14 +28,14 @@ const MobileLunchAppetizers = () => {
         crab meat and garlic flavored seasoning served with homemade sweet chili
         sauce.
       </p>
-      <p className="menu-price text-align-center">$6.95</p>
+      <p className="menu-price text-align-center">$7.99</p>
       <br />
       <h2 className="menu-display-name">Chicken Satay (4 Skewers)</h2>
       <p className="menu-display-description">
         Skewers of tender marinated chicken barbecued over charcoal and served
         with peanut sauce and cucumber dip.
       </p>
-      <p className="menu-price text-align-center">$8.95</p>
+      <p className="menu-price text-align-center">$8.99</p>
       <br />
       <h2 className="menu-display-name">Crispy Sping Roll (3 Pcs)</h2>
       <p className="menu-display-description">
@@ -43,7 +43,7 @@ const MobileLunchAppetizers = () => {
         egg, glass noodle and mixed vegetable, served with homemade sweet chili
         sauce.
       </p>
-      <p className="menu-price text-align-center">$6.95</p>
+      <p className="menu-price text-align-center">$7.99</p>
       <br />
       <h2 className="menu-display-name">Soft Sping Roll (3 Pcs)</h2>
       <p className="menu-display-description">
@@ -51,7 +51,7 @@ const MobileLunchAppetizers = () => {
         sprouts, and lettuce wrapped in rice paper. Served with sweet chili
         sauce and crushed roasted peanuts.
       </p>
-      <p className="menu-price text-align-center">$6.95</p>
+      <p className="menu-price text-align-center">$7.99</p>
       <br />
       <h2 className="menu-display-name">Baramee Thai Roll (3 Pcs)</h2>
       <p className="menu-display-description">
@@ -59,7 +59,7 @@ const MobileLunchAppetizers = () => {
         carrot wrapped in rice paper served with sweet chili sauce and crushed
         roasted peanuts.
       </p>
-      <p className="menu-price text-align-center">$8.95</p>
+      <p className="menu-price text-align-center">$8.99</p>
       <br />
 
       <h2 className="menu-display-name">Tiger Cry Beef</h2>
@@ -68,33 +68,33 @@ const MobileLunchAppetizers = () => {
         a hint of garlic, black pepper, garnished with cabbage and served with
         spicy chili homemade sauce.
       </p>
-      <p className="menu-price text-align-center">$9.95</p>
+      <p className="menu-price text-align-center">$10.99</p>
       <br />
       <h2 className="menu-display-name">Crispy Tofu</h2>
       <p className="menu-display-description">
         Delicately fried, and complemented with a homemade chili sauce.
       </p>
-      <p className="menu-price text-align-center">$7.95</p>
+      <p className="menu-price text-align-center">$8.99</p>
       <br />
       <h2 className="menu-display-name">Golden Calamari</h2>
       <p className="menu-display-description">
         Crispy tempura style calamari with a hint of spices and green onions.
         Served with sriracha dipping sauce.
       </p>
-      <p className="menu-price text-align-center">$8.95</p>
+      <p className="menu-price text-align-center">$10.99</p>
       <br />
       <h2 className="menu-display-name">Baramee Thai Wings</h2>
       <p className="menu-display-description">
         Marinated in a spicy garlic sauce with fresh basil. Deep fried to
         perfection.
       </p>
-      <p className="menu-price text-align-center">$8.95</p>
+      <p className="menu-price text-align-center">$10.99</p>
       <br />
       <h2 className="menu-display-name">Spring Roll Deluxe</h2>
       <p className="menu-display-description">
         Two of our soft spring rolls and two of our crispy spring rolls.
       </p>
-      <p className="menu-price text-align-center">$8.95</p>
+      <p className="menu-price text-align-center">$9.99</p>
       <br />
       <h2 className="menu-display-name">Baramee Thai Platter</h2>
       <p className="menu-display-description">
@@ -102,13 +102,16 @@ const MobileLunchAppetizers = () => {
         Spring Roll (2 Pcs) and Crispy Spring roll (2 Pcs)
       </p>
 
-      <p className="menu-price text-align-center">$10.95</p>
+      <p className="menu-price text-align-center">$11.99</p>
       <br />
       <h2 className="menu-display-name">Edamame</h2>
       <p className="menu-display-description">
         Lightly salted and steamed soy beans.
       </p>
-      <p className="menu-price text-align-center">$5.95</p>
+      <p className="menu-price text-align-center">$6.99</p>
+      <br />
+      <h2 className="menu-display-name">Fresh Shrimp Rolls</h2>
+      <p className="menu-price text-align-center">$9.99</p>
       <br />
     </React.Fragment>
   )

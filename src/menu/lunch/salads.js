@@ -53,18 +53,21 @@ const LunchSalads = () => {
           md={{ span: 12 }}
           lg={{ span: 8 }}
         >
-          <h1 className="menu-display-name">Labb Isaan</h1>
+          <h1 className="menu-display-name">Labb Salad</h1>
           <p className="menu-display-description">
             Traditional north eastern dish of finely chopped chicken, pork or
             beef mixed together with ground roasted rice, coriander and chili.
             <br />
             <Thumbnail
               imagePath="https://i.imgur.com/s6CZ1lM.jpg"
-              imageAlt="Labb Isaan"
+              imageAlt="Labb Salad"
               isPortrait={false}
             />
           </p>
-          <p className="menu-price text-align-center" />
+          <p className="menu-price text-align-center">
+            Chicken, Pork, or Tofu $10.99 <br /> Beef or Shrimp $15.99
+            <br /> Seafood $19.99
+          </p>
         </Col>
         <Col
           xs={{ span: 24 }}

@@ -24,7 +24,7 @@ const LunchDrinks = () => {
               isPortrait={true}
             />
           </p>
-          <p className="menu-price text-align-center">$4.00</p>
+          <p className="menu-price text-align-center">$4.25</p>
         </Col>
         <Col
           xs={{ span: 24 }}
@@ -40,7 +40,7 @@ const LunchDrinks = () => {
               isPortrait={true}
             />
           </p>
-          <p className="menu-price text-align-center">$3.50</p>
+          <p className="menu-price text-align-center">$4.00</p>
         </Col>
       </Row>
 

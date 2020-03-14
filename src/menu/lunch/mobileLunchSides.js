@@ -36,7 +36,7 @@ const MobileLunchSides = () => {
       <p className="menu-price text-align-center">$3.00</p>
       <br />
       <h2 className="menu-display-name">Extra Sauce</h2>
-      <p className="menu-price text-align-center">$0.25</p>
+      <p className="menu-price text-align-center">$0.50</p>
       <br />
     </React.Fragment>
   )

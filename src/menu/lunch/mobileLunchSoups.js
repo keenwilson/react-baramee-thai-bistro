@@ -27,10 +27,11 @@ const MobileLunchSoups = () => {
         Rice noodles and vegetables in a savory broth.
       </p>
       <p className="menu-price text-align-center">
-        Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
-        <br /> Seafood $13.95
+        Chicken, Pork, or Tofu $10.99 <br /> Beef or Shrimp $12.99
+        <br /> Seafood $15.99
       </p>
       <br />
+      <Divider />
       <h2 className="menu-display-name">Tom Yum Soup</h2>
       <p className="menu-display-description">
         A signature Thai soup of straw mushrooms, fresh chilies, kaffir leaves,
@@ -38,18 +39,31 @@ const MobileLunchSoups = () => {
         broth and topped with a hint of cilantro and spring onions.
       </p>
       <p className="menu-price text-align-center">
-        Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
-        <br /> Seafood $13.95
+        Bowl: <br />
+        Chicken, Pork, or Tofu $10.99 <br /> Beef or Shrimp $12.99
+        <br /> Seafood $15.99
+      </p>
+      <p className="menu-price text-align-center">
+        Pot: <br />
+        Chicken, Pork, or Tofu $12.99 <br /> Beef or Shrimp $15.99
+        <br /> Seafood $19.99
       </p>
       <br />
+      <Divider />
       <h2 className="menu-display-name">Tom Kha Soup</h2>
       <p className="menu-display-description">
         A rich coconut milk broth flavored with lemongrass, kaffir leaves, fresh
         chilies, galangal, and sprinkled with cilantro and spring onions.
       </p>
       <p className="menu-price text-align-center">
-        Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
-        <br /> Seafood $13.95
+        Bowl: <br />
+        Chicken, Pork, or Tofu $10.99 <br /> Beef or Shrimp $12.99
+        <br /> Seafood $15.99
+      </p>
+      <p className="menu-price text-align-center">
+        Pot: <br />
+        Chicken, Pork, or Tofu $12.99 <br /> Beef or Shrimp $15.99
+        <br /> Seafood $19.99
       </p>
       <br />
     </React.Fragment>

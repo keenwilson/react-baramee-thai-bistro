@@ -23,13 +23,13 @@ const MobileLunchDrinks = () => {
       </Breadcrumb>
       <Divider className="menu-display-category">Drinks</Divider>
       <h2 className="menu-display-name">Bubble Drinks</h2>
-      <p className="menu-price text-align-center">$4.00</p>
+      <p className="menu-price text-align-center">$4.25</p>
       <br />
       <h2 className="menu-display-name">Thai Iced Tea</h2>
-      <p className="menu-price text-align-center">$3.50</p>
+      <p className="menu-price text-align-center">$4.00</p>
       <br />
       <h2 className="menu-display-name">Thai Iced Coffee</h2>
-      <p className="menu-price text-align-center">$3.50</p>
+      <p className="menu-price text-align-center">$4.00</p>
       <br />
 
       <h2 className="menu-display-name">Hot Tea</h2>
@@ -41,7 +41,7 @@ const MobileLunchDrinks = () => {
       <h2 className="menu-display-name">Iced Tea</h2>
       <p className="menu-price text-align-center">$2.99</p>
       <br />
-      <h2 className="menu-display-name">Coke Product Fountain Drinks</h2>
+      <h2 className="menu-display-name">Fountain Drinks</h2>
       <p className="menu-display-description">
         Coke, Diet Coke, Coke Zero, Dr. Pepper, Minute Maid Lemonade, Sprite,
         Orange Fanta, Barq's Root Beer

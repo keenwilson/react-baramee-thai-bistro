@@ -27,19 +27,19 @@ const MobileLunchDesserts = () => {
         Mango sticky rice is a traditional Thai dessert made with glutinous
         rice, sweet mango and coconut milk.
       </p>
-      <p className="menu-price text-align-center">$7.00</p>
+      <p className="menu-price text-align-center">$8.00</p>
       <br />
       <h2 className="menu-display-name">Taro Ice Cream</h2>
-      <p className="menu-price text-align-center">$4.00</p>
+      <p className="menu-price text-align-center">$5.00</p>
       <br />
       <h2 className="menu-display-name">Coconut Ice Cream</h2>
-      <p className="menu-price text-align-center">$4.00</p>
+      <p className="menu-price text-align-center">$5.00</p>
       <br />
       <h2 className="menu-display-name">Mango Ice Cream</h2>
-      <p className="menu-price text-align-center">$4.00</p>
+      <p className="menu-price text-align-center">$5.00</p>
       <br />
       <h2 className="menu-display-name">Fried Banana with Ice Cream</h2>
-      <p className="menu-price text-align-center">$4.50</p>
+      <p className="menu-price text-align-center">$6.00</p>
       <br />
     </React.Fragment>
   )

@@ -28,8 +28,8 @@ const MobileLunchFromTheWok = () => {
         over rice with a pan fried egg.
       </p>
       <p className="menu-price text-align-center">
-        Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
-        <br /> Seafood $13.95
+        Chicken, Pork, or Tofu $10.99 <br /> Beef or Shrimp $12.99
+        <br /> Seafood $15.99
       </p>
       <br />
       <h2 className="menu-display-name">Thai Cashew Nuts</h2>
@@ -38,8 +38,8 @@ const MobileLunchFromTheWok = () => {
         broccoli, fresh carrot and bell peppers.
       </p>
       <p className="menu-price text-align-center">
-        Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
-        <br /> Seafood $13.95
+        Chicken, Pork, or Tofu $10.99 <br /> Beef or Shrimp $12.99
+        <br /> Seafood $15.99
       </p>
       <br />
       <h2 className="menu-display-name">Garlic and Pepper</h2>
@@ -48,8 +48,8 @@ const MobileLunchFromTheWok = () => {
         bed of cabbages.
       </p>
       <p className="menu-price text-align-center">
-        Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
-        <br /> Seafood $13.95
+        Chicken, Pork, or Tofu $10.99 <br /> Beef or Shrimp $12.99
+        <br /> Seafood $15.99
       </p>
       <br />
       <h2 className="menu-display-name">Green Bean Chicken</h2>
@@ -57,8 +57,8 @@ const MobileLunchFromTheWok = () => {
         Sautéed with green beans in a spicy curry sauce.
       </p>
       <p className="menu-price text-align-center">
-        Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
-        <br /> Seafood $13.95
+        Chicken, Pork, or Tofu $10.99 <br /> Beef or Shrimp $12.99
+        <br /> Seafood $15.99
       </p>
       <br />
       <h2 className="menu-display-name">Pad Pak Rom</h2>
@@ -66,8 +66,8 @@ const MobileLunchFromTheWok = () => {
         Stir-fried mixed vegetable with homemade garlic brown sauce.
       </p>
       <p className="menu-price text-align-center">
-        Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
-        <br /> Seafood $13.95
+        Chicken, Pork, or Tofu $10.99 <br /> Beef or Shrimp $12.99
+        <br /> Seafood $15.99
       </p>
       <br />
 
@@ -77,8 +77,8 @@ const MobileLunchFromTheWok = () => {
         scallion and bell pepper.
       </p>
       <p className="menu-price text-align-center">
-        Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
-        <br /> Seafood $13.95
+        Chicken, Pork, or Tofu $10.99 <br /> Beef or Shrimp $12.99
+        <br /> Seafood $15.99
       </p>
       <br />
     </React.Fragment>

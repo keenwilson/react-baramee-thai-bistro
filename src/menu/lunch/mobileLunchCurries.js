@@ -28,8 +28,8 @@ const MobileLunchCurries = () => {
         sauce garnished with kaffir lime leaves.
       </p>
       <p className="menu-price text-align-center">
-        Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
-        <br /> Seafood $13.95
+        Chicken, Pork, or Tofu $10.99 <br /> Beef or Shrimp $12.99
+        <br /> Seafood $15.99
       </p>
       <br />
       <h2 className="menu-display-name">Green Curry</h2>
@@ -38,8 +38,8 @@ const MobileLunchCurries = () => {
         in green curry paste and coconut milk, garnished with Thai basil leaves.
       </p>
       <p className="menu-price text-align-center">
-        Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
-        <br /> Seafood $13.95
+        Chicken, Pork, or Tofu $10.99 <br /> Beef or Shrimp $12.99
+        <br /> Seafood $15.99
       </p>
       <br />
       <h2 className="menu-display-name">Red Curry</h2>
@@ -49,8 +49,8 @@ const MobileLunchCurries = () => {
         flavored with Thai basil leaves.
       </p>
       <p className="menu-price text-align-center">
-        Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
-        <br /> Seafood $13.95
+        Chicken, Pork, or Tofu $10.99 <br /> Beef or Shrimp $12.99
+        <br /> Seafood $15.99
       </p>
       <br />
       <h2 className="menu-display-name">Gang Ka Ree</h2>
@@ -59,19 +59,18 @@ const MobileLunchCurries = () => {
         topped with dry garlic.
       </p>
       <p className="menu-price text-align-center">
-        Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
-        <br /> Seafood $13.95
+        Chicken, Pork, or Tofu $10.99 <br /> Beef or Shrimp $12.99
+        <br /> Seafood $15.99
       </p>
       <br />
       <h2 className="menu-display-name">Gang Massaman</h2>
       <p className="menu-display-description">
-        A medium hot Thai red curry dish with meat or Tofu and young bamboo
-        shoot and bell pepper cooked in red curry paste and coconut milk,
-        flavored with Thai basil leaves.
+        Traditional mild curry dish, meat or tofu cooked slowly with potatoes,
+        yellow onions and roasted peanuts.
       </p>
       <p className="menu-price text-align-center">
-        Chicken, Pork, or Tofu $9.95 <br /> Beef or Shrimp $12.95
-        <br /> Seafood $13.95
+        Chicken, Pork, or Tofu $10.99 <br /> Beef or Shrimp $12.99
+        <br /> Seafood $15.99
       </p>
       <br />
     </React.Fragment>
