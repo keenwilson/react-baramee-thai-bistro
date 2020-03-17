@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import { Button } from 'antd'
+import { Card, Button, Icon } from 'antd'
 import Thumbnail from '../components/thumbnail'
 import DesktopNews from './desktopNews'
 
@@ -8,6 +8,39 @@ class DesktopHome extends Component {
   render() {
     return (
       <React.Fragment>
+        <div className="special-announcement">
+          <Card
+            className="info-annoucemnet"
+            title="We care for you...our team...and our community"
+          >
+            Thank you for your patronage to Baramee Thai Bistro, and becoming a
+            part of our extended Thai Family. The health and safety of our
+            wonderful and hardworking team that prepares your meals and serves
+            them, and you our wonderful customers, is our top priority. With the
+            concern for our entire Thai Bistro family and our community,
+            difficult decision’s must be made, and we have decided to close our
+            restaurants until April 1st. Please follow us on our Facebook page
+            and website for updates as we monitor the situation. We would like
+            your feedback on potentially offering a curbside service by next
+            week.
+            <div className="facebook-link">
+              {' '}
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.facebook.com/barameethaibistro/"
+              >
+                Follow our <Icon type="facebook" style={{ fontSize: '18px' }} />{' '}
+                for status update
+              </a>
+            </div>
+            <div className="team-announcement">
+              {' '}
+              Baramee Thai Bistro Team, as of March 17, 2020
+            </div>
+          </Card>
+        </div>
+
         <div className="intro-gallery">
           <Thumbnail
             className="images"
