@@ -16,10 +16,10 @@ class DesktopHome extends Component {
               Thank you to everyone for all of the online requests for our food.
               After two weeks of confinement, our staff feel comfortable to get
               back to doing what they do best and they are ready to cook
-              delicious thai food for you. . We wish we could visit with you in
+              delicious thai food for you. We wish we could visit with you in
               the dining room and look forward to doing that soon, but for now,
               it looks like carry out only. Starting Tuesday, March 31 we will
-              be open for curbside and carry out service only.{' '}
+              be open for curbside and carry out service only.
             </div>
 
             <div className="facebook-link">
