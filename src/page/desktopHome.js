@@ -9,22 +9,20 @@ class DesktopHome extends Component {
     return (
       <React.Fragment>
         <div className="special-announcement">
-          <Card
-            className="info-annoucemnet"
-            title="We care for you...our team...and our community"
-          >
-            Thank you for your patronage to Baramee Thai Bistro, and becoming a
-            part of our extended Thai Family. The health and safety of our
-            wonderful and hardworking team that prepares your meals and serves
-            them, and you our wonderful customers, is our top priority. With the
-            concern for our entire Thai Bistro family and our community,
-            difficult decision’s must be made, and we have decided to close our
-            restaurants until April 1st. Please follow us on our Facebook page
-            and website for updates as we monitor the situation. We would like
-            your feedback on potentially offering a curbside service by next
-            week.
+          <Card className="info-annoucemnet">
+            <div className="header"> Dear Values Customers and Friends, </div>
+            <div className="body">
+              Thank you for being patient with us during these difficult times.
+              Thank you to everyone for all of the online requests for our food.
+              After two weeks of confinement, our staff feel comfortable to get
+              back to doing what they do best and they are ready to cook
+              delicious thai food for you. . We wish we could visit with you in
+              the dining room and look forward to doing that soon, but for now,
+              it looks like carry out only. Starting Tuesday, March 31 we will
+              be open for curbside and carry out service only.{' '}
+            </div>
+
             <div className="facebook-link">
-              {' '}
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -34,9 +32,11 @@ class DesktopHome extends Component {
                 for status update
               </a>
             </div>
-            <div className="team-announcement">
-              {' '}
-              Baramee Thai Bistro Team, as of March 17, 2020
+            <div className="ending">
+              Thank you !!! We look forward to see you soon.
+              <div className="team-announcement">
+                Baramee Thai Bistro Team, as of March 30, 2020
+              </div>
             </div>
           </Card>
         </div>
