@@ -49,7 +49,7 @@ const MobileDinnerNoodles = () => {
         bell pepper, and basil leaves.
       </p>
       <p className="menu-price text-align-center">
-        Chicken, Pork, or Tofu $11.95 <br /> Beef or Shrimp $14.95
+        Chicken, Pork, or Tofu $13.95 <br /> Beef or Shrimp $14.95
         <br /> Seafood $18.95
       </p>
       <br />
