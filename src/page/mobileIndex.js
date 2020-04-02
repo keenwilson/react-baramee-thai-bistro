@@ -1,9 +1,10 @@
 import React from 'react'
 import { Route, Link } from 'react-router-dom'
-import { Icon, Card } from 'antd'
+import { Icon } from 'antd'
 import MobileHome from './mobileHome'
 import MobileLunchIndex from './mobileLunchIndex'
 import MobileDinnerIndex from './mobileDinnerIndex'
+import MobileAnnouncement from './mobileAnnouncement'
 
 const MobileIndex = () => {
   return (
@@ -24,36 +25,7 @@ const MobileIndex = () => {
           </a>
         </p>
       </div>
-      <div className="special-announcement">
-        <Card className="info-annoucemnet">
-          <div className="mobile-title">Dear Values Customers and Friends,</div>
-          <div className="body-announcement">
-            Thank you for being patient with us during these difficult times.
-            Thank you to everyone for all of the online requests for our food.
-            After two weeks of confinement, our staff feel comfortable to get
-            back to doing what they do best and they are ready to cook delicious
-            thai food for you. We wish we could visit with you in the dining
-            room and look forward to doing that soon, but for now, it looks like
-            carry out only. Starting Tuesday, March 31 we will be open for
-            curbside and carry out service only.
-          </div>
-
-          <div className="facebook-link">
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.facebook.com/barameethaibistro/"
-            >
-              Follow our <Icon type="facebook" style={{ fontSize: '18px' }} />{' '}
-              for status update
-            </a>
-          </div>
-          <div className="team-announcement">
-            Thank you !!! We look forward to see you soon. <br />
-            Baramee Thai Bistro Team, as of March 30, 2020
-          </div>
-        </Card>
-      </div>
+      <MobileAnnouncement />
       <img
         src="https://i.imgur.com/xLYTGIll.jpg"
         alt="Top Place for Thai"
@@ -96,8 +68,13 @@ const MobileIndex = () => {
           </a>
           <br />
         </p>
-        <p className="text-align-center footer-block">
+        {/* <p className="text-align-center footer-block">
           Seating at Baramee Thai Bistro is available on a walk-in basis only.
+        </p> */}
+        <p className="text-align-center footer-block curb-side">
+          Thank you for being patient with us during these difficult times.
+          Starting Tuesday, March 31, 2020 we will be open for curbside and
+          carry out service only.
         </p>
       </div>
     </div>

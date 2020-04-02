@@ -18,8 +18,8 @@ class DesktopNews extends Component {
       <div className="main underline-800">
         <div className="section">
           <div className="article">
-            <div class="row">
-              <div class="column _10">
+            <div className="row">
+              <div className="column _10">
                 <img
                   width={50}
                   className="news-avatar"
@@ -27,7 +27,7 @@ class DesktopNews extends Component {
                   src={logoPath}
                 />
               </div>
-              <div class="column _90">
+              <div className="column _90">
                 <a target="_blank" href={urlPath} rel="noopener noreferrer">
                   <h2 className="title left">{title}</h2>
                 </a>

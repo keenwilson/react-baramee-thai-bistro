@@ -43,8 +43,14 @@ const DesktopFooter = () => {
         </div>
       </div>
       <div>
-        <p className="seating">
+        {/* <p className="seating">
           Seating at Baramee Thai Bistro is available on a walk-in basis only.
+        </p> */}
+        <p className="curb-side">
+          Thank you for being patient with us during these difficult times.{' '}
+          <br />
+          Starting Tuesday, March 31, 2020 we will be open for curbside and
+          carry out service only.
         </p>
         <p className="copyright">
           Copyright © 2019 Baramee Thai Bistro | All rights reserved

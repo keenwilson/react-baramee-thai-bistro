@@ -1,45 +1,14 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import { Card, Button, Icon } from 'antd'
+import { Button } from 'antd'
 import Thumbnail from '../components/thumbnail'
 import DesktopNews from './desktopNews'
-
+import DesktopAnnouncement from './desktopAnnouncement'
 class DesktopHome extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="special-announcement">
-          <Card className="info-annoucemnet">
-            <div className="header"> Dear Values Customers and Friends, </div>
-            <div className="body">
-              Thank you for being patient with us during these difficult times.
-              Thank you to everyone for all of the online requests for our food.
-              After two weeks of confinement, our staff feel comfortable to get
-              back to doing what they do best and they are ready to cook
-              delicious thai food for you. We wish we could visit with you in
-              the dining room and look forward to doing that soon, but for now,
-              it looks like carry out only. Starting Tuesday, March 31 we will
-              be open for curbside and carry out service only.
-            </div>
-
-            <div className="facebook-link">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://www.facebook.com/barameethaibistro/"
-              >
-                Follow our <Icon type="facebook" style={{ fontSize: '18px' }} />{' '}
-                for status update
-              </a>
-            </div>
-            <div className="ending">
-              Thank you !!! We look forward to see you soon.
-              <div className="team-announcement">
-                Baramee Thai Bistro Team, as of March 30, 2020
-              </div>
-            </div>
-          </Card>
-        </div>
+        <DesktopAnnouncement />
 
         <div className="intro-gallery">
           <Thumbnail

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Thumbnail = props => {
   return (
-    <div class="thumbnail">
+    <div className="thumbnail">
       <img
         src={props.imagePath}
         className={props.isPortrait ? 'portrait' : ''}
