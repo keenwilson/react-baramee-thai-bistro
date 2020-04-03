@@ -23,15 +23,16 @@ const DesktopLunchIndex = () => {
           <div className="menu-navigation">
             <Route exact path="/menu/lunch" component={LunchAppetizers} />
             <Route path="/menu/lunch/appetizers" component={LunchAppetizers} />
-            <Route path="/menu/lunch/salads" component={LunchSalads} />
+            <Route path="/menu/lunch/curries" component={LunchCurries} />
             <Route
               path="/menu/lunch/from-the-wok"
               component={LunchFromTheWok}
             />
-            <Route path="/menu/lunch/fried-rice" component={LunchFriedRice} />
-            <Route path="/menu/lunch/noodles" component={LunchNoodles} />
             <Route path="/menu/lunch/soups" component={LunchSoups} />
-            <Route path="/menu/lunch/curries" component={LunchCurries} />
+            <Route path="/menu/lunch/salads" component={LunchSalads} />
+            <Route path="/menu/lunch/noodles" component={LunchNoodles} />
+            <Route path="/menu/lunch/fried-rice" component={LunchFriedRice} />
+            <Route path="/menu/lunch/sides" component={LunchSides} />
             <Route path="/menu/lunch/desserts" component={LunchDesserts} />
             <Route path="/menu/lunch/drinks" component={LunchDrinks} />
           </div>

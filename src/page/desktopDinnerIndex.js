@@ -37,6 +37,7 @@ const DesktopDinnerIndex = () => {
             />
             <Route path="/menu/dinner/noodles" component={DinnerNoodles} />
             <Route path="/menu/dinner/curries" component={DinnerCurries} />
+
             <Route
               path="/menu/dinner/desserts-drinks"
               component={DinnerDessertsDrinks}

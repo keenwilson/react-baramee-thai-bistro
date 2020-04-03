@@ -23,16 +23,9 @@ const MobileLunchHome = () => {
             Appetizers
           </Link>
         </Button>
-
         <Button block className="menu-button">
-          <Link to="/menu/lunch/salads" className="menu-meal">
-            Salads
-          </Link>
-        </Button>
-
-        <Button block className="menu-button">
-          <Link to="/menu/lunch/fried-rice" className="menu-meal">
-            Fried Rice
+          <Link to="/menu/lunch/curries" className="menu-meal">
+            Curries
           </Link>
         </Button>
         <Button block className="menu-button">
@@ -41,18 +34,23 @@ const MobileLunchHome = () => {
           </Link>
         </Button>
         <Button block className="menu-button">
-          <Link to="/menu/lunch/noodles" className="menu-meal">
-            Noodles
-          </Link>
-        </Button>
-        <Button block className="menu-button">
           <Link to="/menu/lunch/soups" className="menu-meal">
             Soups
           </Link>
         </Button>
         <Button block className="menu-button">
-          <Link to="/menu/lunch/curries" className="menu-meal">
-            Curries
+          <Link to="/menu/lunch/salads" className="menu-meal">
+            Salads
+          </Link>
+        </Button>
+        <Button block className="menu-button">
+          <Link to="/menu/lunch/noodles" className="menu-meal">
+            Noodles
+          </Link>
+        </Button>
+        <Button block className="menu-button">
+          <Link to="/menu/lunch/fried-rice" className="menu-meal">
+            Fried Rice
           </Link>
         </Button>
         <Button block className="menu-button">

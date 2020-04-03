@@ -114,7 +114,7 @@ const LunchFriedRice = () => {
             <br />
           </p>
 
-          <p className="menu-price text-align-center">Lunch $15.99</p>
+          <p className="menu-price text-align-center">$15.99</p>
         </Col>
         <Col
           xs={{ span: 24 }}

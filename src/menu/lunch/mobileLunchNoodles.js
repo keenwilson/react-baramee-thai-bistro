@@ -22,7 +22,7 @@ const MobileLunchNoodles = () => {
         <Breadcrumb.Item>Noodles</Breadcrumb.Item>
       </Breadcrumb>
       <Divider className="menu-display-category">Noodles</Divider>
-      <h2 className="menu-display-name">Pad Thai</h2>
+      <h2 className="menu-display-name">Pad Thai (House Favorite)</h2>
       <p className="menu-display-description">
         Famous rice noodle dish stir-fried with meat or tofu, egg, bean sprouts,
         spring onion and cabbages with added tamarind sauce for a tangy after

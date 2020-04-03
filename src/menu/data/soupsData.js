@@ -43,87 +43,26 @@ export const soupsData = [
     }
   },
   {
-    name: '',
-    description: '',
+    name: 'Tom Kha Soup',
+    description:
+      'A rich coconut milk broth flavored with lemongrass, kaffir leaves, fresh chilies, galangal, and sprinkled with cilantro and spring onions.',
     image: {
-      path: '',
+      path:
+        'https://s3-media4.fl.yelpcdn.com/bphoto/h_VfDgWxIZbV0IXvsBEnXQ/o.jpg',
       isPortrait: false
     },
     price: {
-      lunch: ['$'],
-      dinner: ['$']
-    }
-  },
-  {
-    name: '',
-    description: '',
-    image: {
-      path: '',
-      isPortrait: false
-    },
-    price: {
-      lunch: ['$'],
-      dinner: ['$']
-    }
-  },
-  {
-    name: '',
-    description: '',
-    image: {
-      path: '',
-      isPortrait: false
-    },
-    price: {
-      lunch: ['$'],
-      dinner: ['$']
-    }
-  },
-  {
-    name: '',
-    description: '',
-    image: {
-      path: '',
-      isPortrait: false
-    },
-    price: {
-      lunch: ['$'],
-      dinner: ['$']
-    }
-  },
-  {
-    name: '',
-    description: '',
-    image: {
-      path: '',
-      isPortrait: false
-    },
-    price: {
-      lunch: ['$'],
-      dinner: ['$']
-    }
-  },
-  {
-    name: '',
-    description: '',
-    image: {
-      path: '',
-      isPortrait: false
-    },
-    price: {
-      lunch: ['$'],
-      dinner: ['$']
-    }
-  },
-  {
-    name: '',
-    description: '',
-    image: {
-      path: '',
-      isPortrait: false
-    },
-    price: {
-      lunch: ['$'],
-      dinner: ['$']
+      lunch: [
+        'Bowl:',
+        'Chicken, Pork, or Tofu $8.99',
+        'Beef or Shrimp $10.99',
+        'Seafood $15.99',
+        'Pot:',
+        'Chicken, Pork, or Tofu $12.99',
+        'Beef or Shrimp $15.99',
+        'Seafood $19.99'
+      ],
+      dinner: ['Bowl: $6.95 (Seafood $8.95)', 'Pot: $10.95 (Seafood $18.95)']
     }
   }
 ]

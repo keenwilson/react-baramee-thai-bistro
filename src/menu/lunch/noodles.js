@@ -16,7 +16,7 @@ const LunchNoodles = () => {
           md={{ span: 12 }}
           lg={{ span: 8 }}
         >
-          <h1 className="menu-display-name">Pad Thai</h1>
+          <h1 className="menu-display-name">Pad Thai (House Favorite)</h1>
           <p className="menu-display-description">
             Famous rice noodle dish stir-fried with meat or tofu, egg, bean
             sprouts, spring onion and cabbages with added tamarind sauce for a
