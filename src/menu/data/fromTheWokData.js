@@ -46,11 +46,6 @@ export const FromTheWorkData = [
     name: 'Garlic and Pepper',
     description:
       ' A delicious stir-fried with garlic and ground black pepper, presented in bed of cabbages.',
-    image: {
-      path:
-        'https://s3-media2.fl.yelpcdn.com/bphoto/tAgn1W9CJrAtx1h9A3Q8SQ/o.jpg',
-      isPortrait: false,
-    },
     price: {
       lunch: [
         'Chicken, Pork, or Tofu $10.99',

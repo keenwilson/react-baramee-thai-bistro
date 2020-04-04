@@ -24,10 +24,6 @@ export const CurriesData = [
     name: 'Green Curry',
     description:
       'A well know medium hot Thai curry with meat or Tofu, egg plant, cooked in green curry paste and coconut milk, garnished with Thai basil leaves.',
-    image: {
-      path: 'https://www.spar.co.uk/media/11988/thaigreencurry.jpg',
-      isPortrait: false,
-    },
     price: {
       lunch: [
         'Chicken, Pork, or Tofu $10.99',

@@ -16,18 +16,18 @@ const DesktopDinnerMenuNav = () => {
         </Link>
       </Menu.Item>
       <Menu.Item key="2">
-        <Link to="/menu/dinner/soups-salads" className="menu-meal">
-          Soups and Salads
-        </Link>
-      </Menu.Item>
-      <Menu.Item key="3">
         <Link to="/menu/dinner/house-favorites" className="menu-meal">
           House Favorites
         </Link>
       </Menu.Item>
-      <Menu.Item key="4">
+      <Menu.Item key="3">
         <Link to="/menu/dinner/from-the-wok" className="menu-meal">
           From the Wok
+        </Link>
+      </Menu.Item>
+      <Menu.Item key="4">
+        <Link to="/menu/dinner/soups-salads" className="menu-meal">
+          Soups and Salads
         </Link>
       </Menu.Item>
       <Menu.Item key="5">
