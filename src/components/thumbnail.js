@@ -1,6 +1,8 @@
 import React from 'react'
 
-const Thumbnail = props => {
+const Thumbnail = (props) => {
+  console.log(props.imageAlt, props.isPortrait)
+
   return (
     <div className="thumbnail">
       <img

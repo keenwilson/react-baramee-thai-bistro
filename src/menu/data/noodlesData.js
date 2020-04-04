@@ -5,7 +5,7 @@ export const NoodlesData = [
       'Famous rice noodle dish stir-fried with meat or tofu, egg, bean sprouts, spring onion and cabbages with added tamarind sauce for a tangy after taste. Served with ground peanuts.',
     image: {
       path: 'https://i.imgur.com/BWmpC9C.jpg',
-      isPortrait: false,
+      isPortrait: true,
     },
     price: {
       lunch: [

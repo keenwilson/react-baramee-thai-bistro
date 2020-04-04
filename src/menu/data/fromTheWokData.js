@@ -1,6 +1,6 @@
 export const FromTheWorkData = [
   {
-    name: 'Pad Ka Prao',
+    name: 'Pad Ka Prao (House Favorite)',
     description:
       'Stir-fried meat with sweet basil leaves, fresh chili and garlic. Served over rice with a pan fried egg.',
     image: {
@@ -102,10 +102,6 @@ export const FromTheWorkData = [
     name: 'Basil Fried Rice',
     description:
       ' Stir-fried rice with egg, onion, spring onions, basil and your choice of meats.',
-    image: {
-      path: '',
-      isPortrait: false,
-    },
     price: {
       lunch: [],
       dinner: [
@@ -119,10 +115,6 @@ export const FromTheWorkData = [
     name: 'Crab Fried Rice',
     description:
       'Stir-fried rice with crab meat, egg, onion and spring onions.',
-    image: {
-      path: '',
-      isPortrait: false,
-    },
     price: {
       lunch: [],
       dinner: ['$15.99'],
@@ -132,10 +124,6 @@ export const FromTheWorkData = [
     name: 'Yellow Curry Fried Rice',
     description:
       'Traditional fried rice with onions, cabbage, napa and scallions and the addition of a wonderful yellow curry flavor.',
-    image: {
-      path: null,
-      isPortrait: false,
-    },
     price: {
       lunch: [],
       dinner: ['$15.99', 'Seafood $19.99'],
@@ -145,11 +133,6 @@ export const FromTheWorkData = [
     name: 'Pineapple Fried Rice',
     description:
       'Fried rice with shrimp, egg and pineapple combined with cashew nuts and raisins.',
-    image: {
-      path:
-        'https://s3-media4.fl.yelpcdn.com/bphoto/6mJLfJaOrt1xS6F88HSczA/o.jpg"',
-      isPortrait: true,
-    },
     price: {
       lunch: [],
       dinner: ['$15.99', 'Seafood $19.99'],
@@ -158,10 +141,6 @@ export const FromTheWorkData = [
   {
     name: 'Green Bean Chicken',
     description: 'Sautéed with green beans in a spicy curry sauce.',
-    image: {
-      path: null,
-      isPortrait: false,
-    },
     price: {
       lunch: [],
       dinner: [
@@ -175,10 +154,6 @@ export const FromTheWorkData = [
     name: 'Fried Rice Seafood',
     description:
       'Our signature fried rice made with jumbo shrimp, scallops, imatation crab meat and squid.',
-    image: {
-      path: '',
-      isPortrait: false,
-    },
     price: {
       lunch: [],
       dinner: ['$19.99'],
@@ -244,10 +219,6 @@ export const FromTheWorkData = [
     name: 'Pad Pong Karee Rom',
     description:
       'Combination of seafood (Prawn, Scallop, Squid, Imatation Crab Meat) stir-fried with yellow curry powder, egg, onion, celery, bell pepper, spring onion and napa.',
-    image: {
-      path: null,
-      isPortrait: false,
-    },
     price: {
       lunch: [],
       dinner: ['$19.99'],

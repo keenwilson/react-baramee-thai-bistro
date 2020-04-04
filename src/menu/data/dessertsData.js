@@ -15,10 +15,6 @@ export const DessertsData = [
   {
     name: 'Coconut Ice Cream',
     description: null,
-    image: {
-      path: null,
-      isPortrait: false,
-    },
     price: {
       lunch: ['$5.00'],
       dinner: ['$5.00'],
@@ -27,10 +23,6 @@ export const DessertsData = [
   {
     name: 'Mango Ice Cream',
     description: null,
-    image: {
-      path: null,
-      isPortrait: false,
-    },
     price: {
       lunch: ['$5.00'],
       dinner: ['$5.00'],
@@ -52,10 +44,6 @@ export const DessertsData = [
   {
     name: 'Fried Banana with Ice Cream',
     description: null,
-    image: {
-      path: null,
-      isPortrait: false,
-    },
     price: {
       lunch: ['$6.00'],
       dinner: ['$6.00'],

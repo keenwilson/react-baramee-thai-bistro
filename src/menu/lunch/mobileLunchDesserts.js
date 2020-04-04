@@ -1,8 +1,8 @@
 import React from 'react'
 import { Divider } from 'antd'
 import BreadcrumbNav from '../../components/BreadcrumbNav'
-import MobileMenuItem from '../../components/mobileMenuItem'
 import { DessertsData } from '../data/dessertsData'
+import MenuListItem from '../../components/MenuListItem'
 
 const MobileLunchDesserts = () => {
   return (
@@ -17,7 +17,7 @@ const MobileLunchDesserts = () => {
       <Divider className="menu-display-category">Desserts</Divider>
       {DessertsData.map((item) => {
         return (
-          <MobileMenuItem
+          <MenuListItem
             key={item.name}
             name={item.name}
             description={item.description}

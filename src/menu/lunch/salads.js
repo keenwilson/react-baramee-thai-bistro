@@ -1,82 +1,28 @@
 import React from 'react'
-import { Row, Col, Divider } from 'antd'
-import Thumbnail from '../../components/thumbnail'
+import { Divider } from 'antd'
+import MenuListItem from '../../components/MenuListItem'
+import { SaladsData } from '../data/saladsData'
 
 const LunchSalads = () => {
   return (
-    <React.Fragment>
-      <Row className="menu-display">
-        <Divider className="menu-display-time">Lunch</Divider>
-        <h1 className="menu-display-category">Salads</h1>
-      </Row>
-      <Row type="flex" justify="center" align="top" className="menu-display">
-        <Col
-          xs={{ span: 24 }}
-          sm={{ span: 24 }}
-          md={{ span: 12 }}
-          lg={{ span: 8 }}
-        >
-          <h1 className="menu-display-name">Papaya Salad</h1>
-          <p className="menu-display-description">
-            Freshly shredded papaya complemented by tomatoes, garlic, chilies
-            and roasted peanuts. Made in a tangy fish sauce or vegetarian sweet
-            sauce. Served with sticky rice.
-            <br />
-            <Thumbnail
-              imagePath="https://i.imgur.com/95HBgrZ.jpg"
-              imageAlt="Papaya Salad"
-              isPortrait={false}
+    <div className="menu-content">
+      <Divider className="menu-display-time">Lunch</Divider>
+      <h1 className="menu-display-category">Salads</h1>
+      <div className="menu-list-content">
+        {SaladsData.map((item) => {
+          return (
+            <MenuListItem
+              key={item.name}
+              name={item.name}
+              description={item.description}
+              price={item.price.lunch}
+              desktop
+              image={item.image}
             />
-          </p>
-          <p className="menu-price text-align-center">$12.99</p>
-        </Col>
-        <Col
-          xs={{ span: 24 }}
-          sm={{ span: 24 }}
-          md={{ span: 12 }}
-          lg={{ span: 8 }}
-        >
-          <h1 className="menu-display-name">Cucumber Salad</h1>
-          <p className="menu-display-description">
-            Freshly Shredded Cucumber complemented by tomatos, garlic, chillies
-            and roasted peanuts. Made in a tangy fish sauce or vegetarian sweet
-            sauce. Served with sticky rice.
-            <br />
-          </p>
-          <p className="menu-price text-align-center">$12.99</p>
-        </Col>
-      </Row>
-      <Row type="flex" justify="center" align="top" className="menu-display">
-        <Col
-          xs={{ span: 24 }}
-          sm={{ span: 24 }}
-          md={{ span: 12 }}
-          lg={{ span: 8 }}
-        >
-          <h1 className="menu-display-name">Labb Salad</h1>
-          <p className="menu-display-description">
-            Traditional north eastern dish of finely chopped chicken, pork or
-            beef mixed together with ground roasted rice, coriander and chili.
-            <br />
-            <Thumbnail
-              imagePath="https://i.imgur.com/s6CZ1lM.jpg"
-              imageAlt="Labb Salad"
-              isPortrait={false}
-            />
-          </p>
-          <p className="menu-price text-align-center">
-            Chicken, Pork, or Tofu $10.99 <br /> Beef or Shrimp $15.99
-            <br /> Seafood $19.99
-          </p>
-        </Col>
-        <Col
-          xs={{ span: 24 }}
-          sm={{ span: 24 }}
-          md={{ span: 12 }}
-          lg={{ span: 8 }}
-        ></Col>
-      </Row>
-    </React.Fragment>
+          )
+        })}
+      </div>
+    </div>
   )
 }
 

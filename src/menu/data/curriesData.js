@@ -66,10 +66,6 @@ export const CurriesData = [
     name: 'Gang Ka Ree',
     description:
       'Yellow curry powder with chunk potatoes, carrots, yellow onion, and topped with dry garlic.',
-    image: {
-      path: null,
-      isPortrait: false,
-    },
     price: {
       lunch: [
         'Chicken, Pork, or Tofu $10.99',

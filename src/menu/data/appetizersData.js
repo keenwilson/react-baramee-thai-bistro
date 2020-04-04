@@ -100,7 +100,7 @@ export const AppetizersData = [
       'Crispy tempura style calamari with a hint of spices and green onions. Served with sriracha dipping sauce.',
     image: {
       path: 'https://i.imgur.com/xsySaVc.jpg',
-      isPortrait: true,
+      isPortrait: false,
     },
     price: {
       lunch: ['$10.99'],

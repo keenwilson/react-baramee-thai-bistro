@@ -23,7 +23,7 @@ export const HouseFavoriteData = [
       'Traditional north eastern dish of finely chopped chicken, pork or beef mixed together with ground roasted rice, coriander and chili.',
     image: {
       path: 'https://i.imgur.com/s6CZ1lM.jpg',
-      isPortrait: true,
+      isPortrait: false,
     },
     price: {
       lunch: [],
@@ -38,10 +38,6 @@ export const HouseFavoriteData = [
     name: 'Cucumber Salad',
     description:
       'Freshly Shredded Cucumber complemented by tomatos, garlic, chillies and roasted peanuts. Made in a tangy fish sauce or vegetarian sweet sauce. Served with sticky rice.',
-    image: {
-      path: null,
-      isPortrait: false,
-    },
     price: {
       lunch: [],
       dinner: ['$12.99'],
@@ -98,10 +94,6 @@ export const HouseFavoriteData = [
     name: 'Mali Thai Catfish',
     description:
       'Two crispy catfish fillets served over a bed of steamed vegetables and covered in your choice of one of our three signature sauces - Sweet and spicy Sam Rod sauces, Thai basil sauce, or our stir-fried Red Curry sauce.',
-    image: {
-      path: null,
-      isPortrait: false,
-    },
     price: {
       lunch: [],
       dinner: ['$19.99'],

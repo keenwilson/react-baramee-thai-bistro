@@ -37,10 +37,6 @@ export const FriedRiceData = [
     name: 'Basil Fried Rice',
     description:
       ' Stir-fried rice with egg, onion, spring onions, basil and your choice of meats.',
-    image: {
-      path: '',
-      isPortrait: false,
-    },
     price: {
       lunch: [
         'Chicken, Pork, or Tofu $10.99',
@@ -54,10 +50,6 @@ export const FriedRiceData = [
     name: 'Crab Fried Rice',
     description:
       'Stir-fried rice with crab meat, egg, onion and spring onions.',
-    image: {
-      path: '',
-      isPortrait: false,
-    },
     price: {
       lunch: ['$15.99'],
       dinner: [],

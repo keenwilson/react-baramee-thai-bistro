@@ -1,8 +1,8 @@
 import React from 'react'
 import { Divider } from 'antd'
 import BreadcrumbNav from '../../components/BreadcrumbNav'
-import MobileMenuItem from '../../components/mobileMenuItem'
 import { CurriesData } from '../data/curriesData'
+import MenuListItem from '../../components/MenuListItem'
 
 const MobileLunchCurries = () => {
   return (
@@ -18,7 +18,7 @@ const MobileLunchCurries = () => {
 
       {CurriesData.map((item) => {
         return (
-          <MobileMenuItem
+          <MenuListItem
             key={item.name}
             name={item.name}
             description={item.description}

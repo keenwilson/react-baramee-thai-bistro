@@ -29,10 +29,6 @@ export const DrinksData = [
   {
     name: 'Hot Tea / Iced Tea',
     description: null,
-    image: {
-      path: null,
-      isPortrait: false,
-    },
     price: {
       lunch: ['$2.99'],
       dinner: ['$2.99'],
@@ -41,10 +37,6 @@ export const DrinksData = [
   {
     name: 'Hot Coffee',
     description: null,
-    image: {
-      path: null,
-      isPortrait: false,
-    },
     price: {
       lunch: ['$2.99'],
       dinner: ['$2.99'],
@@ -53,10 +45,6 @@ export const DrinksData = [
   {
     name: 'Coke Products Fountain Drinks',
     description: null,
-    image: {
-      path: null,
-      isPortrait: false,
-    },
     price: {
       lunch: ['$2.99'],
       dinner: ['$2.99'],

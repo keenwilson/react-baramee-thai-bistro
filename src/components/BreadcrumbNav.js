@@ -11,7 +11,9 @@ const BreadcrumbNav = ({ content, meal, linkto, dish }) => {
         </Link>
       </Breadcrumb.Item>
       <Breadcrumb.Item>
-        <span>{content}</span>
+        <Link to="/">
+          <span>{content}</span>
+        </Link>
       </Breadcrumb.Item>
       <Link to={linkto}>
         <Breadcrumb.Item>

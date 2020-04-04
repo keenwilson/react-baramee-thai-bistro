@@ -1,7 +1,8 @@
 import React from 'react'
 import { Divider } from 'antd'
 import BreadcrumbNav from '../../components/BreadcrumbNav'
-import MobileMenuItem from '../../components/mobileMenuItem'
+import MenuListItem from '../../components/MenuListItem'
+
 import { FriedRiceData } from '../data/friedRiceData'
 
 const MobileLunchFriedRice = () => {
@@ -18,7 +19,7 @@ const MobileLunchFriedRice = () => {
 
       {FriedRiceData.map((item) => {
         return (
-          <MobileMenuItem
+          <MenuListItem
             key={`${item.name}-Lunch`}
             name={item.name}
             description={item.description}
