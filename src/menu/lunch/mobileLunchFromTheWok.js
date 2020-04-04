@@ -1,86 +1,29 @@
 import React from 'react'
-import { Breadcrumb, Icon, Divider } from 'antd'
-import { Link } from 'react-router-dom'
+import { Divider } from 'antd'
+import BreadcrumbNav from '../../components/BreadcrumbNav'
+import MobileMenuItem from '../../components/MobileMenuItem'
+import { FromTheWorkData } from '../data/fromTheWokData'
 
 const MobileLunchFromTheWok = () => {
   return (
     <React.Fragment>
-      <Breadcrumb className="breadcrumb">
-        <Breadcrumb.Item>
-          <Link to="/">
-            <Icon type="home" />
-          </Link>
-        </Breadcrumb.Item>
-        <Breadcrumb.Item>
-          <span>Menu</span>
-        </Breadcrumb.Item>
-        <Link to="/menu/lunch">
-          <Breadcrumb.Item>
-            <span>Lunch</span>
-          </Breadcrumb.Item>
-        </Link>
-        <Breadcrumb.Item>From the Wok</Breadcrumb.Item>
-      </Breadcrumb>
+      <BreadcrumbNav
+        content="Menu"
+        meal="Lunch"
+        linkto="/menu/lunch"
+        dish="From the Wok"
+      />
       <Divider className="menu-display-category">From the Wok</Divider>
-      <h2 className="menu-display-name">Pad Ka Prao (House Favorites)</h2>
-      <p className="menu-display-description">
-        Stir-fried meat with sweet basil leaves, fresh chili and garlic. Served
-        over rice with a pan fried egg.
-      </p>
-      <p className="menu-price text-align-center">
-        Chicken, Pork, or Tofu $10.99 <br /> Beef or Shrimp $12.99
-        <br /> Seafood $15.99
-      </p>
-      <br />
-      <h2 className="menu-display-name">Thai Cashew Nuts</h2>
-      <p className="menu-display-description">
-        Meat or Tofu stir-fried with chili oil and roasted cashew nuts, onion,
-        broccoli, fresh carrot and bell peppers.
-      </p>
-      <p className="menu-price text-align-center">
-        Chicken, Pork, or Tofu $10.99 <br /> Beef or Shrimp $12.99
-        <br /> Seafood $15.99
-      </p>
-      <br />
-      <h2 className="menu-display-name">Garlic and Pepper</h2>
-      <p className="menu-display-description">
-        A delicious stir-fried with garlic and ground black pepper, presented in
-        bed of cabbages.
-      </p>
-      <p className="menu-price text-align-center">
-        Chicken, Pork, or Tofu $10.99 <br /> Beef or Shrimp $12.99
-        <br /> Seafood $15.99
-      </p>
-      <br />
-      <h2 className="menu-display-name">Green Bean Chicken</h2>
-      <p className="menu-display-description">
-        Sautéed with green beans in a spicy curry sauce.
-      </p>
-      <p className="menu-price text-align-center">
-        Chicken, Pork, or Tofu $10.99 <br /> Beef or Shrimp $12.99
-        <br /> Seafood $15.99
-      </p>
-      <br />
-      <h2 className="menu-display-name">Pad Pak Rom</h2>
-      <p className="menu-display-description">
-        Stir-fried mixed vegetable with homemade garlic brown sauce.
-      </p>
-      <p className="menu-price text-align-center">
-        Chicken, Pork, or Tofu $10.99 <br /> Beef or Shrimp $12.99
-        <br /> Seafood $15.99
-      </p>
-      <br />
-
-      <h2 className="menu-display-name">Pad Khing</h2>
-      <p className="menu-display-description">
-        Meat or Tofu Stir fried with fresh ginger root, chinese mushroom, onion,
-        scallion and bell pepper.
-      </p>
-      <p className="menu-price text-align-center">
-        Chicken, Pork, or Tofu $10.99 <br /> Beef or Shrimp $12.99
-        <br /> Seafood $15.99
-      </p>
-      <br />
+      {FromTheWorkData.map((item) => {
+        return (
+          <MobileMenuItem
+            key={`${item.name}-Lunch`}
+            name={item.name}
+            description={item.description}
+            price={item.price.dinner}
+          />
+        )
+      })}
     </React.Fragment>
   )
 }

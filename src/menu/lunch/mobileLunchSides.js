@@ -1,43 +1,29 @@
 import React from 'react'
-import { Breadcrumb, Icon, Divider } from 'antd'
-import { Link } from 'react-router-dom'
-import Thumbnail from '../../components/thumbnail'
+import { Divider } from 'antd'
+import BreadcrumbNav from '../../components/BreadcrumbNav'
+import MobileMenuItem from '../../components/MobileMenuItem'
+import { SidesData } from '../data/sidesData'
 
 const MobileLunchSides = () => {
   return (
     <React.Fragment>
-      <Breadcrumb className="breadcrumb">
-        <Breadcrumb.Item>
-          <Link to="/">
-            <Icon type="home" />
-          </Link>
-        </Breadcrumb.Item>
-        <Breadcrumb.Item>
-          <span>Menu</span>
-        </Breadcrumb.Item>
-        <Link to="/menu/lunch">
-          <Breadcrumb.Item>
-            <span>Lunch</span>
-          </Breadcrumb.Item>
-        </Link>
-        <Breadcrumb.Item>Sides</Breadcrumb.Item>
-      </Breadcrumb>
+      <BreadcrumbNav
+        content="Menu"
+        meal="Lunch"
+        linkto="/menu/lunch"
+        dish="Sides"
+      />
       <Divider className="menu-display-category">Sides</Divider>
-      <h2 className="menu-display-name">Fried Rice</h2>
-      <p className="menu-price text-align-center">$3.50</p>
-      <br />
-      <h2 className="menu-display-name">Streamed Rice</h2>
-      <p className="menu-price text-align-center">$2.50</p>
-      <br />
-      <h2 className="menu-display-name">Sticky Rice</h2>
-      <p className="menu-price text-align-center">$3.00</p>
-      <br />
-      <h2 className="menu-display-name">Streamed Vegetables</h2>
-      <p className="menu-price text-align-center">$3.00</p>
-      <br />
-      <h2 className="menu-display-name">Extra Sauce</h2>
-      <p className="menu-price text-align-center">$0.50</p>
-      <br />
+      {SidesData.map((item) => {
+        return (
+          <MobileMenuItem
+            key={`${item.name}-Lunch`}
+            name={item.name}
+            description={item.description}
+            price={item.price.lunch}
+          />
+        )
+      })}
     </React.Fragment>
   )
 }

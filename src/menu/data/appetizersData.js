@@ -1,16 +1,16 @@
 export const AppetizersData = [
   {
-    name: 'Crab Rangoon',
+    name: 'Crab Rangoon (8 Pcs)',
     description:
       'Fried wonton wrapped and filled with blend of cream-cheese, imitation crab meat and garlic flavored seasoning served with homemade sweet chili sauce.',
     image: {
       path: 'https://i.imgur.com/gwLBQAk.jpg',
-      isPortrait: true
+      isPortrait: true,
     },
     price: {
       lunch: ['$7.99'],
-      dinner: ['Half (4Pcs) $4.00', 'Full (8 Pcs) $7.95']
-    }
+      dinner: ['$7.99'],
+    },
   },
   {
     name: 'Chicken Satay (4 Skewers)',
@@ -18,12 +18,12 @@ export const AppetizersData = [
       'Skewers of tender marinated chicken barbecued over charcoal and served with peanut sauce and cucumber dip.',
     image: {
       path: 'https://i.imgur.com/ntVNPxZ.jpg',
-      isPortrait: false
+      isPortrait: false,
     },
     price: {
       lunch: ['$8.99'],
-      dinner: ['$8.95']
-    }
+      dinner: ['$8.99'],
+    },
   },
   {
     name: 'Crispy Sping Roll (3 Pcs)',
@@ -32,12 +32,12 @@ export const AppetizersData = [
     image: {
       path:
         'https://s3-media3.fl.yelpcdn.com/bphoto/Pwx74lme9XoPeLmuYRFPnQ/o.jpg',
-      isPortrait: false
+      isPortrait: false,
     },
     price: {
       lunch: ['$7.99'],
-      dinner: ['$6.95']
-    }
+      dinner: ['$7.99'],
+    },
   },
   {
     name: 'Soft Sping Roll (3 Pcs)',
@@ -46,12 +46,12 @@ export const AppetizersData = [
     image: {
       path:
         'https://s3-media3.fl.yelpcdn.com/bphoto/Ji_6x-VqwNoGw46r4U-Sqg/o.jpg',
-      isPortrait: false
+      isPortrait: false,
     },
     price: {
       lunch: ['$7.99'],
-      dinner: ['$6.95']
-    }
+      dinner: ['$7.99'],
+    },
   },
   {
     name: 'Baramee Thai Roll (3 Pcs)',
@@ -60,12 +60,12 @@ export const AppetizersData = [
     image: {
       path:
         'https://s3-media1.fl.yelpcdn.com/bphoto/KNdNUOne1Fh5GUvJbiHy8w/o.jpg',
-      isPortrait: false
+      isPortrait: false,
     },
     price: {
       lunch: ['$8.99'],
-      dinner: ['$8.95']
-    }
+      dinner: ['$8.99'],
+    },
   },
   {
     name: 'Tiger Cry Beef',
@@ -73,12 +73,12 @@ export const AppetizersData = [
       'Spicy dish of grilled sirloin of beef, thinly sliced and marinated with a hint of garlic, black pepper, garnished with cabbage and served with spicy chili homemade sauce.',
     image: {
       path: 'https://i.imgur.com/iHMZhUx.jpg',
-      isPortrait: false
+      isPortrait: false,
     },
     price: {
       lunch: ['$10.99'],
-      dinner: ['$8.95']
-    }
+      dinner: ['$10.99'],
+    },
   },
   {
     name: 'Crispy Tofu',
@@ -87,12 +87,12 @@ export const AppetizersData = [
     image: {
       path:
         'https://s3-media4.fl.yelpcdn.com/bphoto/BWiUC7nLxeUHyXyYX-JuSA/o.jpg',
-      isPortrait: true
+      isPortrait: true,
     },
     price: {
       lunch: ['$8.99'],
-      dinner: ['$7.95']
-    }
+      dinner: ['$8.99'],
+    },
   },
   {
     name: 'Golden Calamari',
@@ -100,12 +100,12 @@ export const AppetizersData = [
       'Crispy tempura style calamari with a hint of spices and green onions. Served with sriracha dipping sauce.',
     image: {
       path: 'https://i.imgur.com/xsySaVc.jpg',
-      isPortrait: true
+      isPortrait: true,
     },
     price: {
       lunch: ['$10.99'],
-      dinner: ['$8.95']
-    }
+      dinner: ['$10.99'],
+    },
   },
   {
     name: 'Baramee Thai Wings',
@@ -113,12 +113,12 @@ export const AppetizersData = [
       'Marinated in a spicy garlic sauce with fresh basil. Deep fried to perfection.',
     image: {
       path: 'https://i.imgur.com/QbF7NGu.jpg',
-      isPortrait: false
+      isPortrait: false,
     },
     price: {
       lunch: ['$10.99'],
-      dinner: ['$8.95']
-    }
+      dinner: ['$10.99'],
+    },
   },
   {
     name: 'Spring Roll Deluxe',
@@ -127,8 +127,8 @@ export const AppetizersData = [
     image: null,
     price: {
       lunch: ['$9.99'],
-      dinner: ['$8.95']
-    }
+      dinner: ['$9.99'],
+    },
   },
   {
     name: 'Baramee Thai Platter',
@@ -136,12 +136,12 @@ export const AppetizersData = [
       'A delicious of Thai mixed appetizers with Crab Rangoon (4 Pcs), Soft Spring Roll (2 Pcs) and Crispy Spring roll (2 Pcs)',
     image: {
       path: 'https://i.imgur.com/agdjyz3.jpg',
-      isPortrait: false
+      isPortrait: false,
     },
     price: {
       lunch: ['$11.99'],
-      dinner: ['$10.95']
-    }
+      dinner: ['$11.99'],
+    },
   },
   {
     name: 'Fresh Shrimp Rolls',
@@ -149,8 +149,8 @@ export const AppetizersData = [
     image: null,
     price: {
       lunch: ['$9.99'],
-      dinner: ['$9.99']
-    }
+      dinner: ['$9.99'],
+    },
   },
   {
     name: 'Edamame',
@@ -158,11 +158,11 @@ export const AppetizersData = [
     image: {
       path:
         'https://s3-media1.fl.yelpcdn.com/bphoto/tqero_VtxfKOaGO93MrjtA/o.jpg',
-      isPortrait: false
+      isPortrait: false,
     },
     price: {
       lunch: ['$6.99'],
-      dinner: ['$5.95']
-    }
-  }
+      dinner: ['$6.99'],
+    },
+  },
 ]

@@ -1,110 +1,107 @@
-export const curriesData = [
+export const CurriesData = [
   {
-    name: '',
-    description: '',
+    name: 'Panang Curry',
+    description:
+      'Our most popular curry. Our delicious coconut milk and peanut panang sauce garnished with kaffir lime leaves.',
     image: {
-      path: '',
-      isPortrait: false
+      path: 'https://i.imgur.com/2w60mPj.jpg',
+      isPortrait: false,
     },
     price: {
-      lunch: ['$'],
-      dinner: ['$']
-    }
+      lunch: [
+        'Chicken, Pork, or Tofu $10.99',
+        'Beef or Shrimp $12.99',
+        'Seafood $15.99',
+      ],
+      dinner: [
+        'Chicken, Pork, or Tofu $11.99',
+        'Beef or Shrimp $15.99',
+        'Seafood $19.99',
+      ],
+    },
   },
   {
-    name: '',
-    description: '',
+    name: 'Green Curry',
+    description:
+      'A well know medium hot Thai curry with meat or Tofu, egg plant, cooked in green curry paste and coconut milk, garnished with Thai basil leaves.',
     image: {
-      path: '',
-      isPortrait: false
+      path: 'https://www.spar.co.uk/media/11988/thaigreencurry.jpg',
+      isPortrait: false,
     },
     price: {
-      lunch: ['$'],
-      dinner: ['$']
-    }
+      lunch: [
+        'Chicken, Pork, or Tofu $10.99',
+        'Beef or Shrimp $12.99',
+        'Seafood $15.99',
+      ],
+      dinner: [
+        'Chicken, Pork, or Tofu $11.99',
+        'Beef or Shrimp $15.99',
+        'Seafood $19.99',
+      ],
+    },
   },
   {
-    name: '',
-    description: '',
+    name: 'Red Curry',
+    description:
+      'A medium hot Thai red curry dish with meat or Tofu and young bamboo shoot and bell pepper cooked in red curry paste and coconut milk, flavored with Thai basil leaves.',
     image: {
-      path: '',
-      isPortrait: false
+      path: 'https://i.imgur.com/WJJpeg4.jpg',
+      isPortrait: false,
     },
     price: {
-      lunch: ['$'],
-      dinner: ['$']
-    }
+      lunch: [
+        'Chicken, Pork, or Tofu $10.99',
+        'Beef or Shrimp $12.99',
+        'Seafood $15.99',
+      ],
+      dinner: [
+        'Chicken, Pork, or Tofu $11.99',
+        'Beef or Shrimp $15.99',
+        'Seafood $19.99',
+      ],
+    },
   },
   {
-    name: '',
-    description: '',
+    name: 'Gang Ka Ree',
+    description:
+      'Yellow curry powder with chunk potatoes, carrots, yellow onion, and topped with dry garlic.',
     image: {
-      path: '',
-      isPortrait: false
+      path: null,
+      isPortrait: false,
     },
     price: {
-      lunch: ['$'],
-      dinner: ['$']
-    }
+      lunch: [
+        'Chicken, Pork, or Tofu $10.99',
+        'Beef or Shrimp $12.99',
+        'Seafood $15.99',
+      ],
+      dinner: [
+        'Chicken, Pork, or Tofu $11.99',
+        'Beef or Shrimp $15.99',
+        'Seafood $19.99',
+      ],
+    },
   },
   {
-    name: '',
-    description: '',
+    name: 'Gang Massaman',
+    description:
+      'Traditional mild curry dish, meat or tofu cooked slowly with potatoes, yellow onions and roasted peanuts.',
     image: {
-      path: '',
-      isPortrait: false
+      path: 'https://i.imgur.com/PIjij92.jpg',
+      isPortrait: false,
     },
     price: {
-      lunch: ['$'],
-      dinner: ['$']
-    }
+      lunch: [
+        'Chicken, Pork, or Tofu $10.99',
+        'Beef or Shrimp $12.99',
+        'Seafood $15.99',
+      ],
+      dinner: [
+        'Chicken, Pork, or Tofu $11.99',
+        'Beef or Shrimp $15.99',
+        'Seafood $19.99',
+      ],
+    },
   },
-  {
-    name: '',
-    description: '',
-    image: {
-      path: '',
-      isPortrait: false
-    },
-    price: {
-      lunch: ['$'],
-      dinner: ['$']
-    }
-  },
-  {
-    name: '',
-    description: '',
-    image: {
-      path: '',
-      isPortrait: false
-    },
-    price: {
-      lunch: ['$'],
-      dinner: ['$']
-    }
-  },
-  {
-    name: '',
-    description: '',
-    image: {
-      path: '',
-      isPortrait: false
-    },
-    price: {
-      lunch: ['$'],
-      dinner: ['$']
-    }
-  },
-  {
-    name: '',
-    description: '',
-    image: {
-      path: '',
-      isPortrait: false
-    },
-    price: {
-      lunch: ['$'],
-      dinner: ['$']
-    }
-  }
 ]
