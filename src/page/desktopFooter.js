@@ -20,9 +20,15 @@ const DesktopFooter = () => {
         </div>
 
         <div className="cell">
-          <p className="hours">
+          {/* <p className="hours">
             Monday - Thursday | 11 am - 9pm <br />
             Friday - Saturday | 11 am - 10pm
+            <br />
+            Sunday | Closed
+          </p> */}
+          <p className="hours">
+            Monday - Thursday | 11 am - 8pm <br />
+            Friday - Saturday | 11 am - 9pm
             <br />
             Sunday | Closed
           </p>

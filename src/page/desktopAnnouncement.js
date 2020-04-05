@@ -3,11 +3,11 @@ import { Icon, Card, Button } from 'antd'
 
 class DesktopAnnouncement extends Component {
   state = {
-    display: true
+    display: true,
   }
-  handleClick = e => {
+  handleClick = (e) => {
     this.setState({
-      display: false
+      display: false,
     })
   }
   render() {
@@ -20,14 +20,21 @@ class DesktopAnnouncement extends Component {
             </Button>
             <div className="header">Dear Values Customers and Friends,</div>
             <div className="body">
-              Thank you for being patient with us during these difficult times.
-              Thank you to everyone for all of the online requests for our food.
-              After two weeks of confinement, our staff feel comfortable to get
-              back to doing what they do best and they are ready to cook
-              delicious thai food for you. We wish we could visit with you in
-              the dining room and look forward to doing that soon, but for now,
-              it looks like carry out only. Starting Tuesday, March 31 we will
-              be open for curbside and carry out service only.
+              Thank you to all of our wonderful customers that made our carry
+              out service a success. We appreciate each and everyone of you and
+              the love you have shown for our food and our team. We will
+              continue with the carry out and curbside service but we will
+              adjust our hours. For the time being we will keep our full menu,
+              but may have to change if ingredients become unavailable.
+              <br />
+              <div className="hours">
+                Our temporary hours during this crisis will be as follows.
+                <br />
+                Monday - Thursday 11:00 AM - 8:00 PM <br /> Friday - Saturday
+                11:00 AM - 9.00 PM <br /> Sunday Closed <br />
+                Orders will be taken up to closing time. Please pick up orders
+                within 15 minutes after closing.
+              </div>
             </div>
 
             <div className="facebook-link">

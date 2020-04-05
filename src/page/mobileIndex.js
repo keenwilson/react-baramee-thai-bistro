@@ -50,9 +50,15 @@ const MobileIndex = () => {
             Get Directions
           </a>
         </p>
-        <p className="text-align-center footer-block">
+        {/* <p className="text-align-center footer-block">
           Monday - Thursday | 11 am - 9pm <br />
           Friday - Saturday | 11 am - 10pm
+          <br />
+          Sunday | Closed
+        </p> */}
+        <p className="text-align-center footer-block">
+          Monday - Thursday | 11 am - 8pm <br />
+          Friday - Saturday | 11 am - 9pm
           <br />
           Sunday | Closed
         </p>
