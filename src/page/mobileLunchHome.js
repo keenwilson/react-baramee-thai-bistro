@@ -12,7 +12,9 @@ const MobileLunchHome = () => {
           </Link>
         </Breadcrumb.Item>
         <Breadcrumb.Item>
-          <span>Menu</span>
+          <Link to="/">
+            <span>Menu</span>
+          </Link>
         </Breadcrumb.Item>
         <Breadcrumb.Item>Lunch</Breadcrumb.Item>
       </Breadcrumb>

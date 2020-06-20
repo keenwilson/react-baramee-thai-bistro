@@ -20,15 +20,9 @@ const DesktopFooter = () => {
         </div>
 
         <div className="cell">
-          {/* <p className="hours">
+          <p className="hours">
             Monday - Thursday | 11 am - 9pm <br />
             Friday - Saturday | 11 am - 10pm
-            <br />
-            Sunday | Closed
-          </p> */}
-          <p className="hours">
-            Monday - Thursday | 11 am - 8pm <br />
-            Friday - Saturday | 11 am - 9pm
             <br />
             Sunday | Closed
           </p>
@@ -49,15 +43,15 @@ const DesktopFooter = () => {
         </div>
       </div>
       <div>
-        {/* <p className="seating">
+        <p className="seating">
           Seating at Baramee Thai Bistro is available on a walk-in basis only.
-        </p> */}
-        <p className="curb-side">
+        </p>
+        {/* <p className="curb-side">
           Thank you for being patient with us during these difficult times.{' '}
           <br />
           Starting Tuesday, March 31, 2020 we will be open for curbside and
           carry out service only.
-        </p>
+        </p> */}
         <p className="copyright">
           Copyright © 2019 Baramee Thai Bistro | All rights reserved
         </p>
