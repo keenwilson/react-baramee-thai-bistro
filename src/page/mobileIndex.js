@@ -50,18 +50,13 @@ const MobileIndex = () => {
             Get Directions
           </a>
         </p>
-        {/* <p className="text-align-center footer-block">
+        <p className="text-align-center footer-block">
           Monday - Thursday | 11 am - 9pm <br />
           Friday - Saturday | 11 am - 10pm
           <br />
           Sunday | Closed
-        </p> */}
-        <p className="text-align-center footer-block">
-          Monday - Thursday | 11 am - 8pm <br />
-          Friday - Saturday | 11 am - 9pm
-          <br />
-          Sunday | Closed
         </p>
+
         <p className="text-align-center footer-block">
           (816) 442-7070 <br />
           <a
@@ -74,13 +69,8 @@ const MobileIndex = () => {
           </a>
           <br />
         </p>
-        {/* <p className="text-align-center footer-block">
-          Seating at Baramee Thai Bistro is available on a walk-in basis only.
-        </p> */}
         <p className="text-align-center footer-block curb-side">
-          Thank you for being patient with us during these difficult times.
-          Starting Tuesday, March 31, 2020 we will be open for curbside and
-          carry out service only.
+          Seating at Baramee Thai Bistro is available on a walk-in basis only.
         </p>
       </div>
     </div>
