@@ -4,7 +4,6 @@ import { Icon } from 'antd'
 import MobileHome from './mobileHome'
 import MobileLunchIndex from './mobileLunchIndex'
 import MobileDinnerIndex from './mobileDinnerIndex'
-import MobileAnnouncement from './mobileAnnouncement'
 
 const MobileIndex = () => {
   return (
@@ -25,7 +24,7 @@ const MobileIndex = () => {
           </a>
         </p>
       </div>
-      <MobileAnnouncement />
+
       <img
         src="https://i.imgur.com/xLYTGIll.jpg"
         alt="Top Place for Thai"

@@ -3,13 +3,11 @@ import { Link } from 'react-router-dom'
 import { Button } from 'antd'
 import Thumbnail from '../components/thumbnail'
 import DesktopNews from './desktopNews'
-import DesktopAnnouncement from './desktopAnnouncement'
+
 class DesktopHome extends Component {
   render() {
     return (
       <React.Fragment>
-        <DesktopAnnouncement />
-
         <div className="intro-gallery">
           <Thumbnail
             className="images"
