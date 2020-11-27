@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { Button } from 'antd'
 import Thumbnail from '../components/thumbnail'
 import DesktopNews from './desktopNews'
+import DesktopAnnouncement from './desktopAnnouncement'
 
 class DesktopHome extends Component {
   render() {
@@ -83,6 +84,7 @@ class DesktopHome extends Component {
             isPortrait={false}
           />
         </div>
+        <DesktopAnnouncement />
         <div className="desktop-narrative">
           <h1 className="underline-60">Baramee Thai Bistro</h1>
           <p>

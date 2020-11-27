@@ -1,10 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Button } from 'antd'
+import MobileAnnouncement from './mobileAnnouncement'
 
 const MobileHome = () => {
   return (
     <div>
+      <MobileAnnouncement />
       <div className="narrative">
         <h1 className="underline-60">Baramee Thai Bistro</h1>
         <p className="text">
