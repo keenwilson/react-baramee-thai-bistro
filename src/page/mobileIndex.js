@@ -54,8 +54,15 @@ const MobileIndex = () => {
           Friday - Saturday | 11 am - 10pm
           <br />
           Sunday | Closed
-        </p>
-
+        </p>{' '}
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.orderbarameethai.com/"
+        >
+          <p className="text-align-center footer-block">Order Online</p>
+        </a>
+        <br />
         <p className="text-align-center footer-block">
           (816) 442-7070 <br />
           <a

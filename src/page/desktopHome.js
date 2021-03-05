@@ -99,6 +99,17 @@ class DesktopHome extends Component {
           <div className="flex-wrapper">
             <div className="flex-row">
               <div className="flex-col">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.orderbarameethai.com/"
+                >
+                  <Button className="heading-title" size="large">
+                    Order Online
+                  </Button>
+                </a>
+              </div>
+              <div className="flex-col">
                 <Button size="large">
                   <Link to="/menu/lunch" className="heading-title underline-60">
                     Our Lunch Menu

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Icon } from 'antd'
+import { Button, Icon } from 'antd'
 
 const DesktopHeader = () => {
   return (
@@ -15,13 +15,24 @@ const DesktopHeader = () => {
         </Link>
       </div>
 
-      <div className="cell">
-        <p className="call-the-restaurant">
-          <a href="tel:+1-816-442-7070">
-            <Icon type="phone" />
-            <span className="phone-number">(816) 442-7070</span>
+      <div className="cell right">
+        <div className="contact-restaurant">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.orderbarameethai.com/"
+          >
+            <Button type="link" size="large" className="order-online">
+              Order Online
+            </Button>
           </a>
-        </p>
+          <div className="call-the-restaurant">
+            <a href="tel:+1-816-442-7070">
+              <Icon type="phone" />
+              <span className="phone-number">(816) 442-7070</span>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   )

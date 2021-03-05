@@ -709,8 +709,15 @@ h3 {
 
     .cell {
       display: flex;
+
       flex: 50%;
-      height: 40px;
+
+      height: 44px;
+      &.right {
+        padding-top: 24px;
+        justify-content: flex-end;
+        align-items: center;
+      }
 
       .the-restaurant-logo {
         cursor: pointer;
@@ -720,6 +727,20 @@ h3 {
           width: 84px;
           cursor: pointer;
           display: inline-block;
+        }
+      }
+      .contact-restaurant {
+        line-height: 84px;
+        padding-right: 24px;
+        font-size: 1.4em;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        .order-online {
+          margin-right: 1em;
+          font-size: 1.4em;
+          letter-spacing: 0.1em;
         }
       }
 

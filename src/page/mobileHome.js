@@ -18,6 +18,20 @@ const MobileHome = () => {
           grown ingredients alongside vegetarian options in the Kansas City's
           Crossroads Arts district.
         </p>
+        <h1 className="underline-60">Dine-in and take-out</h1>
+        <p className="text">
+          Our Dining Room is now open with the city's capacity limits. You can
+          also place your carryout order online.
+        </p>
+        <Button block className="menu-button">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.orderbarameethai.com/"
+          >
+            Order Online
+          </a>
+        </Button>
         <h1 className="underline-60">Menu</h1>
         <Button block className="menu-button">
           <Link to="/menu/lunch" className="menu-meal">
