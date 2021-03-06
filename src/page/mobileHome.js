@@ -6,7 +6,6 @@ import MobileAnnouncement from './mobileAnnouncement'
 const MobileHome = () => {
   return (
     <div>
-      <MobileAnnouncement />
       <div className="narrative">
         <h1 className="underline-60">Baramee Thai Bistro</h1>
         <p className="text">
@@ -20,8 +19,8 @@ const MobileHome = () => {
         </p>
         <h1 className="underline-60">Dine-in and take-out</h1>
         <p className="text">
-          Our Dining Room is now open with the city's capacity limits. You can
-          also place your carryout order online.
+          Our Dining Room is now open. You can also place your carryout order
+          online.
         </p>
         <Button block className="menu-button">
           <a

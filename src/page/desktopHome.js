@@ -84,7 +84,6 @@ class DesktopHome extends Component {
             isPortrait={false}
           />
         </div>
-        <DesktopAnnouncement />
         <div className="desktop-narrative">
           <h1 className="underline-60">Baramee Thai Bistro</h1>
           <p>
@@ -99,6 +98,35 @@ class DesktopHome extends Component {
           <div className="flex-wrapper">
             <div className="flex-row">
               <div className="flex-col">
+                <div className="flex-wrapper">
+                  <h1 className="underline-60">Menu</h1>
+
+                  <Button className="menu-button" size="large">
+                    <Link
+                      to="/menu/lunch"
+                      className="heading-title underline-60"
+                    >
+                      Our Lunch Menu
+                    </Link>
+                  </Button>
+
+                  <Button size="large">
+                    <Link
+                      to="/menu/dinner"
+                      className="heading-title underline-60"
+                    >
+                      Our Dinner Menu
+                    </Link>
+                  </Button>
+                </div>
+              </div>
+              <div className="flex-col"></div>
+              <div className="flex-wrapper">
+                <h1 className="underline-60">Dine-in and take-out</h1>
+                <p className="text">
+                  Our Dining Room is now open. You can also place your carryout
+                  order online.
+                </p>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -109,46 +137,31 @@ class DesktopHome extends Component {
                   </Button>
                 </a>
               </div>
-              <div className="flex-col">
-                <Button size="large">
-                  <Link to="/menu/lunch" className="heading-title underline-60">
-                    Our Lunch Menu
-                  </Link>
-                </Button>
-              </div>
-              <div className="flex-col">
-                <Button size="large">
-                  <Link
-                    to="/menu/dinner"
-                    className="heading-title underline-60"
-                  >
-                    Our Dinner Menu
-                  </Link>
-                </Button>
-              </div>
             </div>
           </div>
-        </div>
-        <div className="desktop-about-chef">
-          <div className="flex-row-about-chef">
-            <div className="flex-col">
-              <img
-                className="chef-picture"
-                src="https://i.imgur.com/wGBMQgN.jpg"
-                alt="Chef Nutnisa Hoffman"
-              ></img>
-            </div>
-            <div className="flex-col">
-              <p className="chef-quote">
-                “I want to share our Thai food, share our Thai culture, meet new
-                people, and be proud to represent Thai food in America.”
-              </p>
-              <br />
-              <p className="chef-title">
-                <span className="chef-name">Nutnisa Hoffman</span>, the owner of
-                Mali Thai Bistro in Lee’s Summit and Baramee Thai Bistro in the
-                Crossroads
-              </p>
+
+          <div className="desktop-about-chef">
+            <div className="flex-row-about-chef">
+              <div className="flex-col">
+                <img
+                  className="chef-picture"
+                  src="https://i.imgur.com/wGBMQgN.jpg"
+                  alt="Chef Nutnisa Hoffman"
+                ></img>
+              </div>
+              <div className="flex-col">
+                <h1 className="underline-60">Our Chef</h1>
+                <p className="chef-quote">
+                  “I want to share our Thai food, share our Thai culture, meet
+                  new people, and be proud to represent Thai food in America.”
+                </p>
+                <br />
+                <p className="chef-title">
+                  <span className="chef-name">Nutnisa Hoffman</span>, the owner
+                  of Mali Thai Bistro in Lee’s Summit and Baramee Thai Bistro in
+                  the Crossroads
+                </p>
+              </div>
             </div>
           </div>
         </div>
