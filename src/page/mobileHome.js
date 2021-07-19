@@ -1,13 +1,26 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Button } from 'antd'
+import { Alert, Button } from 'antd'
 import MobileAnnouncement from './mobileAnnouncement'
 
 const MobileHome = () => {
+  var dateFrom = '07/19/2021'
+  var dateTo = '07/21/2021'
+  var from = Date.parse(dateFrom)
+  var to = Date.parse(dateTo)
+  var check = Date.now()
+  const showAlert = check <= to && check >= from ? true : false
   return (
     <div>
       <div className="narrative">
+        {showAlert && (
+          <Alert
+            message="We will closed from Monday July19 thru Wednesday, July 21 for a team retreat. We will be back to serve delicious Thai food on Thursday the 22nd."
+            type="info"
+          />
+        )}
         <h1 className="underline-60">Baramee Thai Bistro</h1>
+
         <p className="text">
           Since opening in January 2019 ‘Baramee’ - meaning fulfilling yourself
           by making others happy in ‘Thai’ language, a Thai native and

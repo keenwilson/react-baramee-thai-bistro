@@ -1,11 +1,17 @@
 import React from 'react'
 import { Route, Link } from 'react-router-dom'
-import { Icon } from 'antd'
+import { Alert, Icon } from 'antd'
 import MobileHome from './mobileHome'
 import MobileLunchIndex from './mobileLunchIndex'
 import MobileDinnerIndex from './mobileDinnerIndex'
 
 const MobileIndex = () => {
+  var dateFrom = '07/19/2021'
+  var dateTo = '07/21/2021'
+  var from = Date.parse(dateFrom)
+  var to = Date.parse(dateTo)
+  var check = Date.now()
+  const showAlert = check <= to && check >= from ? true : false
   return (
     <div className="mobile">
       <div className="mobile-header">
@@ -55,6 +61,12 @@ const MobileIndex = () => {
           <br />
           Sunday | Closed
         </p>{' '}
+        {showAlert && (
+          <Alert
+            message="We will closed from Monday July19 thru Wednesday, July 21 for a team retreat. We will be back to serve delicious Thai food on Thursday the 22nd."
+            type="info"
+          />
+        )}
         <a
           target="_blank"
           rel="noopener noreferrer"

@@ -1,12 +1,18 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import { Button } from 'antd'
+import { Alert, Button } from 'antd'
 import Thumbnail from '../components/thumbnail'
 import DesktopNews from './desktopNews'
 import DesktopAnnouncement from './desktopAnnouncement'
 
 class DesktopHome extends Component {
   render() {
+    var dateFrom = '07/19/2021'
+    var dateTo = '07/21/2021'
+    var from = Date.parse(dateFrom)
+    var to = Date.parse(dateTo)
+    var check = Date.now()
+    const showAlert = check <= to && check >= from ? true : false
     return (
       <React.Fragment>
         <div className="intro-gallery">
@@ -95,6 +101,12 @@ class DesktopHome extends Component {
             and locally grown ingredients alongside vegetarian options in the
             Kansas City's Crossroads Arts district.
           </p>
+          {showAlert && (
+            <Alert
+              message="We will closed from Monday July19 thru Wednesday, July 21 for a team retreat. We will be back to serve delicious Thai food on Thursday the 22nd."
+              type="info"
+            />
+          )}
           <div className="flex-wrapper">
             <div className="flex-row">
               <div className="flex-col">
